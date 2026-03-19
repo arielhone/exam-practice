@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון מתח כניסה <span class=\"math-container\">$X$</span> המשתנה אקראית ומתפלג עפ\"י פונקצית הצפיפות:<br><span class=\"math-container\">$$f_x(x) = \\frac{2}{\\sqrt{\\pi}}e^{-4x^{2}}$$</span><br>האות נכנס לרכיב ריבועי שבמוצאו מתקבל המתח <span class=\"math-container\">$Y = \\frac{X^{2}}{2}$</span><br>כאשר: <span class=\"math-container\">$$N(x) = \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{x}e^{-\\frac{t^{2}}{2}}dt$$</span>",
+    "question_text": "מהו ה CDF של האות <span class=\"math-container\">$Y$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_y(y) = 2N(4\\sqrt{y})-1$</span>",
+      "<span class=\"math-container\">$F_y(y) = 2N(\\sqrt{y})-1$</span>",
+      "<span class=\"math-container\">$F_y(y) = N(4\\sqrt{y})-1$</span>",
+      "<span class=\"math-container\">$F_y(y) = N(4\\sqrt{y})$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון מתח כניסה <span class=\"math-container\">$X$</span> המשתנה אקראית ומתפלג עפ\"י פונקצית הצפיפות:<br><span class=\"math-container\">$$f_x(x) = \\frac{2}{\\sqrt{\\pi}}e^{-4x^{2}}$$</span><br>האות נכנס לרכיב ריבועי שבמוצאו מתקבל המתח <span class=\"math-container\">$Y = \\frac{X^{2}}{2}$</span>",
+    "question_text": "מהו ה PDF של המשתנה האקראי <span class=\"math-container\">$Y$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_y(y) = 2\\sqrt{\\frac{1}{\\pi y}}e^{-8y}$</span>",
+      "<span class=\"math-container\">$f_y(y) = 2\\sqrt{\\frac{2}{\\pi y}}e^{-2y}$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\sqrt{\\frac{2}{\\pi y}}$</span>",
+      "<span class=\"math-container\">$f_y(y) = 2\\sqrt{\\frac{2}{\\pi y}}e^{-8y}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון מתח כניסה <span class=\"math-container\">$X$</span> המשתנה אקראית ומתפלג עפ\"י פונקצית הצפיפות:<br><span class=\"math-container\">$$f_x(x) = \\frac{2}{\\sqrt{\\pi}}e^{-4x^{2}}$$</span><br>האות נכנס לרכיב ריבועי שבמוצאו מתקבל המתח <span class=\"math-container\">$Y = \\frac{X^{2}}{2}$</span><br>כאשר: <span class=\"math-container\">$$\\Gamma(x) = \\int_{0}^{\\infty}t^{x-1}e^{-t}dt$$</span>",
+    "question_text": "מהו המומנט מסדר <span class=\"math-container\">$n$</span> של המשתנה האקראי <span class=\"math-container\">$Y$</span>?",
+    "options": [
+      "<span class=\"math-container\">$m_n = \\sqrt{\\frac{1}{\\pi}}\\left(\\frac{1}{8}\\right)^{n}\\Gamma\\left(n-\\frac{1}{2}\\right)$</span>",
+      "<span class=\"math-container\">$m_n = \\sqrt{\\frac{1}{\\pi}}\\left(\\frac{1}{8}\\right)^{n}\\Gamma(n)$</span>",
+      "<span class=\"math-container\">$m_n = \\sqrt{\\frac{1}{\\pi}}\\left(\\frac{1}{8}\\right)^{n}\\Gamma\\left(n+\\frac{1}{2}\\right)$</span>",
+      "<span class=\"math-container\">$m_n = \\Gamma\\left(n+\\frac{1}{2}\\right)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span><br>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0, 2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.",
+    "question_text": "חשב את פונקצית האוטוקורלציה של <span class=\"math-container\">$Y_{AM}(t)$</span> בהנחה ש-<span class=\"math-container\">$X(t)$</span> תהליך סטציונרי בעל ממוצע 0.",
+    "options": [
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\frac{1}{2}(A_0^2 - R_X(\\tau))\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = (A_0^2 + R_X(\\tau))\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = (2A_0^2 + R_X(\\tau))\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\frac{1}{2}(A_0^2 + R_X(\\tau))\\cos(\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span><br>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0, 2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.",
+    "question_text": "חשב את הספקטרום של <span class=\"math-container\">$Y_{AM}(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{1}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{1}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+2[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{A_0^2}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "במקלט מתקבל האות כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span><br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t+\\Theta_0)-N_S(t)\\sin(\\omega_0 t+\\Theta_0)$$</span><br>כאשר מתקיים: <span class=\"math-container\">$E[N^{2}(t)] = E[N_C^{2}(t)] = E[N_S^{2}(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t)+N(t) = A(t)\\cos(\\omega_0 t+\\Theta_0+\\psi(t))$</span>",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$\\psi(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}A_0+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}(A_0+X(t))+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}X(t)+N_C(t)}\\right)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "במקלט מתקבל האות כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span><br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t+\\Theta_0)-N_S(t)\\sin(\\omega_0 t+\\Theta_0)$$</span><br>כאשר מתקיים: <span class=\"math-container\">$E[N^{2}(t)] = E[N_C^{2}(t)] = E[N_S^{2}(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t)+N(t) = A(t)\\cos(\\omega_0 t+\\Theta_0+\\psi(t))$</span>",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$A(t)$</span>? הנח כי הרעש קטן ביחס לאות וכתוב ביטוי המדויק עד לסדר ראשון ברעש.",
+    "options": [
+      "<span class=\"math-container\">$A(t) \\approx [A_0+X(t)]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[A_0+X(t)]+2N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[2X(t)]+4N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[A_0+X(t)]+N_C(t)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "למקלט AM יש גלאי מעטפת המזהה את האמפליטודה <span class=\"math-container\">$A(t)$</span> בלבד. יהי <span class=\"math-container\">$S_0$</span> ההספק היעיל של האות המתקבל (ההספק של האינפורמציה המתקבלת בלבד).<br>כמו כן נתון כי הרעש <span class=\"math-container\">$N(t)$</span> הוא רעש לבן מוגבל פס הממורכז בתדר <span class=\"math-container\">$\\omega_0$</span> בעל ספקטרום קבוע <span class=\"math-container\">$\\frac{N_0}{2}$</span> ורוחב זוויתי <span class=\"math-container\">$W_{rec}$</span>.",
+    "question_text": "חשב את יחס הספק האות היעיל להספק הרעש במקלט.",
+    "options": [
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AM} = \\frac{2\\pi E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AM} = \\frac{2\\pi G_{ch}^2 E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AM} = \\frac{2\\pi G_{ch}^2 E[A_0^2+X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AM} = \\frac{2\\pi G_{ch}^2 E[X^4(t)]}{N_0 W_{rec}}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונים שני משתנים אקראיים <span class=\"math-container\">$X$</span> ו-<span class=\"math-container\">$Y$</span> בלתי תלויים.",
+    "question_text": "בטא את ההסתברות <span class=\"math-container\">$P(\\{Y \\leq X\\})$</span> בעזרת פונקציית ה-PDF של <span class=\"math-container\">$X$</span> ופונקציית ה-CDF של <span class=\"math-container\">$Y$</span>.",
+    "options": [
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\frac{1}{2}\\int_{-\\infty}^{\\infty}f_X(x)F_Y(x)\\,dx$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\int_{-\\infty}^{\\infty}f_X(x)f_Y(x)\\,dx$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\int_{-\\infty}^{\\infty}(f_X(x)+F_Y(x))\\,dx$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\int_{-\\infty}^{\\infty}f_X(x)F_Y(x)\\,dx$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונים שני משתנים אקראיים <span class=\"math-container\">$X$</span> ו-<span class=\"math-container\">$Y$</span> בלתי תלויים.",
+    "question_text": "בטא את ההסתברות <span class=\"math-container\">$P(\\{Y \\leq X\\})$</span> בעזרת פונקציית ה-PDF של <span class=\"math-container\">$Y$</span> ופונקציית ה-CDF של <span class=\"math-container\">$X$</span>.",
+    "options": [
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\int_{-\\infty}^{\\infty}f_Y(y)F_X(y)\\,dy$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = 1-\\int_{-\\infty}^{\\infty}f_Y(y)F_X(y)\\,dy$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = \\frac{1}{2}\\int_{-\\infty}^{\\infty}f_Y(y)F_X(y)\\,dy$</span>",
+      "<span class=\"math-container\">$P(\\{Y\\leq X\\}) = 2\\int_{-\\infty}^{\\infty}f_Y(y)F_X(y)\\,dy$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  }
+]

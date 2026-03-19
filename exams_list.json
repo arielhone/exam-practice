@@ -1,0 +1,32 @@
+[
+  {
+    "id": "exam_09_07_2008",
+    "title": "מועד 09.07.2008",
+    "file_path": "exams/exam_09_07_2008.json"
+  },
+  {
+    "id": "exam_16_06_2008",
+    "title": "מועד 16.6.08",
+    "file_path": "exams/exam_16_06_2008.json"
+  },
+  {
+    "id": "exam_13_3_2008",
+    "title": "מועד 13.3.2008",
+    "file_path": "exams/exam_13_3_2008.json"
+  },
+  {
+    "id": "exam_29_10_07",
+    "title": "מועד 29.10.07",
+    "file_path": "exams/exam_29_10_07.json"
+  },
+  {
+    "id": "exam_07_10_2007",
+    "title": "מועד 7.10.07",
+    "file_path": "exams/exam_07_10_2007.json"
+  },
+  {
+    "id": "exam_15_03_2007",
+    "title": "מועד 15.03.2007",
+    "file_path": "exams/exam_15_03_2007.json"
+  }
+]

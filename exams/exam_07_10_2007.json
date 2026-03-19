@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_x(x) = \\begin{cases} \\dfrac{2}{b}(x-a)\\,e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span><br>כאשר <span class=\"math-container\">$b > 0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "חשב את הממוצע.",
+    "options": [
+      "<span class=\"math-container\">$a - \\dfrac{\\pi}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a - \\dfrac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a + \\dfrac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\pi}{2}\\sqrt{b}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_x(x) = \\begin{cases} \\dfrac{2}{b}(x-a)\\,e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span><br>כאשר <span class=\"math-container\">$b > 0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "חשב את השונות.",
+    "options": [
+      "<span class=\"math-container\">$b$</span>",
+      "<span class=\"math-container\">$b\\!\\left(1+\\dfrac{\\pi}{2}\\right)$</span>",
+      "<span class=\"math-container\">$a$</span>",
+      "<span class=\"math-container\">$b\\!\\left(1-\\dfrac{\\pi}{4}\\right)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_x(x) = \\begin{cases} \\dfrac{2}{b}(x-a)\\,e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span><br>כאשר <span class=\"math-container\">$b > 0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span> מה ההסתברות שהמתח יהיה גדול מ-1 וולט?",
+    "options": [
+      "<span class=\"math-container\">$0.61$</span>",
+      "<span class=\"math-container\">$0.4$</span>",
+      "<span class=\"math-container\">$0.95$</span>",
+      "<span class=\"math-container\">$0.89$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "יהיו <span class=\"math-container\">$X, Y$</span> מתחי כניסה המשתנים אקראית, בלתי תלויים ובעלי ממוצע 1. נתון מעגל המחבר בין המתחים כך שמתקבלים ביציאה המתחים: <span class=\"math-container\">$V = X + aY$</span>, <span class=\"math-container\">$W = XY$</span>. <span class=\"math-container\">$a$</span> הוא מספר קבוע כלשהו.",
+    "question_text": "בטא את הקורלציה בין <span class=\"math-container\">$V$</span> ובין <span class=\"math-container\">$W$</span> על ידי השונות של <span class=\"math-container\">$X$</span> ושל <span class=\"math-container\">$Y$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{VW} = \\sigma_X^2 - a\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$R_{VW} = 1 + \\sigma_X^2 + (a+1)\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$R_{VW} = 1 + \\sigma_X^2 + a(1+\\sigma_Y^2)$</span>",
+      "<span class=\"math-container\">$R_{VW} = a\\sigma_X^2\\sigma_Y^2$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "יהיו <span class=\"math-container\">$X, Y$</span> מתחי כניסה המשתנים אקראית, בלתי תלויים ובעלי ממוצע 1. נתון מעגל המחבר בין המתחים כך שמתקבלים ביציאה המתחים: <span class=\"math-container\">$V = X + aY$</span>, <span class=\"math-container\">$W = XY$</span>. <span class=\"math-container\">$a$</span> הוא מספר קבוע כלשהו.",
+    "question_text": "כיצד נקבע את <span class=\"math-container\">$a$</span> כך שמתחי היציאה <span class=\"math-container\">$V, W$</span> יהיו אורתוגונלים?",
+    "options": [
+      "<span class=\"math-container\">$a = \\pm\\sqrt{\\dfrac{\\sigma_X}{\\sigma_Y}}$</span>",
+      "<span class=\"math-container\">$a = \\dfrac{\\sigma_X^2}{\\sigma_Y^2}$</span>",
+      "<span class=\"math-container\">$a = -\\dfrac{1+\\sigma_X^2}{1+\\sigma_Y^2}$</span>",
+      "לא קיים <span class=\"math-container\">$a$</span> כזה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "יהיו <span class=\"math-container\">$X, Y$</span> מתחי כניסה המשתנים אקראית, בלתי תלויים ובעלי ממוצע 1. נתון מעגל המחבר בין המתחים כך שמתקבלים ביציאה המתחים: <span class=\"math-container\">$V = X + aY$</span>, <span class=\"math-container\">$W = XY$</span>. <span class=\"math-container\">$a$</span> הוא מספר קבוע כלשהו.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$V, W$</span> אורתוגונלים ו-<span class=\"math-container\">$\\sigma_X = \\sigma_Y$</span>, חשב את <span class=\"math-container\">$a$</span>.",
+    "options": [
+      "<span class=\"math-container\">$a = 1$</span>",
+      "<span class=\"math-container\">$a = -1$</span>",
+      "<span class=\"math-container\">$a = 0$</span>",
+      "לא קיים <span class=\"math-container\">$a$</span> כזה."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון אות אקראי:<br><span class=\"math-container\">$$X(t) = A_c \\cdot \\left[1 + \\frac{1}{2}m\\cdot\\sin(2\\pi f_m t + \\phi)\\right] \\cdot \\cos(2\\pi f_c t + \\theta)$$</span><br>המופעים <span class=\"math-container\">$\\phi, \\theta$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיפות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta, \\phi \\in [-\\pi, +\\pi]$</span>.",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$\\mu_X = \\overline{X(t)}$</span> והשונות <span class=\"math-container\">$\\sigma_X^2$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\mu_X = 0$</span> ו-<span class=\"math-container\">$\\sigma_X^2 = \\left(1+\\dfrac{m^2}{8}\\right)\\dfrac{A_c^2}{2}$</span>",
+      "<span class=\"math-container\">$\\mu_X = A_c$</span> ו-<span class=\"math-container\">$\\sigma_X^2 = \\dfrac{A_c^2}{2}$</span>",
+      "<span class=\"math-container\">$\\mu_X = A_c$</span> ו-<span class=\"math-container\">$\\sigma_X^2 = (1+m^2)\\dfrac{A_c^2}{8}$</span>",
+      "<span class=\"math-container\">$\\mu_X = 0$</span> ו-<span class=\"math-container\">$\\sigma_X^2 = \\dfrac{m^2 A_c^2}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון אות אקראי:<br><span class=\"math-container\">$$X(t) = A_c \\cdot \\left[1 + \\frac{1}{2}m\\cdot\\sin(2\\pi f_m t + \\phi)\\right] \\cdot \\cos(2\\pi f_c t + \\theta)$$</span><br>המופעים <span class=\"math-container\">$\\phi, \\theta$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיידות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta, \\phi \\in [-\\pi, +\\pi]$</span>.",
+    "question_text": "מהי האוטוקורלציה הסטטסטית <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\cdot\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cdot\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\sin(2\\pi f_m\\tau)\\right]\\cdot\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{2}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון אות אקראי:<br><span class=\"math-container\">$$X(t) = A_c \\cdot \\left[1 + \\frac{1}{2}m\\cdot\\sin(2\\pi f_m t + \\phi)\\right] \\cdot \\cos(2\\pi f_c t + \\theta)$$</span><br>המופעים <span class=\"math-container\">$\\phi, \\theta$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיידות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta, \\phi \\in [-\\pi, +\\pi]$</span>.",
+    "question_text": "כתוב ביטוי לצפיפות ההספק ליחידת תדר (PSD) <span class=\"math-container\">$S_X(f)$</span>. (<span class=\"math-container\">$*$</span> מסמן קונבולוציה)",
+    "options": [
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f) + \\dfrac{m^2}{4}\\!\\left[\\delta(f-f_c)+\\delta(f+f_c)\\right]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f) + \\dfrac{m^2}{16j}\\!\\left[\\delta(f-f_m)+\\delta(f+f_m)\\right]\\right\\} * \\left[\\delta(f-f_c)+\\delta(f+f_c)\\right]$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4j}\\!\\left\\{\\delta(f) + \\dfrac{m^2}{16}\\!\\left[\\delta(f-f_m)+\\delta(f+f_m)\\right]\\right\\} * \\left[\\delta(f-f_c)+\\delta(f+f_c)\\right]$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f) + \\dfrac{m^2}{16}\\!\\left[\\delta(f-f_m)+\\delta(f+f_m)\\right]\\right\\} * \\left[\\delta(f-f_c)+\\delta(f+f_c)\\right]$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון אות אקראי:<br><span class=\"math-container\">$$X(t) = A_c \\cdot \\left[1 + \\frac{1}{2}m\\cdot\\sin(2\\pi f_m t + \\phi)\\right] \\cdot \\cos(2\\pi f_c t + \\theta)$$</span><br>המופעים <span class=\"math-container\">$\\phi, \\theta$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיידות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta, \\phi \\in [-\\pi, +\\pi]$</span>.<br>האות מוזן למבוא מסננת Hilbert בעלת פונקצית תמסורת ותגובה להלם:<br><span class=\"math-container\">$$h(t) = \\frac{1}{\\pi t}, \\qquad H(jf) = -j\\,\\mathrm{sgn}(f) = \\begin{cases} e^{-j\\pi/2} & f > 0 \\\\ 0 & f = 0 \\\\ e^{+j\\pi/2} & f < 0 \\end{cases}$$</span><br>במוצאה של המסננת מתקבלת התמרת Hilbert: <span class=\"math-container\">$\\hat{X}(t) = \\dfrac{1}{\\pi t} * X(t) = \\dfrac{1}{\\pi}\\displaystyle\\int_{-\\infty}^{+\\infty} \\dfrac{X(t')}{t-t'}\\,dt'$</span>.",
+    "question_text": "כתוב ביטוי לאוטו-קורלאציה <span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cdot\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\sin(2\\pi f_m\\tau)\\right]\\cdot\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cdot\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1 + \\dfrac{m^2}{8}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_07_10_2007/q10.png"
+  }
+]

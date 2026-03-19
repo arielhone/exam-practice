@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "preamble": "",
+    "question_text": "רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלאציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. חשב את ההספק הממוצע המתפתח על נגד של 1 אום במוצא מערכת ליניארית בעלת התגובה להלם:<br><span class=\"math-container\">$$h(t) = \\begin{cases} e^{-t} & t > 0 \\\\ 0 & t \\leq 0 \\end{cases}$$</span>",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{N_0}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{N_0}{4}$</span>",
+      "<span class=\"math-container\">$\\dfrac{N_0}{8}$</span>",
+      "<span class=\"math-container\">$\\dfrac{N_0}{16}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "",
+    "question_text": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בעל צפיפות הספק ספקטרלית <span class=\"math-container\">$S_X(f)$</span>. נגדיר תהליך אקראי חדש <span class=\"math-container\">$Y(t) = \\frac{1}{2T}\\int_{t-T}^{t+T} X(t')\\,dt'$</span>, חשב את צפיפות ההספק הספקטרלית <span class=\"math-container\">$S_Y(f)$</span>. (שים לב <span class=\"math-container\">$\\omega = 2\\pi f$</span> וכן <span class=\"math-container\">$\\varphi(\\omega) = S(f)$</span>).",
+    "options": [
+      "<span class=\"math-container\">$S_Y(f) = S_X(f)$</span>",
+      "<span class=\"math-container\">$S_Y(f) = S_X(f)e^T$</span>",
+      "<span class=\"math-container\">$S_Y(f) = S_X(f)\\sin^2(2\\pi fT)$</span>",
+      "<span class=\"math-container\">$S_Y(f) = S_X(f)\\dfrac{\\sin^2(2\\pi Tf)}{(2\\pi Tf)^2}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "",
+    "question_text": "חשב את רוחב הפס של צפיידות ההספק הספקטרלית של התהליך במוצא מסנן מעביר נמוכים (LPF) בעל פונקצית תמסורת (שים לב <span class=\"math-container\">$B = \\frac{W_{rms}}{2\\pi}$</span>):<br><span class=\"math-container\">$$H(jf) = \\frac{1}{1+j\\!\\left(\\frac{f}{w}\\right)^2} \\qquad \\left(H(\\omega) = \\frac{1}{1+j\\!\\left(\\frac{\\omega}{2\\pi w}\\right)^2}\\right)$$</span><br>אם בכניסה אליו מוזן רעש לבן.",
+    "options": [
+      "<span class=\"math-container\">$B = \\dfrac{w}{8}$</span>",
+      "<span class=\"math-container\">$B = 2w$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{w}{4}$</span>",
+      "<span class=\"math-container\">$B = w$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונים 2 תהליכים אקראיים גאוסיים בלתי תלויים סטטיסטית סטציונרים במובן רחב:<br><span class=\"math-container\">$X(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת <span class=\"math-container\">$\\mu_X$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span><br><span class=\"math-container\">$Y(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת 0 ושונות <span class=\"math-container\">$\\sigma_Y^2$</span><br>כל אחד מהם מועבר דרך התקן הנקרא: \"מגבל קשיח\" (LIMITER) כך שמתקבלים במוצאו 2 תהליכים אקראיים חדשים:<br><span class=\"math-container\">$$A(t) = \\begin{cases} 1 & X(t) \\leq 0 \\\\ 0 & X(t) > 0 \\end{cases} \\qquad B(t) = \\begin{cases} 1 & Y(t) \\leq 0 \\\\ 0 & Y(t) > 0 \\end{cases}$$</span><br>כמו כן מגדירים תהליך אקראי:<br><span class=\"math-container\">$$C(t) = A(t) \\oplus B(t) = \\begin{cases} 0 & A(t) = B(t) \\\\ 1 & A(t) \\neq B(t) \\end{cases}$$</span>",
+    "question_text": "איזה מהמשפטים הבאים נכון:",
+    "options": [
+      "<span class=\"math-container\">$A(t)$</span> ו-<span class=\"math-container\">$B(t)$</span> בת\"ס.",
+      "<span class=\"math-container\">$A(t)$</span> ו-<span class=\"math-container\">$B(t)$</span> אינם בת\"ס.",
+      "<span class=\"math-container\">$R_{A(t),B(t)}(t_1,t_2) = E\\{A(t_1)\\} \\cdot E\\{B(t_2)\\} = \\overline{A(t_1)} \\cdot \\overline{B(t_2)}$</span>",
+      "תשובות א + ג נכונות."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונים 2 תהליכים אקראיים גאוסיים בלתי תלויים סטטיסטית סטציונרים במובן רחב:<br><span class=\"math-container\">$X(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת <span class=\"math-container\">$\\mu_X$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span><br><span class=\"math-container\">$Y(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת 0 ושונות <span class=\"math-container\">$\\sigma_Y^2$</span><br>כל אחד מהם מועבר דרך התקן הנקרא: \"מגבל קשיח\" (LIMITER) כך שמתקבלים במוצאו 2 תהליכים אקראיים חדשים:<br><span class=\"math-container\">$$A(t) = \\begin{cases} 1 & X(t) \\leq 0 \\\\ 0 & X(t) > 0 \\end{cases} \\qquad B(t) = \\begin{cases} 1 & Y(t) \\leq 0 \\\\ 0 & Y(t) > 0 \\end{cases}$$</span><br>כמו כן מגדירים תהליך אקראי:<br><span class=\"math-container\">$$C(t) = A(t) \\oplus B(t) = \\begin{cases} 0 & A(t) = B(t) \\\\ 1 & A(t) \\neq B(t) \\end{cases}$$</span>",
+    "question_text": "חשב את <span class=\"math-container\">$P\\{C(t_1) = 1\\}$</span>:",
+    "options": [
+      "<span class=\"math-container\">$P\\{C(t_1) = 1\\} = \\frac{1}{2}\\!\\left(1 - Q\\!\\left(\\frac{-\\mu_X}{\\sigma_X}\\right)\\right)$</span>",
+      "<span class=\"math-container\">$P\\{C(t_1) = 1\\} = \\dfrac{1}{2}$</span>",
+      "<span class=\"math-container\">$P\\{C(t_1) = 1\\} = \\frac{1}{2}\\!\\left(Q\\!\\left(\\frac{-\\mu_X}{\\sigma_X}\\right)\\right)$</span>",
+      "<span class=\"math-container\">$P\\{C(t_1) = 1\\} = \\frac{1}{2}\\!\\left(2Q\\!\\left(\\frac{\\mu_X}{\\sigma_X}\\right) - 1\\right)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונים 2 תהליכים אקראיים גאוסיים בלתי תלויים סטטיסטית סטציונרים במובן רחב:<br><span class=\"math-container\">$X(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת <span class=\"math-container\">$\\mu_X$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span><br><span class=\"math-container\">$Y(t)$</span> — תהליך אקראי גאוסי (נורמלי) עם תוחלת 0 ושונות <span class=\"math-container\">$\\sigma_Y^2$</span><br>כל אחד מהם מועבר דרך התקן הנקרא: \"מגבל קשיח\" (LIMITER) כך שמתקבלים במוצאו 2 תהליכים אקראיים חדשים:<br><span class=\"math-container\">$$A(t) = \\begin{cases} 1 & X(t) \\leq 0 \\\\ 0 & X(t) > 0 \\end{cases} \\qquad B(t) = \\begin{cases} 1 & Y(t) \\leq 0 \\\\ 0 & Y(t) > 0 \\end{cases}$$</span><br>כמו כן מגדירים תהליך אקראי:<br><span class=\"math-container\">$$C(t) = A(t) \\oplus B(t) = \\begin{cases} 0 & A(t) = B(t) \\\\ 1 & A(t) \\neq B(t) \\end{cases}$$</span><br>הערה: <span class=\"math-container\">$Q(x) \\equiv \\dfrac{1}{\\sqrt{2\\pi}}\\int_x^{\\infty} e^{-\\frac{z^2}{2}}\\,dz$</span>",
+    "question_text": "חשב את <span class=\"math-container\">$P\\{B(t)=1 \\mid C(t)=1\\}$</span> (ההסתברות ש-<span class=\"math-container\">$B(t)=1$</span> בהינתן כי <span class=\"math-container\">$C(t)=1$</span>):",
+    "options": [
+      "<span class=\"math-container\">$P\\{B(t)=1 \\mid C(t)=1\\} = Q\\!\\left(\\dfrac{\\mu_X}{\\sigma_X}\\right)$</span>",
+      "<span class=\"math-container\">$P\\{B(t)=1 \\mid C(t)=1\\} = 1 - Q\\!\\left(\\dfrac{\\mu_X}{\\sigma_X}\\right)$</span>",
+      "<span class=\"math-container\">$P\\{B(t)=1 \\mid C(t)=1\\} = 2Q\\!\\left(\\dfrac{\\mu_X}{\\sigma_X}\\right)$</span>",
+      "<span class=\"math-container\">$P\\{B(t)=1 \\mid C(t)=1\\} = \\dfrac{1}{2}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "",
+    "question_text": "נתונה פונקצית צפיפות הסתברות (PDF) דו-מימדית:<br><span class=\"math-container\">$$f_{X,Y}(x,y) = \\begin{cases} \\dfrac{x^2+y^2}{8\\pi} & x^2+y^2 < b \\\\ 0 & \\text{else} \\end{cases}$$</span><br>מה צריך להיות <span class=\"math-container\">$b$</span> כדי שהפונקציה תהיה פונקצית צפיפות? חשב את ההסתברות: <span class=\"math-container\">$P(0.5b < X^2 + Y^2 \\leq 0.8b)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$P = 0.62,\\; b = 3$</span>",
+      "<span class=\"math-container\">$P = 0.75,\\; b = 5$</span>",
+      "<span class=\"math-container\">$P = 0.62,\\; b = 5$</span>",
+      "<span class=\"math-container\">$P = 0.39,\\; b = 4$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "",
+    "question_text": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בעל פונקצית אוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau) = Pe^{-\\alpha|\\tau|}$</span> (<span class=\"math-container\">$P,\\alpha$</span> הם ממשיים וחיוביים). חשב את האוטוקורלציה במוצא המערכת הליניארית <span class=\"math-container\">$R_{YY}(\\tau)$</span> כאשר נתונה התגובה להלם של המערכת:<br><span class=\"math-container\">$$h(t) = \\begin{cases} we^{-wt} & t > 0 \\\\ 0 & t \\leq 0 \\end{cases}$$</span>",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{wP}{w^2-\\alpha^2}\\left(we^{-\\alpha|\\tau|} - \\alpha e^{-w|\\tau|}\\right)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{P}{w}\\left(we^{-\\alpha|\\tau|} + \\alpha e^{-w|\\tau|}\\right)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{\\alpha P e^{-w|\\tau|}}{w}$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{P}{w^2+\\alpha^2}\\left(we^{-\\alpha|\\tau|} + \\alpha e^{-w|\\tau|}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]
