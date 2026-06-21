@@ -1,0 +1,184 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\dfrac{2}{b}(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty<a<\\infty$</span>.",
+    "question_text": "חשב את הממוצע.",
+    "options": [
+      "<span class=\"math-container\">$a+\\dfrac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\pi}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\pi}{2}\\sqrt{b}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\dfrac{2}{b}(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty<a<\\infty$</span>.",
+    "question_text": "חשב את השונות.",
+    "options": [
+      "<span class=\"math-container\">$b\\!\\left(1-\\dfrac{\\pi}{4}\\right)$</span>",
+      "<span class=\"math-container\">$b$</span>",
+      "<span class=\"math-container\">$b\\!\\left(1+\\dfrac{\\pi}{2}\\right)$</span>",
+      "<span class=\"math-container\">$a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\dfrac{2}{b}(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span>",
+    "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span>, מה ההסתברות שהמתח יהיה גדול מ-1 וולט?",
+    "options": [
+      "0.61",
+      "0.4",
+      "0.95",
+      "0.89"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך בפס בסיס הוא <span class=\"math-container\">$B$</span> [Hz]. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת-פס (LPF) בגובה 1 ורוחב <span class=\"math-container\">$B$</span>, המזינה גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור.",
+    "question_text": "בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, כתוב ביטוי לרוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF כך שיחס הספק האות להספק הרעש במוצאו יהיה <span class=\"math-container\">$3\\,\\text{dB}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{2N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{2\\sigma_X^2}{N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{4N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{3N_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_18_02_2010/q4.png"
+  },
+  {
+    "id": "q5",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך בפס בסיס הוא <span class=\"math-container\">$B$</span> [Hz]. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> המזינה גלאי ריבועי. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span>. (בהנחה ש-<span class=\"math-container\">$B$</span> מקיים את תנאי שאלה 4)",
+    "question_text": "קבע את הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "&minus;1"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך בפס בסיס הוא <span class=\"math-container\">$B$</span> [Hz]. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> המזינה גלאי ריבועי. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span>. (בהנחה ש-<span class=\"math-container\">$B$</span> מקיים את תנאי שאלה 4)",
+    "question_text": "קבע את השונות <span class=\"math-container\">$\\sigma_Y^2$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{3}{2}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$2\\sigma_X^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B=\\sigma_X^2/(2N_0)$</span>. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span> עם שונות <span class=\"math-container\">$\\sigma_Y^2=\\frac{3}{2}\\sigma_X^2$</span>.",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Y(y)$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> (בהנחה שהתהליכים במוצא המסננת גאוסיים על פי משפט הגבול המרכזי).",
+    "options": [
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_X}\\,e^{-y^2/(3\\sigma_X^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-y^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-(y+1)^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_X}\\,e^{-y^2/(2\\sigma_X^2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B=\\sigma_X^2/(2N_0)$</span> המזינה גלאי ריבועי. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). מוצא הגלאי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Z(z)$</span> של התהליך <span class=\"math-container\">$Z(t)$</span> במוצא הגלאי הריבועי.",
+    "options": [
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\,z}\\,\\sigma_Y}\\,e^{-z/(2\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\,z}\\,\\sigma_Y}\\,e^{-z^2/(2\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\,z}\\,\\sigma_X}\\,e^{-z/(2\\sigma_X^2)}$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_X}\\,e^{-z/(2\\sigma_X^2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B=\\sigma_X^2/(2N_0)$</span> המזינה גלאי ריבועי. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). מוצא הגלאי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהו הממוצע <span class=\"math-container\">$\\overline{Z(t)}$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_Z^2$</span>",
+      "0"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span>. שני התהליכים מוזנים למסננת LPF בגובה 1 ורוחב <span class=\"math-container\">$B=\\sigma_X^2/(2N_0)$</span> המזינה גלאי ריבועי. מוצא ה-LPF: <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). מוצא הגלאי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהי השונות <span class=\"math-container\">$\\sigma_Z^2$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$2\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$2\\sigma_X^4$</span>",
+      "<span class=\"math-container\">$4\\sigma_Y^4$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>.",
+    "question_text": "חשב את תמסורת פורייה של האות <span class=\"math-container\">$x(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{2}{(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{2}{2(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{1}{2(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{1}{2(2W+j\\omega)^3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>. תמסורת פורייה של האות: <span class=\"math-container\">$x(\\omega)=\\dfrac{2}{(W+j\\omega)^3}$</span>.",
+    "question_text": "מהי פונקציית התמסורת של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2+\\omega^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2+\\omega^2}{(W+j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{2W_N^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>. פונקציית התמסורת: <span class=\"math-container\">$H_{opt}(\\omega)=\\frac{1}{\\pi CP}\\cdot\\frac{W_N^2+\\omega^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>.",
+    "question_text": "מהי פונקציית התגובה להלם של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\left(W_N^2-\\dfrac{d^2}{dt^2}\\right)\\!\\left[u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}\\right]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\,W_N^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{3}{CP}\\,W_N^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\,W^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>.<br>(רמז: <span class=\"math-container\">$\\displaystyle\\int_{-\\infty}^{\\infty}\\frac{a^2+\\omega^2}{(b^2+\\omega^2)^3}\\,d\\omega=\\frac{\\pi(b^2+3a^2)}{8b^5}$</span>)",
+    "question_text": "מהו ה-SNR המיטבי?",
+    "options": [
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\dfrac{W^2+3W_N^2}{4PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{4PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{8PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{16PW^5}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

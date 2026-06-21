@@ -1,0 +1,223 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים, <span class=\"math-container\">$\\Theta$</span> היא פאזה אקראית המתפלגת באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span>, ו-<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי המתאר את האינפורמציה המשודרת, בלתי תלוי ב-<span class=\"math-container\">$\\Theta$</span>, כאשר <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "מגדירים את התדר הזוויתי הרגעי בצורה <span class=\"math-container\">$\\omega(t)=\\frac{d\\Phi}{dt}$</span>. מהו התדר המקסימלי (המינימלי) של האות <span class=\"math-container\">$S_{FM}(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm 2K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm X(t)\\,K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\pm K_{FM}M$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_12_07_2010/q1.png"
+  },
+  {
+    "id": "q2",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')dt'$</span>. <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> קבועים, <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "נתון מקדם \"השיא\" של האות <span class=\"math-container\">$X(t)$</span>: <span class=\"math-container\">$K_{CR}=\\frac{M}{\\sqrt{E[X(t)^2]}}$</span>. מה יהיה רוחב פילטר מעביר הפס <span class=\"math-container\">$W_{FM}$</span> במערכת הקולט?",
+    "options": [
+      "<span class=\"math-container\">$W_{FM}=2K_{FM}K_{CR}\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=2K_{FM}K_{CR}X(t)\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=2K_{CR}X(t)\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=4K_{FM}K_{CR}\\sqrt{E[X(t)^2]}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')dt'$</span>. <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> קבועים, <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "מהו ההספק הממוצע של האות <span class=\"math-container\">$S_{FM}(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}M^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}X(t)^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}A^4$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')dt'$</span>. הערוץ בין המשדר למקלט מתואר על ידי פונקציית תגובה להלם <span class=\"math-container\">$h(t-t')=G_{ch}\\delta(t-t')$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הוא מקדם ההגברה (הנחתה) של הערוץ.",
+    "question_text": "מה יהיה הספק האות <span class=\"math-container\">$S_i(t)$</span> בכניסה למקלט?",
+    "options": [
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2M^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2A^4$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2X(t)^2A^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. פילטר מעביר פס אידאלי עם רוחב <span class=\"math-container\">$W_{FM}$</span> ותדר מרכזי <span class=\"math-container\">$\\omega_0$</span>. הסטייה המקסימלית מהתדר המרכזי היא <span class=\"math-container\">$\\Delta\\omega=W_{FM}/2$</span>. לפילטר נכנס רעש לבן עם ספקטרום הספק <span class=\"math-container\">$\\Xi(\\omega)=N_0/2$</span>.",
+    "question_text": "מהו הספק הרעש <span class=\"math-container\">$P_{N_i}$</span> במוצא הפילטר?",
+    "options": [
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{1}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{\\omega_0}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{2}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{1}{2\\pi}N_0\\Delta\\omega$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונה מערכת תקשורת FM. ה\"מבחין\" (Discriminator) מגיב בצורה לינארית לשינויים בתדר הכניסה ביחס לתדר המרכזי: <span class=\"math-container\">$S_d(t)=K_D(\\omega(t)-\\omega_0)$</span>. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')dt'$</span>.",
+    "question_text": "מה היחס בין המתח <span class=\"math-container\">$S_d(t)$</span> במוצא ה\"מבחין\" לאות האינפורמציה <span class=\"math-container\">$X(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_d(t)=K_D K_{FM}X(t)$</span>",
+      "<span class=\"math-container\">$S_d(t)=K_D X(t)$</span>",
+      "<span class=\"math-container\">$S_d(t)=K_D K_{FM}\\dfrac{dX(t)}{dt}$</span>",
+      "<span class=\"math-container\">$S_d(t)=X(t)^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. הספק האות בכניסה למגביל הוא <span class=\"math-container\">$P_{S_i}=\\frac{1}{2}G_{ch}^2A^2$</span> והספק הרעש בכניסה למגביל הוא <span class=\"math-container\">$P_{N_i}=\\frac{1}{\\pi}N_0\\Delta\\omega$</span>.",
+    "question_text": "חשב את יחס הספק האות להספק הרעש <span class=\"math-container\">$P_{S_i}/P_{N_i}$</span> בכניסה למגביל.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi X(t)^2A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2M^2A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2K_{FM}A^2}{2N_0\\Delta\\omega}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת תקשורת FM. האות במוצא ה\"מבחין\" הוא <span class=\"math-container\">$S_d(t)=K_D K_{FM}X(t)$</span>.",
+    "question_text": "מהו הספק האות <span class=\"math-container\">$P_{S_d}$</span> במוצא ה\"מבחין\"?",
+    "options": [
+      "<span class=\"math-container\">$P_{S_d}=K_D^2K_{FM}^2E[X(t)^2]$</span>",
+      "<span class=\"math-container\">$P_{S_d}=K_D^2E[X(t)^2]$</span>",
+      "<span class=\"math-container\">$P_{S_d}=K_{FM}^2E[X(t)^2]$</span>",
+      "<span class=\"math-container\">$P_{S_d}=K_D^2K_{FM}^2M^2E[X(t)^2]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "על מנת לחשב את הרעש במוצא ה\"מבחין\", מניחים של\"מגביל\" נכנס אות FM ללא אינפורמציה מהצורה <span class=\"math-container\">$Y_i(t)=G_{ch}A\\cos(\\omega_0 t+\\Theta)$</span>. רעש מצטרף לאות: <span class=\"math-container\">$n_i(t)=n_C(t)\\cos(\\omega_0 t+\\Theta)-n_S(t)\\sin(\\omega_0 t+\\Theta)$</span>. הסכום נכתב בהצגת אמפליטודה-פאזה: <span class=\"math-container\">$Y_i(t)+n_i(t)=A(t)\\cos(\\omega_0 t+\\Theta+\\Psi(t))$</span>.",
+    "question_text": "חשב את הגדלים <span class=\"math-container\">$A(t)$</span> ו-<span class=\"math-container\">$\\Psi(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$A(t)=\\sqrt{(G_{ch}A+n_C)^2+n_S^2}\\;,\\quad\\Psi(t)=\\arctan\\!\\left(\\dfrac{n_S}{n_C+G_{ch}A}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=\\sqrt{(G_{ch}A+n_C)^4+n_S^2}\\;,\\quad\\Psi(t)=\\tan\\!\\left(\\dfrac{n_S}{n_C+G_{ch}A}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=\\sqrt{(G_{ch}A+n_C)^4+n_S^2}\\;,\\quad\\Psi(t)=\\sin\\!\\left(\\dfrac{n_S}{n_C+G_{ch}A}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=G_{ch}A+n_C\\;,\\quad\\Psi(t)=\\arctan\\!\\left(\\dfrac{n_S}{n_C+G_{ch}A}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "על מנת לחשב את הרעש במוצא ה\"מבחין\", מניחים של\"מגביל\" נכנס אות FM ללא אינפורמציה מהצורה <span class=\"math-container\">$Y_i(t)=G_{ch}A\\cos(\\omega_0 t+\\Theta)$</span>. רעש מצטרף לאות: <span class=\"math-container\">$n_i(t)=n_C(t)\\cos(\\omega_0 t+\\Theta)-n_S(t)\\sin(\\omega_0 t+\\Theta)$</span>. ידוע כי <span class=\"math-container\">$A(t)=\\sqrt{(G_{ch}A+n_C)^2+n_S^2}$</span> ו-<span class=\"math-container\">$\\Psi(t)=\\arctan\\!\\left(\\frac{n_S}{n_C+G_{ch}A}\\right)$</span>.",
+    "question_text": "מה יהיה האות במוצא ה\"מגביל\" כאשר מניחים ש-<span class=\"math-container\">$\\frac{n_S}{G_{ch}A}\\ll 1$</span>, <span class=\"math-container\">$\\frac{n_C}{G_{ch}A}\\ll 1$</span> ורושמים את <span class=\"math-container\">$\\Psi(t)$</span> בסדר ראשון בגדלים אלו?",
+    "options": [
+      "<span class=\"math-container\">$A\\cos\\!\\left(\\omega_0 t+\\Theta+\\dfrac{n_S(t)}{G_{ch}A}\\right)$</span>",
+      "<span class=\"math-container\">$A\\cos\\!\\left(\\omega_0 t+\\Theta+\\dfrac{n_C(t)\\cdot n_S(t)}{G_{ch}A}\\right)$</span>",
+      "<span class=\"math-container\">$A\\cos\\!\\left(\\omega_0 t+\\Theta+\\dfrac{n_S(t)}{G_{ch}}\\right)$</span>",
+      "<span class=\"math-container\">$A\\cos\\!\\left(\\omega_0 t+\\Theta+\\dfrac{n_C(t)}{G_{ch}A}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "על מנת לחשב את הרעש במוצא ה\"מבחין\", מניחים של\"מגביל\" נכנס אות FM ללא אינפורמציה מהצורה <span class=\"math-container\">$Y_i(t)=G_{ch}A\\cos(\\omega_0 t+\\Theta)$</span>. רעש מצטרף לאות: <span class=\"math-container\">$n_i(t)=n_C(t)\\cos(\\omega_0 t+\\Theta)-n_S(t)\\sin(\\omega_0 t+\\Theta)$</span>. בקירוב ה-SNR הגבוה, מוצא ה\"מגביל\" הוא <span class=\"math-container\">$A\\cos(\\omega_0 t+\\Theta+n_S(t)/(G_{ch}A))$</span>. ה\"מבחין\" מגיב לשינויים בתדר: <span class=\"math-container\">$S_d(t)=K_D(\\omega(t)-\\omega_0)$</span>.",
+    "question_text": "חשב את המתח <span class=\"math-container\">$N_d(t)$</span> במוצא ה\"מבחין\" שנוצר כתוצאה מהרעש.",
+    "options": [
+      "<span class=\"math-container\">$N_d(t)=\\dfrac{K_D}{G_{ch}A}\\dfrac{dn_S(t)}{dt}$</span>",
+      "<span class=\"math-container\">$N_d(t)=\\dfrac{K_D}{G_{ch}A}\\,n_S(t)$</span>",
+      "<span class=\"math-container\">$N_d(t)=\\dfrac{K_D}{G_{ch}A}\\,n_S(t)^2$</span>",
+      "<span class=\"math-container\">$N_d(t)=\\dfrac{K_D}{G_{ch}A}\\dfrac{d^2n_S(t)}{dt^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "הרעש במוצא ה\"מבחין\" הוא <span class=\"math-container\">$N_d(t)=\\frac{K_D}{G_{ch}A}\\frac{dn_S(t)}{dt}$</span>. ספקטרום הרעש בכניסה ל\"מגביל\" הוא <span class=\"math-container\">$\\Xi_{n_S}(\\omega)$</span>.",
+    "question_text": "מהי פונקציית התמסורת <span class=\"math-container\">$H(\\omega)$</span> של ה\"מבחין\" ביחס לרעש <span class=\"math-container\">$n_S(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{K_D}{G_{ch}A}\\,j\\omega$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{K_D}{G_{ch}A}$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{K_D}{G_{ch}A}\\,e^{j\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\omega^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "הרעש במוצא ה\"מבחין\" הוא <span class=\"math-container\">$N_d(t)=\\frac{K_D}{G_{ch}A}\\frac{dn_S(t)}{dt}$</span>. פונקציית התמסורת של ה\"מבחין\" ביחס לרעש היא <span class=\"math-container\">$H(\\omega)=\\frac{K_D}{G_{ch}A}j\\omega$</span>. ספקטרום הרעש בכניסה ל\"מגביל\" הוא <span class=\"math-container\">$\\Xi_{n_S}(\\omega)$</span>.",
+    "question_text": "מה יהיה ספקטרום הרעש <span class=\"math-container\">$\\Xi_{N_d}(\\omega)$</span> ביציאה מה\"מבחין\"?",
+    "options": [
+      "<span class=\"math-container\">$\\Xi_{N_d}(\\omega)=\\left(\\dfrac{K_D}{G_{ch}A}\\right)^2\\omega^2\\,\\Xi_{n_S}(\\omega)$</span>",
+      "<span class=\"math-container\">$\\Xi_{N_d}(\\omega)=\\left(\\dfrac{K_D}{G_{ch}A}\\right)^2\\omega^4\\,\\Xi_{n_S}(\\omega)$</span>",
+      "<span class=\"math-container\">$\\Xi_{N_d}(\\omega)=\\left(\\dfrac{K_D}{G_{ch}A}\\right)^2\\Xi_{n_S}(\\omega)$</span>",
+      "<span class=\"math-container\">$\\Xi_{N_d}(\\omega)=\\omega^4\\,\\Xi_{n_S}(\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "ספקטרום הרעש במוצא ה\"מבחין\" הוא <span class=\"math-container\">$\\Xi_{N_d}(\\omega)=\\left(\\frac{K_D}{G_{ch}A}\\right)^2\\omega^2\\,\\Xi_{n_S}(\\omega)$</span>. נתון כי התדר הזוויתי הגבוה ביותר בספקטרום של האות <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$W_X$</span>, וכן ש-<span class=\"math-container\">$\\Xi_{n_S}(\\omega)=N_0$</span> (רעש לבן).",
+    "question_text": "חשב את הספק הרעש <span class=\"math-container\">$P_{N_d}$</span> במוצא המסנן מעביר נמוכים (LPF).",
+    "options": [
+      "<span class=\"math-container\">$P_{N_d}=\\dfrac{K_D^2N_0W_X^3}{3\\pi G_{ch}^2A^2}$</span>",
+      "<span class=\"math-container\">$P_{N_d}=\\dfrac{K_D^2N_0W_X^4}{3\\pi G_{ch}^2A^2}$</span>",
+      "<span class=\"math-container\">$P_{N_d}=\\dfrac{N_0W_X^2}{3\\pi G_{ch}^2A^2}$</span>",
+      "<span class=\"math-container\">$P_{N_d}=\\dfrac{K_D^2N_0W_X^2}{3\\pi A^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונה מערכת FM עם הספק אות במוצא המבחין <span class=\"math-container\">$P_{S_d}=K_D^2K_{FM}^2E[X(t)^2]$</span> והספק רעש במוצא ה-LPF <span class=\"math-container\">$P_{N_d}=\\frac{K_D^2N_0W_X^3}{3\\pi G_{ch}^2A^2}$</span>. נתון <span class=\"math-container\">$K_{CR}=\\frac{M}{\\sqrt{E[X(t)^2]}}$</span> ו-<span class=\"math-container\">$\\Delta\\omega=K_{FM}M$</span>.",
+    "question_text": "מהו יחס הספק האות להספק הרעש <span class=\"math-container\">$P_{S_d}/P_{N_d}$</span> במוצא המסנן מעביר נמוכים (LPF)?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{3\\pi G_{ch}^2A^2(\\Delta\\omega)^2}{N_0W_X^3K_{CR}^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{3\\pi G_{ch}^2A^2(\\Delta\\omega)^4}{N_0W_X^3K_{CR}^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{3\\pi G_{ch}^2A^2}{N_0W_X^3K_{CR}^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{3\\pi G_{ch}^2A^2(\\Delta\\omega)^3}{N_0W_X^3K_{CR}^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתונה מערכת FM. יחס האות לרעש בכניסה למגביל הוא <span class=\"math-container\">$\\frac{P_{S_i}}{P_{N_i}}=\\frac{\\pi G_{ch}^2A^2}{2N_0\\Delta\\omega}$</span> ויחס האות לרעש במוצא ה-LPF הוא <span class=\"math-container\">$\\frac{P_{S_d}}{P_{N_d}}=\\frac{3\\pi G_{ch}^2A^2(\\Delta\\omega)^2}{N_0W_X^3K_{CR}^2}$</span>.",
+    "question_text": "מה הקשר בין יחס האות לרעש בכניסה למגביל לבין יחס האות לרעש במוצא ה-LPF?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{6}{K_{CR}^2}\\left(\\dfrac{\\Delta\\omega}{W_X}\\right)^3\\dfrac{P_{S_i}}{P_{N_i}}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{2}{K_{CR}^2}\\left(\\dfrac{\\Delta\\omega}{W_X}\\right)^3\\dfrac{P_{S_i}}{P_{N_i}}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\dfrac{6}{K_{CR}^2}\\left(\\dfrac{\\Delta\\omega}{W_X}\\right)^2\\dfrac{P_{S_i}}{P_{N_i}}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_d}}{P_{N_d}}=\\left(\\dfrac{\\Delta\\omega}{W_X}\\right)^4\\dfrac{P_{S_i}}{P_{N_i}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "נתונה מערכת FM. יחס האות לרעש במוצא ה-LPF הוא <span class=\"math-container\">$\\frac{P_{S_d}}{P_{N_d}}=\\frac{6}{K_{CR}^2}\\left(\\frac{\\Delta\\omega}{W_X}\\right)^3\\frac{P_{S_i}}{P_{N_i}}$</span>.",
+    "question_text": "על מנת לשפר את יחס האות לרעש כאשר האות <span class=\"math-container\">$X(t)$</span> ועוצמת המשדר נתונים, מה עלי לעשות?",
+    "options": [
+      "להגדיל את <span class=\"math-container\">$K_{CR}$</span>",
+      "להגדיל את <span class=\"math-container\">$A$</span>",
+      "להגדיל את <span class=\"math-container\">$K_D$</span>",
+      "להגדיל את <span class=\"math-container\">$K_{RF}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  }
+]

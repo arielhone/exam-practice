@@ -1,0 +1,171 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "חשב את ממוצע התהליך <span class=\"math-container\">$\\overline{Z(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Z(t)}=0$</span>",
+      "<span class=\"math-container\">$\\overline{Z(t)}=A_0$</span>",
+      "<span class=\"math-container\">$\\overline{Z(t)}=\\dfrac{A_0}{2\\pi}$</span>",
+      "<span class=\"math-container\">$\\overline{Z(t)}=\\dfrac{A_0}{\\pi}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "מהי פונקצית הקורלציה הצולבת בין האות לרעש, <span class=\"math-container\">$R_{ZN}(t,t+\\tau)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$R_{ZN}(t,t+\\tau)=0$</span>",
+      "<span class=\"math-container\">$R_{ZN}(t,t+\\tau)=A_0N_0$</span>",
+      "<span class=\"math-container\">$R_{ZN}(t,t+\\tau)=A_0^{N_0}$</span>",
+      "<span class=\"math-container\">$R_{ZN}(t,t+\\tau)=A_0^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "חשב את פונקצית האוטוקורלציה של <span class=\"math-container\">$Z(t)$</span>, כלומר <span class=\"math-container\">$R_{ZZ}(\\tau)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{ZZ}(\\tau)=\\dfrac{A_0^2}{2}\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{ZZ}(\\tau)=A_0^2\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{ZZ}(\\tau)=A_0^2\\sin(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{ZZ}(\\tau)=A_0^2\\cos(2\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "האם <span class=\"math-container\">$Z(t)$</span> הוא תהליך סטציונרי במובן הרחב (WSS)?",
+    "options": [
+      "כן",
+      "לא",
+      "תלוי ב-<span class=\"math-container\">$A_0$</span>",
+      "תלוי ב-<span class=\"math-container\">$\\omega_0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "חשב את ממוצע תהליך האות המדוד <span class=\"math-container\">$\\overline{X(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{X(t)}=0$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=A_0+N_0$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=A_0$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=N_0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "חשב את פונקצית האוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_0^2}{2}\\cos(\\omega_0\\tau)+\\dfrac{N_0}{2}\\delta(\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_0^2}{2}\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=A_0^2\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_0^2}{2}\\cos(\\omega_0\\tau)+\\dfrac{N_0}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "חשב את צפיפות הספקיה (PSD) <span class=\"math-container\">$S_X(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{\\pi A_0^2}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{N_0}{2}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{\\pi A_0^2}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{N_0}{2}\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{A_0^2}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{N_0}{2}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{A_0^2}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{N_0}{2}\\delta(\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון תהליך דטרמיניסטי-אקראי <span class=\"math-container\">$Z(t)=A_0\\cos(\\omega_0 t+\\theta)$</span>, כאשר <span class=\"math-container\">$\\theta$</span> הוא משתנה אקראי המתפלג אחידות <span class=\"math-container\">$\\theta\\sim U[-\\pi,+\\pi]$</span>. נתון גם רעש לבן <span class=\"math-container\">$N(t)$</span> בעל קורלציה <span class=\"math-container\">$R_{NN}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>, בלתי תלוי ב-<span class=\"math-container\">$Z(t)$</span>. תהליך האות המדוד הוא <span class=\"math-container\">$X(t)=Z(t)+N(t)$</span>.",
+    "question_text": "כתוב ביטוי לפונקצית התמסורת <span class=\"math-container\">$H_{opt}(\\omega)$</span> של מסנן ווינר האופטימלי להערכת <span class=\"math-container\">$Z(t)$</span> מתוך <span class=\"math-container\">$X(t)$</span>, עם עיכוב <span class=\"math-container\">$t_0$</span>.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\frac{\\pi A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]}{\\frac{\\pi A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{N_0}{2}}\\,e^{j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{A_0^2}{A_0^2+\\frac{N_0}{2}}\\,e^{j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{A_0^2}{\\frac{\\pi A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{N_0}{2}}\\,e^{j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\frac{A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]}{\\frac{A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)]+\\frac{N_0}{2}}\\,e^{j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונה מערכת AM המייצרת: <span class=\"math-container\">$$Y_{AM}(t)=\\bigl[A_0+X(t)\\bigr]\\cos(\\omega_0 t+\\Theta_0)$$</span> כאשר <span class=\"math-container\">$A_0$</span> ו-<span class=\"math-container\">$\\omega_0$</span> קבועים, <span class=\"math-container\">$\\Theta_0$</span> פאזה אקראית המתפלגת אחידות, ו-<span class=\"math-container\">$X(t)$</span> תהליך אקראי WSS ממוצע אפס, בלתי תלוי ב-<span class=\"math-container\">$\\Theta_0$</span>.",
+    "question_text": "חשב את פונקצית האוטוקורלציה <span class=\"math-container\">$R_{AM}(\\tau)$</span> של אות ה-AM.",
+    "options": [
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\dfrac{1}{2}\\bigl(A_0^2+R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\bigl(A_0^2+R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\dfrac{1}{2}\\bigl(A_0^2-R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=A_0^2\\cos(\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונה מערכת AM המייצרת: <span class=\"math-container\">$$Y_{AM}(t)=\\bigl[A_0+X(t)\\bigr]\\cos(\\omega_0 t+\\Theta_0)$$</span> כאשר <span class=\"math-container\">$A_0$</span> ו-<span class=\"math-container\">$\\omega_0$</span> קבועים, <span class=\"math-container\">$\\Theta_0$</span> פאזה אקראית המתפלגת אחידות, ו-<span class=\"math-container\">$X(t)$</span> תהליך אקראי WSS ממוצע אפס, בלתי תלוי ב-<span class=\"math-container\">$\\Theta_0$</span>.",
+    "question_text": "חשב את צפיפות הספקיה (PSD) <span class=\"math-container\">$S_{AM}(\\omega)$</span> של אות ה-AM.",
+    "options": [
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{4}\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=A_0^2\\pi\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+S_X(\\omega)$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+S_X(\\omega)$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{1}{4}\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתונה מערכת AM. בצד המקלט, לאחר ערוץ בעל רווח <span class=\"math-container\">$G_{ch}$</span>, מצטרף רעש ערוץ שניתן לכתוב בצורה <span class=\"math-container\">$N(t)=N_C(t)\\cos(\\omega_0 t)-N_S(t)\\sin(\\omega_0 t)$</span>. המאפנם מנתח את המאחזה לרכיביה.",
+    "question_text": "כתוב ביטוי לפאזה <span class=\"math-container\">$\\psi(t)$</span> שמחשב גלאי המעטפת של האות המתקבל.",
+    "options": [
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)}{G_{ch}(A_0+X(t))+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_C(t)}{G_{ch}(A_0+X(t))+N_S(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{G_{ch}(A_0+X(t))}{N_S(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)+N_C(t)}{G_{ch}(A_0+X(t))}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתונה מערכת AM. בצד המקלט, לאחר ערוץ בעל רווח <span class=\"math-container\">$G_{ch}$</span>, מצטרף רעש ערוץ שניתן לכתוב בצורה <span class=\"math-container\">$N(t)=N_C(t)\\cos(\\omega_0 t)-N_S(t)\\sin(\\omega_0 t)$</span>. המאפנם מנתח את המאחזה לרכיביה.",
+    "question_text": "כאשר <span class=\"math-container\">$G_{ch}(A_0+X(t))\\gg N_S(t)$</span>, כתוב קירוב לאמפליטודה <span class=\"math-container\">$A(t)$</span> של האות המתקבל.",
+    "options": [
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}\\bigl[A_0+X(t)\\bigr]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}\\bigl[A_0+X(t)\\bigr]$</span>",
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}A_0+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}X(t)+N_C(t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתונה מערכת AM. בצד המקלט, לאחר ערוץ בעל רווח <span class=\"math-container\">$G_{ch}$</span>, מצטרף רעש ערוץ שניתן לכתוב בצורה <span class=\"math-container\">$N(t)=N_C(t)\\cos(\\omega_0 t)-N_S(t)\\sin(\\omega_0 t)$</span>, כאשר <span class=\"math-container\">$N_C(t)$</span> הוא רעש לבן ברוחב סרט <span class=\"math-container\">$W_{rec}$</span> עם צפיפות ספקיה חד-צדדית <span class=\"math-container\">$N_0$</span>.",
+    "question_text": "כתוב ביטוי ליחס אות-רעש <span class=\"math-container\">$(S_0/N_0)_{AN}$</span> במוצא גלאי AM.",
+    "options": [
+      "<span class=\"math-container\">$(S_0/N_0)_{AN}=\\dfrac{2\\pi G_{ch}^2\\,E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$(S_0/N_0)_{AN}=\\dfrac{G_{ch}^2\\,E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$(S_0/N_0)_{AN}=\\dfrac{2\\pi G_{ch}^2\\,A_0^2}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$(S_0/N_0)_{AN}=\\dfrac{4\\pi G_{ch}^2\\,E[X^2(t)]}{N_0 W_{rec}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

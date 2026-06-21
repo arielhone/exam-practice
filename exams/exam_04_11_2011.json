@@ -1,0 +1,223 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונה מסננת מעבירה נמוכים (LPF) המבוססת על רשת נגד-משרן, כמתואר באיור הבא. סמן: <span class=\"math-container\">$\\tau_c = \\dfrac{L}{R_1+R_2}$</span>.",
+    "question_text": "חשב את תמסורת ההספק <span class=\"math-container\">$|H(\\omega)|^2$</span> של המערכת.",
+    "options": [
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!4}\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\cdot\\dfrac{1}{\\omega^2\\tau_c^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\dfrac{R_2}{R_1}\\right)^{\\!2}\\cdot\\dfrac{1}{\\omega^2\\tau_c^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_04_11_2011/q1.png"
+  },
+  {
+    "id": "q2",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "כתוב ביטוי מתמטי לממוצע <span class=\"math-container\">$\\overline{X(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{X(t)}=1$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=\\cos(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=\\sin(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)}=\\sin(3\\omega_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "כתוב ביטוי מתמטי לקורלציה <span class=\"math-container\">$R_{XX}(\\tau)=\\overline{X(t)X(t+\\tau)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\sin(\\omega_0\\tau)+\\dfrac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{2}\\sin(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את צפיפות ההספק ליחידת תדר <span class=\"math-container\">$S_X(\\omega)$</span> של התהליך האקראי במבוא.",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{2}\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)-\\delta(\\omega+3\\omega_0)\\bigr]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\bigl\\{\\delta(\\omega)+\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr\\}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "קבע את ממוצע האות <span class=\"math-container\">$\\overline{Y(t)}$</span> במוצא.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{R_2}{R_1+R_2}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{R_2}{R_1}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{L}{R_1+R_2}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{L}{R_1}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את צפיפות ההספק ליחידת תדר <span class=\"math-container\">$S_Y(\\omega)$</span>. הנח <span class=\"math-container\">$\\omega_0=\\dfrac{1}{\\tau_c}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega)=2\\pi\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{4}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{20}\\bigl[\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]+\\dfrac{N_0}{4\\pi}\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=\\left(\\dfrac{R_2}{R_1}\\right)^{\\!2}\\dfrac{1}{1+\\omega^2\\tau_c^2}\\cdot 2\\pi\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{2}\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]+\\dfrac{N_0}{4\\pi}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=2\\pi\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{4}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{10}\\bigl[\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]+\\dfrac{N_0}{4\\pi}\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\cdot 2\\pi\\!\\left\\{\\delta(\\omega)+\\dfrac{1}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{20}\\bigl[\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]+\\dfrac{N_0}{4\\pi}\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}\\right\\}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> בעל ממוצע 0 ופונקצית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות המשולב עובר דרך מסנן LPF בעל <span class=\"math-container\">$|H(\\omega)|^2=\\left(\\frac{R_2}{R_1+R_2}\\right)^2\\frac{1}{1+\\omega^2\\tau_c^2}$</span> ובמוצא מתקבל <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "מצא את פונקצית הקורלציה <span class=\"math-container\">$R_{YY}(\\tau)$</span> של האות במוצא (הנח <span class=\"math-container\">$\\omega_0=1/\\tau_c$</span>).",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{10}\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{5}\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^{\\!2}\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{10}\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\theta)+\\cos(3\\omega_0 t+\\phi)$$</span>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span>.",
+    "question_text": "חשב את פונקצית התמסורת של מסננת המתואמת לאות <span class=\"math-container\">$X(t)=1+\\cos(\\omega_0 t)+\\cos(3\\omega_0 t)$</span> בהנחה שהרעש לבן.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)+\\pi(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0))+\\pi(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0))\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)+\\pi(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0))+\\pi(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0))\\bigr]$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)-\\pi(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0))-\\pi(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0))\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\pi(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0))+\\pi(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0))\\bigr]e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות Arcsine בעלת PDF מהצורה:<br><span class=\"math-container\">$$f_X(x)=\\frac{\\operatorname{rect}\\!\\left(\\frac{x}{2a}\\right)}{\\pi\\sqrt{a^2-x^2}}$$</span>כאשר <span class=\"math-container\">$a>0$</span> וכך ש-<span class=\"math-container\">$\\operatorname{rect}(z)=\\begin{cases}1 & |z|\\leq\\frac{1}{2}\\\\0 & |z|>\\frac{1}{2}\\end{cases}$</span>.",
+    "question_text": "מה ה-CDF של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{2}+\\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\tan^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\cos^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות Arcsine בעלת PDF מהצורה:<br><span class=\"math-container\">$$f_X(x)=\\frac{\\operatorname{rect}\\!\\left(\\frac{x}{2a}\\right)}{\\pi\\sqrt{a^2-x^2}}$$</span>כאשר <span class=\"math-container\">$a>0$</span>.",
+    "question_text": "מה הממוצע של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}a$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{3}a$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות Arcsine בעלת PDF מהצורה:<br><span class=\"math-container\">$$f_X(x)=\\frac{\\operatorname{rect}\\!\\left(\\frac{x}{2a}\\right)}{\\pi\\sqrt{a^2-x^2}}$$</span>כאשר <span class=\"math-container\">$a>0$</span>.",
+    "question_text": "מה השונות של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}a^2$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{3}a^2$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}a^2$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{3}a^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות Arcsine בעלת PDF מהצורה:<br><span class=\"math-container\">$$f_X(x)=\\frac{\\operatorname{rect}\\!\\left(\\frac{x}{2a}\\right)}{\\pi\\sqrt{a^2-x^2}}$$</span>כאשר <span class=\"math-container\">$a>0$</span>.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$a=1$</span>, מה ההסתברות למצוא את המשתנה האקראי <span class=\"math-container\">$X$</span> בקטע <span class=\"math-container\">$\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{3}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t)=[A_0+X(t)]\\cos(\\omega_0 t+\\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.",
+    "question_text": "חשב את פונקצית האוטוקורלציה של <span class=\"math-container\">$Y_{AM}(t)$</span> בהנחה ש-<span class=\"math-container\">$X(t)$</span> תהליך סטציונרי בעל ממוצע 0.",
+    "options": [
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\dfrac{1}{2}\\bigl(A_0^2+R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\bigl(A_0^2+R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\bigl(2A_0^2+R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau)=\\dfrac{1}{2}\\bigl(A_0^2-R_X(\\tau)\\bigr)\\cos(\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t)=[A_0+X(t)]\\cos(\\omega_0 t+\\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי סטציונרי בעל ממוצע 0, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.",
+    "question_text": "חשב את הספקטרום של <span class=\"math-container\">$Y_{AM}(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{4}\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{1}{4}\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+2\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega)=\\dfrac{A_0^2\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]+\\dfrac{A_0^2}{4}\\bigl[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t)=[A_0+X(t)]\\cos(\\omega_0 t+\\Theta_0)$$</span>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t)=G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש:<br><span class=\"math-container\">$$N(t)=N_C(t)\\cos(\\omega_0 t+\\Theta_0)-N_S(t)\\sin(\\omega_0 t+\\Theta_0)$$</span>כאשר מתקיים <span class=\"math-container\">$E[N^2(t)]=E[N_C^2(t)]=E[N_S^2(t)]$</span>.<br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t)+N(t)=A(t)\\cos(\\omega_0 t+\\Theta_0+\\psi(t))$</span>.",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$\\psi(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)}{G_{ch}(A_0+X(t))+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)}{G_{ch}A_0+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)}{N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t)=\\arctan\\!\\left(\\dfrac{N_S(t)}{G_{ch}X(t)+N_C(t)}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t)=[A_0+X(t)]\\cos(\\omega_0 t+\\Theta_0)$$</span>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t)=G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש:<br><span class=\"math-container\">$$N(t)=N_C(t)\\cos(\\omega_0 t+\\Theta_0)-N_S(t)\\sin(\\omega_0 t+\\Theta_0)$$</span>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t)+N(t)=A(t)\\cos(\\omega_0 t+\\Theta_0+\\psi(t))$</span>.",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$A(t)$</span>? הנח כי הרעש קטן ביחס לאות וכתוב ביטוי המדויק עד לסדר ראשון ברעש.",
+    "options": [
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}[A_0+X(t)]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t)\\approx [A_0+X(t)]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}[A_0+X(t)]+2N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t)\\approx G_{ch}[2X(t)]+4N_C(t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t)=[A_0+X(t)]\\cos(\\omega_0 t+\\Theta_0)$$</span>למקלט AM יש גלאי מעטפת המזהה את האמפליטודה <span class=\"math-container\">$A(t)$</span> בלבד. יהי <span class=\"math-container\">$S_0$</span> ההספק היעיל של האות המתקבל. הרעש <span class=\"math-container\">$N(t)$</span> הוא רעש לבן מוגבל פס הממורכז בתדר <span class=\"math-container\">$\\omega_0$</span> בעל ספקטרום קבוע <span class=\"math-container\">$\\dfrac{N_0}{2}$</span> ורוחב זוויתי <span class=\"math-container\">$W_{rec}$</span>.",
+    "question_text": "חשב את יחס הספק האות היעיל להספק הרעש מקלט <span class=\"math-container\">$\\left(\\dfrac{S_0}{N_0}\\right)_{AN}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\left(\\dfrac{S_0}{N_0}\\right)_{AN}=\\dfrac{2\\pi G_{ch}^2\\,E\\bigl[X^2(t)\\bigr]}{N_0\\,W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{S_0}{N_0}\\right)_{AN}=\\dfrac{2\\pi E\\bigl[X^2(t)\\bigr]}{N_0\\,W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{S_0}{N_0}\\right)_{AN}=\\dfrac{2\\pi G_{ch}^2\\,E\\bigl[A_0^2+X^2(t)\\bigr]}{N_0\\,W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{S_0}{N_0}\\right)_{AN}=\\dfrac{2\\pi G_{ch}^2\\,E\\bigl[X^4(t)\\bigr]}{N_0\\,W_{rec}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

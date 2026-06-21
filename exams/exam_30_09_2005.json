@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> הוא בעל פונקציית קורלציה <span class=\"math-container\">$R_X(\\tau)$</span> וספקטרום <span class=\"math-container\">$S_X(\\omega)$</span>. נגדיר: <span class=\"math-container\">$Y(t) = X(t+d) - X(t-d)$</span>.",
+    "question_text": "הקיפו את המשפט הנכון מבין המשפטים הבאים:",
+    "options": [
+      "<span class=\"math-container\">$R_Y(\\tau) = 2R_X(\\tau) - R_X(\\tau+2d) + R_X(\\tau-2d)$</span>",
+      "<span class=\"math-container\">$R_Y(\\tau) = R_X(\\tau-d) - R_X(\\tau+d)$</span>",
+      "<span class=\"math-container\">$S_y(\\omega) = 4\\sin^2(\\omega d)\\,S_x(\\omega)$</span>",
+      "אף אחת מהתשובות איננה נכונה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "יהי <span class=\"math-container\">$Z(t)$</span> תהליך אקראי עם ספקטרום <span class=\"math-container\">$S_Z(\\omega) = H_1$</span> ותוחלת אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקצית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = (N_0/2)\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר: <span class=\"math-container\">$H(f) = \\begin{cases} 1 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "מה יהיה ממוצע התהליך במוצא הפילטר?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1 + (N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "יהי <span class=\"math-container\">$Z(t)$</span> תהליך אקראי עם ספקטרום <span class=\"math-container\">$S_Z(\\omega) = H_1$</span> ותוחלת אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקצית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = (N_0/2)\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר: <span class=\"math-container\">$H(f) = \\begin{cases} 1 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "נתון כי במוצא הפילטר נתקבל יחס אות לרעש הגדול מ-100. מהו התנאי לכך?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0} > 50$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{H_1}{N_0}\\right)^2 > 100$</span>",
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0} > \\sqrt{50}$</span>",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "יהי <span class=\"math-container\">$Z(t)$</span> תהליך אקראי עם ספקטרום <span class=\"math-container\">$S_Z(\\omega) = H_1$</span> ותוחלת אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקצית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = (N_0/2)\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר: <span class=\"math-container\">$H(f) = \\begin{cases} 1 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "מה יהיה ממוצע הרעש במוצא הפילטר הנתון?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "אף תשובה מתוך התשובות הקודמות איננה נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "",
+    "question_text": "מהי תוחלת המשתנה האקראי <span class=\"math-container\">$X$</span> אם נתונה לנו פונקצית צפיפות הפילוג שלו: <span class=\"math-container\">$f_X(x) = \\dfrac{\\alpha}{\\pi(\\alpha^2 + x^2)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{\\pi\\alpha^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\alpha}{\\pi}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{\\pi\\alpha}$</span>",
+      "אף אחת מהתשובות איננה נכונה."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון כי <span class=\"math-container\">$f_X(x) = \\dfrac{\\alpha}{\\pi(\\alpha^2 + x^2)}$</span> (פילוג קושי). כעת נתון כי: <span class=\"math-container\">$Y = 1/X$</span>.",
+    "question_text": "מצא את ה-PDF עבור המשתנה <span class=\"math-container\">$Y$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{1/\\alpha}{\\pi\\left((1/\\alpha)^2 + y^2\\right)}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{\\alpha}{\\pi(\\alpha^2 + y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{1}{\\pi(1 + y^2)}$</span>",
+      "אף אחת מתוך התשובות הקודמות לא היתה נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "כעת נתון מ\"א <span class=\"math-container\">$Z$</span> עם PDF: <span class=\"math-container\">$f_Z(z) = \\begin{cases} \\dfrac{1}{\\pi} & |z| < \\dfrac{\\pi}{2} \\\\ 0 & \\text{O.W.} \\end{cases}$</span><br>כמו-כן: <span class=\"math-container\">$T = \\tan(Z)$</span>.",
+    "question_text": "מצא את ה-PDF עבור המשתנה <span class=\"math-container\">$T$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{1/\\alpha}{\\pi\\left((1/\\alpha)^2 + t^2\\right)}$</span>",
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{2}{\\pi\\cos(t)}$</span>",
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{1}{\\pi(1 + t^2)}$</span>",
+      "אף אחת מן התשובות איננה נכונה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי גאוסי, סטציונרי במובן הרחב. <span class=\"math-container\">$Z(t)$</span> הוא תהליך אקראי המוגדר כך: <span class=\"math-container\">$$z(t) = \\begin{cases} 1 & x(t) \\ge 0 \\\\ -1 & x(t) < 0 \\end{cases}$$</span>",
+    "question_text": "מצא את תוחלת התהליך <span class=\"math-container\">$Z(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$1 - 2F_X(0)$</span>",
+      "<span class=\"math-container\">$1 - F_X(0)$</span>",
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$2F_X(0) - 1$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי גאוסי, סטציונרי במובן הרחב. <span class=\"math-container\">$Z(t)$</span> הוא תהליך אקראי המוגדר כך: <span class=\"math-container\">$$z(t) = \\begin{cases} 1 & x(t) \\ge 0 \\\\ -1 & x(t) < 0 \\end{cases}$$</span><br>כעת נתון כי תוחלת התהליך <span class=\"math-container\">$X(t)$</span> הינה 0.",
+    "question_text": "כיצד נבטא את מקדם הקורולציה בין 2 כל דגימות של התהליך <span class=\"math-container\">$X(t)$</span> במישור הזמן?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{R_X(\\tau)}{\\sqrt{R_X(0)}}$</span>",
+      "<span class=\"math-container\">$\\dfrac{R_X(\\tau)}{\\sqrt[4]{R_X^4(0)}}$</span>",
+      "<span class=\"math-container\">$R_X(\\tau)$</span>",
+      "<span class=\"math-container\">$R_X(0)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון תהליך אקראי ממשי <span class=\"math-container\">$X_1(t)$</span> עם תוחלת אפס ועם ספקטרום הספק: <span class=\"math-container\">$S_{X_1}(\\omega) = \\begin{cases} 1 & 0 \\le |\\omega| \\le \\omega_0 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>.<br>נגדיר שני תהליכים אקראיים: <span class=\"math-container\">$Y_1(t) = X_1(t)\\cos(\\omega_0 t - \\theta)$</span>, <span class=\"math-container\">$Y_2(t) = X_1(t)\\cos(\\omega_0 t) + X_1(t)\\sin(\\omega_0 t)$</span>.<br>כאשר <span class=\"math-container\">$\\omega_o$</span> קבוע, ו-<span class=\"math-container\">$\\theta$</span> משתנה אקראי מתפלג פילוג אחיד בין <span class=\"math-container\">$-\\pi$</span> ל-<span class=\"math-container\">$\\pi$</span> ובת\"ס ב-<span class=\"math-container\">$X_1(t)$</span>.",
+    "question_text": "הקף את המשפט הנכון:",
+    "options": [
+      "<span class=\"math-container\">$X_1(t)$</span> ו-<span class=\"math-container\">$Y_2(t)$</span> לא אורתוגונליים ולא ח\"ק, <span class=\"math-container\">$Y_1(t)$</span> אינו מהווה בהכרח תהליך אקראי ארגודי.",
+      "<span class=\"math-container\">$X_1(t)$</span> ו-<span class=\"math-container\">$Y_2(t)$</span> לא אורתוגונליים ולא ח\"ק, <span class=\"math-container\">$Y_1(t)$</span> מהווה תהליך אקראי ארגודי.",
+      "<span class=\"math-container\">$X_1(t)$</span> ו-<span class=\"math-container\">$Y_2(t)$</span> אורתוגונליים וח\"ק, <span class=\"math-container\">$Y_1(t)$</span> אינו מהווה בהכרח תהליך אקראי ארגודי.",
+      "<span class=\"math-container\">$X_1(t)$</span> ו-<span class=\"math-container\">$Y_2(t)$</span> אורתוגונליים וח\"ק, <span class=\"math-container\">$Y_1(t)$</span> מהווה תהליך אקראי ארגודי."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  }
+]

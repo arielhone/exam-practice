@@ -1,0 +1,145 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון אות דטרמיניסטי <span class=\"math-container\">$s(t)$</span> בעל הספק <span class=\"math-container\">$H_1$</span> מוקף ברעש לבן גאוסי <span class=\"math-container\">$N(t)$</span> בעל צפיפות ספקיה חד-צדדית <span class=\"math-container\">$N_0$</span>. האות המדוד הוא <span class=\"math-container\">$Y(t)=\\sqrt{H_1}\\cdot s(t)+N(t)$</span>.",
+    "question_text": "מהי תוחלת רכיב הרעש <span class=\"math-container\">$E[N(t)]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון אות דטרמיניסטי <span class=\"math-container\">$s(t)$</span> בעל הספק <span class=\"math-container\">$H_1$</span> מוקף ברעש לבן גאוסי <span class=\"math-container\">$N(t)$</span> בעל צפיידות ספקיה חד-צדדית <span class=\"math-container\">$N_0$</span>. האות המדוד הוא <span class=\"math-container\">$Y(t)=\\sqrt{H_1}\\cdot s(t)+N(t)$</span>.",
+    "question_text": "תחת איזה תנאי על יחס אות-רעש ניתן להשתמש בקירוב הסיגנל-חזק (high-SNR approximation)?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0}&gt;50$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{H_1}{N_0}\\right)^2&gt;100$</span>",
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0}&gt;\\sqrt{50}$</span>",
+      "אף תשובה לא נכונה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון אות דטרמיניסטי <span class=\"math-container\">$s(t)$</span> בעל הספק <span class=\"math-container\">$H_1$</span> מוקף ברעש לבן גאוסי <span class=\"math-container\">$N(t)$</span> בעל צפיידות ספקיה חד-צדדית <span class=\"math-container\">$N_0$</span>. האות המדוד הוא <span class=\"math-container\">$Y(t)=\\sqrt{H_1}\\cdot s(t)+N(t)$</span>.",
+    "question_text": "מהי הקורלציה הצולבת <span class=\"math-container\">$E[N(t_1)\\cdot N(t_2)]$</span> עבור <span class=\"math-container\">$t_1\\neq t_2$</span>?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון אות דטרמיניסטי <span class=\"math-container\">$s(t)$</span> בעל הספק <span class=\"math-container\">$H_1$</span> מוקף ברעש לבן גאוסי <span class=\"math-container\">$N(t)$</span> בעל צפיידות ספקיה חד-צדדית <span class=\"math-container\">$N_0$</span>. מסנן בעל רוחב פס <span class=\"math-container\">$B/2$</span> (Hz) מגביל את הרעש.",
+    "question_text": "מהו הספק הרעש במוצא המסנן?",
+    "options": [
+      "<span class=\"math-container\">$0.25\\,N_0 B$</span>",
+      "<span class=\"math-container\">$0.5\\,N_0 B$</span>",
+      "אף תשובה לא נכונה",
+      "<span class=\"math-container\">$0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X=\\sum_{i=1}^{N}Z_i^2$</span>, כאשר <span class=\"math-container\">$Z_i\\sim\\mathcal{N}(0,1)$</span> הם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית עם תוחלת אפס ושונות 1 (<span class=\"math-container\">$X$</span> מתפלג פילוג כי-בריבוע עם <span class=\"math-container\">$N$</span> דרגות חופש, <span class=\"math-container\">$X\\sim\\chi^2(N)$</span>).",
+    "question_text": "מהי התוחלת <span class=\"math-container\">$E\\{X\\}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E\\{X\\}=N$</span>",
+      "<span class=\"math-container\">$E\\{X\\}=0.5N$</span>",
+      "<span class=\"math-container\">$E\\{X\\}=N^2$</span>",
+      "<span class=\"math-container\">$E\\{X\\}=3N$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X=\\sum_{i=1}^{N}Z_i^2$</span>, כאשר <span class=\"math-container\">$Z_i\\sim\\mathcal{N}(0,1)$</span> הם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית עם תוחלת אפס ושונות 1 (<span class=\"math-container\">$X\\sim\\chi^2(N)$</span>).",
+    "question_text": "מהו המומנט השני <span class=\"math-container\">$m_2=E\\{X^2\\}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$m_2=N(N+2)$</span>",
+      "<span class=\"math-container\">$m_2=N^2$</span>",
+      "<span class=\"math-container\">$m_2=N(N+1)$</span>",
+      "<span class=\"math-container\">$m_2=N(N^2+2)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X=\\sum_{i=1}^{N}Z_i^2$</span>, כאשר <span class=\"math-container\">$Z_i\\sim\\mathcal{N}(0,1)$</span> הם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית עם תוחלת אפס ושונות 1 (<span class=\"math-container\">$X\\sim\\chi^2(N)$</span>).",
+    "question_text": "מהי סטיית התקן <span class=\"math-container\">$\\sigma_X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_X=\\sqrt{2N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X=\\sqrt{N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X=\\sqrt{3N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X=N$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=\\bigl(e^{-Wt}-e^{-\\alpha Wt}\\bigr)u(t)$</span>, כאשר <span class=\"math-container\">$\\alpha&gt;1$</span> ו-<span class=\"math-container\">$W&gt;0$</span> הם קבועים ו-<span class=\"math-container\">$u(t)$</span> הוא פונקציית המדרגה היחידה. האות נקלט בנוכחות רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> בעל PSD קבועה <span class=\"math-container\">$C$</span>.",
+    "question_text": "חשב את התמרת פורייה <span class=\"math-container\">$x(\\omega)=\\int_0^{\\infty}x(t)\\,e^{j\\omega t}\\,dt$</span>.",
+    "options": [
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W-j\\omega)\\cdot(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha+1)W}{(W-j\\omega)\\cdot(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)\\cdot(\\alpha W+j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)\\cdot(\\alpha W-j\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=\\bigl(e^{-Wt}-e^{-\\alpha Wt}\\bigr)u(t)$</span>, כאשר <span class=\"math-container\">$\\alpha&gt;1$</span> ו-<span class=\"math-container\">$W&gt;0$</span> הם קבועים ו-<span class=\"math-container\">$u(t)$</span> הוא פונקציית המדרגה היחידה. האות נקלט בנוכחות רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> בעל PSD קבועה <span class=\"math-container\">$C$</span>. מבקשים לאמוד את <span class=\"math-container\">$x(t)$</span> בעיכוב <span class=\"math-container\">$t_o$</span>.",
+    "question_text": "כתוב את פונקצית התמסורת <span class=\"math-container\">$H_{opt}(\\omega)$</span> של מסנן ווינר האופטימלי.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W-j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W+j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W+j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=\\bigl(e^{-Wt}-e^{-\\alpha Wt}\\bigr)u(t)$</span>, כאשר <span class=\"math-container\">$\\alpha&gt;1$</span> ו-<span class=\"math-container\">$W&gt;0$</span> הם קבועים. האות נקלט בנוכחות רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> בעל PSD קבועה <span class=\"math-container\">$C$</span>. פונקצית התמסורת של מסנן ווינר האופטימלי היא:<br><span class=\"math-container\">$$H_{opt}(\\omega)=\\frac{\\alpha-1}{2\\pi C}\\cdot\\frac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$$</span>",
+    "question_text": "כתוב את תגובת הלם <span class=\"math-container\">$h_{opt}(t)$</span> של המסנן האופטימלי.",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha-1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=\\bigl(e^{-Wt}-e^{-\\alpha Wt}\\bigr)u(t)$</span>, כאשר <span class=\"math-container\">$\\alpha&gt;1$</span> ו-<span class=\"math-container\">$W&gt;0$</span> הם קבועים. האות נקלט בנוכחות רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> בעל PSD קבועה <span class=\"math-container\">$C$</span>. תגובת הלם של מסנן ווינר האופטימלי היא:<br><span class=\"math-container\">$$h_{opt}(t)=\\frac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$$</span>",
+    "question_text": "האם <span class=\"math-container\">$h_{opt}(t)$</span> היא פונקציה סיבתית?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)$</span> סיבתית לכל <span class=\"math-container\">$t_o&gt;0$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)$</span> אינה סיבתית",
+      "<span class=\"math-container\">$h_{opt}(t)$</span> סיבתית לכל <span class=\"math-container\">$t_o&lt;0$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)$</span> סיבתית לכל <span class=\"math-container\">$t_o&gt;\\alpha$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

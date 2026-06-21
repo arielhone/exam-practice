@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "<span class=\"math-container\">$X$</span> משתנה אקראי גאוסי עם תוחלת אפס ושונות 1. נגדיר: <span class=\"math-container\">$Y = \\cos(aX + b)$</span>.",
+    "question_text": "מצאו את התוחלת של <span class=\"math-container\">$Y = \\cos(aX + b)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E\\{Y\\} = e^{-\\frac{a}{2}} \\cos(b)$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = e^{-a^2} \\cos(b)$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = e^{-a} \\cos(b)$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = e^{-\\frac{1}{2}a^2} \\cos(b)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "<span class=\"math-container\">$X$</span> משתנה אקראי גאוסי עם תוחלת אפס ושונות 1. נגדיר: <span class=\"math-container\">$Y = \\cos(aX + b)$</span>.",
+    "question_text": "מצאו את השונות של <span class=\"math-container\">$Y = \\cos(aX + b)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\frac{1}{2} + \\frac{1}{2}e^{-2a^2}\\cos(2b)$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\frac{1}{2} + \\frac{1}{2}e^{-\\frac{1}{2}a^2}\\cos(2b)$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\frac{1}{2}\\left(1 - e^{-\\frac{1}{2}a^2}\\right)\\left(1 - e^{-a^2}\\cos(2b)\\right)$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\frac{1}{2}\\left(1 - e^{-a^2}\\right)\\left(1 - e^{-a^2}\\cos(2b)\\right)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "<span class=\"math-container\">$X$</span> משתנה אקראי גאוסי עם תוחלת אפס ושונות 1. נגדיר: <span class=\"math-container\">$Y = \\cos(aX + b)$</span>.",
+    "question_text": "מצאו ערך של <span class=\"math-container\">$b$</span> עבורו נקבל שונות השווה לאפס. (הנח <span class=\"math-container\">$a \\neq 0$</span>)",
+    "options": [
+      "אף תשובה לא נכונה.",
+      "<span class=\"math-container\">$a$</span>",
+      "<span class=\"math-container\">$\\frac{\\pi}{2}$</span>",
+      "<span class=\"math-container\">$0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון אות תקשורת המהווה תהליך אקראי גאוסי <span class=\"math-container\">$X(t)$</span>. לאות תוחלת אפס ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. אות התקשורת עובר דרך התקן הנקרא: \"מגבל\" (Limiter) כך שבמוצא המגבל מתקבל:<br><span class=\"math-container\">$$Y(t) = \\begin{cases} 1 & X(t) \\geq 0 \\\\ -1 & X(t) < 0 \\end{cases}$$</span>",
+    "question_text": "הקף את המשפט הנכון מבין המשפטים הבאים:",
+    "options": [
+      "אף אחד מהמשפטים הבאים אינו נכון.",
+      "<span class=\"math-container\">$\\sigma_Y^2 = 1$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = 0$</span>",
+      "עבור <span class=\"math-container\">$t$</span> כלשהו <span class=\"math-container\">$Y(t)$</span> מהווה מ\"א גאוסי."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "<span class=\"math-container\">$a$</span> ו- <span class=\"math-container\">$b$</span> משתנים אקראיים בת\"ס בעלי ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_a^2, \\sigma_b^2$</span> השונה מאפס. התהליך האקראי <span class=\"math-container\">$x(t)$</span> יוגדר כ: <span class=\"math-container\">$x(t) = at + b$</span>.",
+    "question_text": "הקף את המשפט הנכון:",
+    "options": [
+      "<span class=\"math-container\">$x(t) = at + b$</span> סטציונרי וארגודי.",
+      "<span class=\"math-container\">$x(t) = at + b$</span> סטציונרי אבל לא ארגודי.",
+      "<span class=\"math-container\">$x(t) = at + b$</span> לא סטציונרי ולא ארגודי.",
+      "<span class=\"math-container\">$x(t) = at + b$</span> ארגודי ולא סטציונרי."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "<span class=\"math-container\">$a$</span> ו- <span class=\"math-container\">$b$</span> משתנים אקראיים בת\"ס בעלי ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_a^2, \\sigma_b^2$</span> השונה מאפס. התהליך האקראי <span class=\"math-container\">$x(t)$</span> יוגדר כ: <span class=\"math-container\">$x(t) = at + b$</span>.<br>נתונים הקבועים: <span class=\"math-container\">$h_1, \\ldots, h_n$</span> הפרשי הזמנים: <span class=\"math-container\">$\\tau_1, \\ldots, \\tau_n$</span> ומוגדר התהליך <span class=\"math-container\">$y(t) = \\sum_{i=1}^{m} h_i x(t - \\tau_i)$</span>.",
+    "question_text": "הקף את המשפט הנכון:",
+    "options": [
+      "<span class=\"math-container\">$y(t) = \\sum_{i=1}^{m} h_i x(t-\\tau_i)$</span> אינו ארגודי. <span class=\"math-container\">$y(t)$</span> סטציונרי תחת תנאי מסוים.",
+      "<span class=\"math-container\">$y(t) = \\sum_{i=1}^{m} h_i x(t-\\tau_i)$</span> אינו ארגודי ואינו סטציונרי.",
+      "<span class=\"math-container\">$y(t) = \\sum_{i=1}^{m} h_i x(t-\\tau_i)$</span> סטציונרי וארגודי.",
+      "<span class=\"math-container\">$y(t) = \\sum_{i=1}^{m} h_i x(t-\\tau_i)$</span> ארגודי בתנאים מסוימים. <span class=\"math-container\">$y(t)$</span> סטציונרי תחת תנאי מסוים."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מערכת ליניארית שתגובתה להלם: <span class=\"math-container\">$h(t) = A\\delta(t - \\theta)$</span>. <span class=\"math-container\">$A$</span> ו- <span class=\"math-container\">$\\theta$</span> קבועים. כמו כן נתון <span class=\"math-container\">$X(t)$</span> תהליך אקראי סטציונרי עם ספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = \\frac{N_0}{\\alpha^2 + \\omega^2}$$</span><span class=\"math-container\">$N(t)$</span> רעש לבן עם תוחלת אפס ואוטוקורלציה <span class=\"math-container\">$R_N(\\tau) = N_0\\delta(\\tau)$</span>. <span class=\"math-container\">$X(t)$</span> ו- <span class=\"math-container\">$N(t)$</span> בת\"ס זה בזה. יהי <span class=\"math-container\">$Z(t) = X(t) + N(t)$</span>, ויהי <span class=\"math-container\">$Y(t)$</span> האות המתקבל במוצא המערכת הליניארית בעלת פונקצית התגובה להלם <span class=\"math-container\">$h(t) = A\\delta(t - \\theta)$</span> אשר אליה מכניסים את האות <span class=\"math-container\">$Z(t)$</span>.",
+    "question_text": "הקף את המשפט הנכון לגבי התהליך <span class=\"math-container\">$Y(t)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left[\\frac{N_0}{\\alpha^2 + \\omega^2} + N_0\\right]A^2$</span>",
+      "<span class=\"math-container\">$S_Y(0) = \\frac{N_0}{\\alpha^2} A^2$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left[\\frac{N_0}{\\alpha^2} + N_0\\right]^2 A^2$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left[\\frac{N_0^2}{\\alpha^2 + \\omega^2} + N_0^2\\right]A^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת ליניארית שתגובתה להלם: <span class=\"math-container\">$h(t) = A\\delta(t - \\theta)$</span>. <span class=\"math-container\">$A$</span> ו- <span class=\"math-container\">$\\theta$</span> קבועים. כמו כן נתון <span class=\"math-container\">$X(t)$</span> תהליך אקראי סטציונרי עם ספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = \\frac{N_0}{\\alpha^2 + \\omega^2}$$</span><span class=\"math-container\">$N(t)$</span> רעש לבן עם תוחלת אפס ואוטוקורלציה <span class=\"math-container\">$R_N(\\tau) = N_0\\delta(\\tau)$</span>. <span class=\"math-container\">$X(t)$</span> ו- <span class=\"math-container\">$N(t)$</span> בת\"ס זה בזה. יהי <span class=\"math-container\">$Z(t) = X(t) + N(t)$</span>, ויהי <span class=\"math-container\">$Y(t)$</span> האות המתקבל במוצא המערכת הליניארית בעלת פונקצית התגובה להלם <span class=\"math-container\">$h(t) = A\\delta(t - \\theta)$</span> אשר אליה מכניסים את האות <span class=\"math-container\">$Z(t)$</span>.",
+    "question_text": "הקף את המשפט הנכון מבין המשפטים הבאים:",
+    "options": [
+      "<span class=\"math-container\">$Y(t)$</span> ת\"א סטציונרי תמיד.",
+      "<span class=\"math-container\">$Y(t)$</span> ת\"א סטציונרי תחת תנאים מסוימים ולא תמיד.",
+      "<span class=\"math-container\">$Y(t)$</span> ת\"א שאינו סטציונרי.",
+      "אף תשובה אינה נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון: <span class=\"math-container\">$Y(t) = N_1(t)X(t) + N_2(t)$</span> כאשר <span class=\"math-container\">$X(t)$</span> ו- <span class=\"math-container\">$N_1(t), N_2(t)$</span> רעשים. כל השלושה תהליכים אקראיים וסטציונריים עם תוחלת אפס ופונקציות אוטוקורלציה: <span class=\"math-container\">$R_{XX}(\\tau)$</span>, <span class=\"math-container\">$R_{N_1N_1}(\\tau)$</span>, <span class=\"math-container\">$R_{N_2N_2}(\\tau)$</span>. כל שלושת התהליכים בת\"ס זה בזה הדדית.",
+    "question_text": "הקף את המשפט הנכון לגבי <span class=\"math-container\">$Y(t)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2 = R_{N_1}(0)R_X(0) + R_{N_2}(0)$</span>",
+      "<span class=\"math-container\">$Y(t)$</span> תהליך אקראי סטציונרי.",
+      "<span class=\"math-container\">$R_Y(\\tau) = R_{N_1}(\\tau)R_X(\\tau)$</span>",
+      "תשובות א' + ב' נכונות."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון: <span class=\"math-container\">$Y(t) = N_1(t)X(t) + N_2(t)$</span> כאשר <span class=\"math-container\">$X(t)$</span> ו- <span class=\"math-container\">$N_1(t), N_2(t)$</span> רעשים. כל השלושה תהליכים אקראיים וסטציונריים עם תוחלת אפס ופונקציות אוטוקורלציה: <span class=\"math-container\">$R_{XX}(\\tau)$</span>, <span class=\"math-container\">$R_{N_1N_1}(\\tau)$</span>, <span class=\"math-container\">$R_{N_2N_2}(\\tau)$</span>. כל שלושת התהליכים בת\"ס זה בזה הדדית.<br>נתון כי <span class=\"math-container\">$N_1(t), N_2(t)$</span> הם רעשים לבנים עם צפיפות ספקטרלית <span class=\"math-container\">$q$</span>.",
+    "question_text": "מעבירים את <span class=\"math-container\">$Y(t)$</span> דרך מסנן מעביר נמוכים אידיאלי עם פונקצית תמסורת: <span class=\"math-container\">$$H(\\omega) = \\begin{cases} 1 & |\\omega| < B \\\\ 0 & \\text{otherwise} \\end{cases}$$</span> תן ביטוי להספק תפוקת המסנן:",
+    "options": [
+      "<span class=\"math-container\">$\\frac{B}{\\pi}q\\left(1 + R_{XX}(0)\\right)$</span>",
+      "<span class=\"math-container\">$\\frac{B}{\\pi}q\\left(1 + R_{XX}(\\tau)\\right)$</span>",
+      "<span class=\"math-container\">$\\frac{B}{2\\pi}q\\left(1 + R_{XX}(0)\\right)$</span>",
+      "<span class=\"math-container\">$\\frac{2B}{\\pi}q\\left(1 + R_{XX}(0)\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

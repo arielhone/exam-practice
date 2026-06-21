@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון: <span class=\"math-container\">$z = |x|$</span>.",
+    "question_text": "מהי פונקציית ההסתברות של המשתנה האקראי <span class=\"math-container\">$z$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_Z(z) = [F_X(z)\\cdot F_X(-z)]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z) = [F_X(z) - F_X(-z)]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z) = F_X(z) - F_X(-z)$</span>",
+      "<span class=\"math-container\">$F_Z(z) = [F_X(z) + F_X(-z)]\\,u(z)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון כי: <span class=\"math-container\">$y = |x| + n$</span> כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם מ\"א גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$y$</span> גאוסי?",
+    "options": [
+      "כן, בהנחות מסוימות.",
+      "לא.",
+      "כן.",
+      "היה גאוסי אם תוחלת <span class=\"math-container\">$x$</span> היתה שונה מאפס."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון כי: <span class=\"math-container\">$y = |x| + n$</span> כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם מ\"א גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$y$</span> אורתוגונליים, ח\"ק?",
+    "options": [
+      "לא אורתוגונליים, לא ח\"ק.",
+      "אורתוגונליים, ח\"ק.",
+      "אורתוגונליים, לא ח\"ק.",
+      "לא אורתוגונליים, ח\"ק."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם ספקטרום <span class=\"math-container\">$S_Y(f) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = N_0/2$</span> ועם ממוצע אפס. פונקציית התמסורת: <span class=\"math-container\">$H(f) = \\begin{cases} 0.5 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "מה יהיה ממוצע התהליך במוצא הפילטר?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1 + (N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם ספקטרום <span class=\"math-container\">$S_Y(f) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = N_0/2$</span> ועם ממוצע אפס. פונקציית התמסורת: <span class=\"math-container\">$H(f) = \\begin{cases} 0.5 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "נתון כי במוצא הפילטר נתקבל יחס אות לרעש הגדול מ-100. מה יהיה התנאי לכך?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0} > 50$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{H_1}{N_0}\\right)^2 > 100$</span>",
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0} > \\sqrt{50}$</span>",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם ספקטרום <span class=\"math-container\">$S_Y(f) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = N_0/2$</span> ועם ממוצע אפס. פונקציית התמסורת: <span class=\"math-container\">$H(f) = \\begin{cases} 0.5 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "מה יהיה ממוצע הרעש במוצא הפילטר הנתון?",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1 + (N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם ספקטרום <span class=\"math-container\">$S_Y(f) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורולציה <span class=\"math-container\">$R_N(\\tau) = N_0/2$</span> ועם ממוצע אפס. פונקציית התמסורת: <span class=\"math-container\">$H(f) = \\begin{cases} 0.5 & f_0 - B/2 < |f| < f_0 + B/2 \\\\ 0 & \\text{O.W.} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll f_0$</span>.",
+    "question_text": "מה יהיה סה\"כ הספק הרעש במוצא הפילטר (בכל התדרים)?",
+    "options": [
+      "<span class=\"math-container\">$0.25\\,N_0 B$</span>",
+      "<span class=\"math-container\">$0.5\\,N_0 B$</span>",
+      "אף תשובה לא נכונה.",
+      "<span class=\"math-container\">$0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי אחר <span class=\"math-container\">$X(t)$</span>: <span class=\"math-container\">$$y(t) = \\int_0^T x(t-\\sigma)\\,d\\sigma$$</span><br>ידוע ש: <span class=\"math-container\">$X(t)$</span> ת\"א סטציונרי והוא עם תוחלת <span class=\"math-container\">$\\beta$</span> ופ' אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "מה תהיה תוחלת התהליך <span class=\"math-container\">$Y(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\beta$</span>",
+      "<span class=\"math-container\">$\\beta T$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\beta}{T}$</span>",
+      "לא ניתן לדעת."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי אחר <span class=\"math-container\">$X(t)$</span>: <span class=\"math-container\">$$y(t) = \\int_0^T x(t-\\sigma)\\,d\\sigma$$</span><br>ידוע ש: <span class=\"math-container\">$X(t)$</span> ת\"א סטציונרי והוא עם תוחלת <span class=\"math-container\">$\\beta$</span> ופ' אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "האם התהליך <span class=\"math-container\">$Y(t)$</span> מהווה תהליך אקראי סטציונרי?",
+    "options": [
+      "כן.",
+      "לא.",
+      "א\"א כרגע לתת תשובה חד משמעית, חסר נתון בשאלה.",
+      "סטציונרי רק עם: <span class=\"math-container\">$\\beta = 0$</span>."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון כי <span class=\"math-container\">$Z(t)$</span> מהווה תהליך אקראי גאוסי עם תוחלת 6 ושונות <span class=\"math-container\">$\\sigma^2$</span>. נעביר אותו דרך מעגל חשמלי שבמוצאו נקבל תהליך אקראי חדש <span class=\"math-container\">$W(t)$</span> אשר מקיים: <span class=\"math-container\">$$W(t) = \\begin{cases} 1 & X(t) \\ge 0 \\\\ -1 & X(t) < 0 \\end{cases}$$</span><br>נתונה הפונקציה: <span class=\"math-container\">$Q(x) = \\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_x^{+\\infty} e^{-z^2/2}\\,dz$</span>",
+    "question_text": "חשב את ההסתברות: <span class=\"math-container\">$P\\{W(t) = 1\\}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$0.5$</span>",
+      "<span class=\"math-container\">$Q\\!\\left(\\dfrac{6}{\\sigma}\\right)$</span>",
+      "<span class=\"math-container\">$1 - Q\\!\\left(\\dfrac{6}{\\sigma}\\right)$</span>",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  }
+]

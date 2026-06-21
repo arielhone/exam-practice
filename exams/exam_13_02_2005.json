@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "כתוב ביטוי לרוחב הסרט <span class=\"math-container\">$B$</span> של מסנן מעביר נמוכים (LPF):",
+    "options": [
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{3N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{10N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{4N_0}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": "exams/images/exam_13_02_2005/q1.png"
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "הבע את שונות הרעש <span class=\"math-container\">$\\sigma_n^2$</span> המתקבל במוצא ה-LPF באמצעות שונות האות <span class=\"math-container\">$\\sigma_X^2$</span>:",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{2}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{10}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{4}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{8}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "קבע את הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$-\\sigma_X$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\sigma_X}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\sigma_X}{4}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "חשב את השונות <span class=\"math-container\">$\\sigma_Y^2$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{11}{10}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{2}\\sigma_X^2 + N_0 B$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{10}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{2}\\sigma_X^2 + \\dfrac{1}{4}N_0 B$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "בהנחה שלגלאי הריבועי נכנס תהליך בעל פילוג אקספוננציאלי עם ממוצע <span class=\"math-container\">$\\sigma_Y$</span> ושונות <span class=\"math-container\">$\\sigma_Y^2$</span>, כתוב ביטוי לפונקצית צפיפות ההסתברות <span class=\"math-container\">$f_z(z)$</span> של התהליך <span class=\"math-container\">$Z(t)$</span> המתקבל במוצא הגלאי הריבועי.",
+    "options": [
+      "<span class=\"math-container\">$f_z(z) = \\dfrac{1}{2\\sqrt{2\\pi z}\\,\\sigma_Y}\\,e^{-z/(2\\sigma_Y^2)}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_z(z) = \\dfrac{1}{2\\sqrt{z}\\,\\sigma_Y}\\,e^{-\\sqrt{z}/\\sigma_Y}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_z(z) = \\dfrac{1}{2\\sqrt{2\\pi}\\,z\\,\\sigma_Y}\\,e^{-z^2/(2\\sigma_Y)}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_z(z) = \\dfrac{1}{2\\sqrt{2\\pi}\\,\\sigma_Y}\\,e^{-z/(2\\sigma_Y^2)}\\,u(z)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "מהו הממוצע <span class=\"math-container\">$\\overline{Z(t)}$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\bar{z} = \\dfrac{1}{2}\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$\\bar{z} = \\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$\\bar{z} = 3\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$\\bar{z} = 2\\sigma_Y^2$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t)$</span> בפס בסיס בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = 0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span>. לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\dfrac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים לגלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור: <span class=\"math-container\">$X(t) \\to (+) \\to \\text{BPF}[-B,+B] \\to Y(t) \\to (\\cdot)^2 \\to Z(t)$</span>, עם <span class=\"math-container\">$n(t)$</span> מסתפח בכניסה.<br>בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, וכן שיחס הספק האות להספק הרעש המתקבל במוצא ה-LPF יהיה 10 dB.",
+    "question_text": "מהי השונות <span class=\"math-container\">$\\sigma_Z^2$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Z^2 = \\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\sigma_Z^2 = 2\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\sigma_Z^2 = 20\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\sigma_Z^2 = 40\\sigma_Y^4$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון כי לאות תקשורת פונקצית PDF מסוג ריילי: <span class=\"math-container\">$$f_X(x) = \\begin{cases} \\dfrac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$$</span>",
+    "question_text": "חשב את פונקצית ה-CDF.",
+    "options": [
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 1 - e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 1 - \\dfrac{1}{b}e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 1 - be^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} a^2 - e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון כי לאות תקשורת פונקצית PDF מסוג ריילי: <span class=\"math-container\">$$f_X(x) = \\begin{cases} \\dfrac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$$</span><br>אות התקשורת עובר דרך התקן הנקרא מכמת ואשר במוצאו נקבל משתנה אקראי חדש: <span class=\"math-container\">$Y = floor(X)$</span>, כלומר הערך השלם הנמוך של המשתנה האקראי <span class=\"math-container\">$X$</span>. הנח <span class=\"math-container\">$a = 0, b = 1$</span>.",
+    "question_text": "מהי פונקצית צפיפות הפילוג של <span class=\"math-container\">$Y = floor(X)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty}\\left[e^{-(n+1)} - e^{-(n-1)}\\right]\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty}\\left[e^{-n} - e^{-(n-1)}\\right]\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty}\\left[e^{-n^2} - e^{-(n+1)^2}\\right]\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty}\\left[e^{-n^2}\\right]\\delta(y-n)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון כי לאות תקשורת פונקצית PDF מסוג ריילי: <span class=\"math-container\">$$f_X(x) = \\begin{cases} \\dfrac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\ge a \\\\ 0 & x < a \\end{cases}$$</span><br>אות התקשורת עובר דרך התקן הנקרא מכמת ואשר במוצאו נקבל משתנה אקראי חדש: <span class=\"math-container\">$Y = floor(X)$</span>. הנח <span class=\"math-container\">$a = 0, b = 1$</span>.",
+    "question_text": "נגדיר את שגיאת הכימות כ: <span class=\"math-container\">$Z = X - Y = X - floor(X)$</span>. מהי תוחלת שגיאת הכימות?",
+    "options": [
+      "<span class=\"math-container\">$E[Z] = \\dfrac{\\sqrt{\\pi}}{2} - \\displaystyle\\sum_{n=0}^{\\infty} n\\left[e^{-n^2} - e^{-(n+1)^2}\\right]$</span>",
+      "<span class=\"math-container\">$E[Z] = \\dfrac{\\sqrt{\\pi}}{4} - \\displaystyle\\sum_{n=0}^{\\infty} n\\left[e^{-n} - e^{-(n-1)}\\right]$</span>",
+      "<span class=\"math-container\">$E[Z] = \\dfrac{\\sqrt{\\pi}}{2} - \\displaystyle\\sum_{n=0}^{\\infty} n\\left[e^{-(n+1)} - e^{-(n-1)}\\right]$</span>",
+      "<span class=\"math-container\">$E[Z] = \\dfrac{\\sqrt{\\pi}}{4} - \\displaystyle\\sum_{n=0}^{\\infty} n\\left[e^{-n^2}\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

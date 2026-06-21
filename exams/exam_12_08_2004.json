@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^2 + Be^{-|\\tau|}$</span> <span class=\"math-container\">$(A, B > 0)$</span>. התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = tu(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.",
+    "question_text": "חשב את ממוצע האות במוצא הפילטר.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{A}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{B}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A}{w^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A+B}{w}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^2 + Be^{-|\\tau|}$</span> <span class=\"math-container\">$(A, B > 0)$</span>. התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = tu(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.",
+    "question_text": "רעש לבן <span class=\"math-container\">$S_n(\\omega) = \\dfrac{N_0}{2}$</span> נכנס למערכת הליניארית המתוארת על ידי תגובה להלם כמו בסעיף א. חשב את ריבוע המתח במוצא:",
+    "options": [
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{w^3}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{2w}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{8w^3}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{4w}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^2 + Be^{-|\\tau|}$</span> <span class=\"math-container\">$(A, B > 0)$</span>. התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = tu(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.",
+    "question_text": "חשב את רוחב הפס לרעש של פילטר מעביר נמוכים (LPF) כאשר מתקיים: <span class=\"math-container\">$$|H(\\omega)|^2 = \\dfrac{1}{\\left(1+\\left(\\dfrac{\\omega}{w}\\right)^2\\right)^3}$$</span>",
+    "options": [
+      "<span class=\"math-container\">$w_n = \\dfrac{\\pi w}{16}$</span>",
+      "<span class=\"math-container\">$w_n = \\dfrac{w}{18}$</span>",
+      "<span class=\"math-container\">$w_n = \\dfrac{3\\pi w}{16}$</span>",
+      "<span class=\"math-container\">$w_n = w$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "",
+    "question_text": "נתון נגד בעל התנגדות <span class=\"math-container\">$R$</span>. איזה עומס <span class=\"math-container\">$R_L$</span> יש לחבר לנגד על מנת שהספק הרעש הנובע מהנגד על העומס יהיה מקסימלי?",
+    "options": [
+      "<span class=\"math-container\">$R_L = \\dfrac{1}{3}R$</span>",
+      "<span class=\"math-container\">$R_L = \\dfrac{1}{4}R$</span>",
+      "<span class=\"math-container\">$R_L = \\dfrac{1}{2}R$</span>",
+      "<span class=\"math-container\">$R_L = R$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "",
+    "question_text": "נתון נגד בעל התנגדות <span class=\"math-container\">$R_1$</span> וטמפרטורה <span class=\"math-container\">$T_1$</span> המחובר במקביל לנגד בעל התנגדות <span class=\"math-container\">$R_2$</span> וטמפרטורה <span class=\"math-container\">$T_2$</span>. חשב את הטמפרטורה האפקטיבית <span class=\"math-container\">$T$</span> של המערכת:",
+    "options": [
+      "<span class=\"math-container\">$T = T_1 + T_2$</span>",
+      "<span class=\"math-container\">$T = \\dfrac{T_1 R_2 + T_2 R_1}{R_1 + R_2}$</span>",
+      "<span class=\"math-container\">$T = \\dfrac{T_1 R_1 + T_2 R_2}{R_1 + R_2}$</span>",
+      "<span class=\"math-container\">$T = T_1$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "",
+    "question_text": "רעש לבן <span class=\"math-container\">$S_n(\\omega) = \\dfrac{N_0}{2}$</span> מהווה קלט למערכת צרת סרט המקיימת <span class=\"math-container\">$|H(0)|^2 = 2$</span> ורוחב סרט לרעש של <span class=\"math-container\">$w_n = 2\\pi \\cdot 2\\,\\mathrm{MHz}$</span>. במוצא המערכת יש עומס של <span class=\"math-container\">$1\\,\\Omega$</span> עליו מתקבל הספק <span class=\"math-container\">$P_y = 0.1\\,\\mathrm{w}$</span>. מהו <span class=\"math-container\">$N_0$</span>?",
+    "options": [
+      "<span class=\"math-container\">$N_0 = \\dfrac{1}{2} \\cdot 10^{-7}\\,\\mathrm{w}$</span>",
+      "<span class=\"math-container\">$N_0 = \\dfrac{1}{4} \\cdot 10^{-7}\\,\\mathrm{w}$</span>",
+      "<span class=\"math-container\">$N_0 = \\dfrac{1}{4} \\cdot 10^{-6}\\,\\mathrm{w}$</span>",
+      "<span class=\"math-container\">$N_0 = \\dfrac{1}{8} \\cdot 10^{-7}\\,\\mathrm{w}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מערכת לגילוי צוללות המתוארת באיור. הנח כי האות <span class=\"math-container\">$n(t)$</span> הוא תהליך סטציונרי וארגודי, וכן הנח כי האות מונחת בפקטור <span class=\"math-container\">$D$</span> בזמן המעבר בתווך ובזמן ההחזרה. וכן הנח כי זמן האינטגרציה <span class=\"math-container\">$T$</span> ארוך מאד.",
+    "question_text": "חשב את האות <span class=\"math-container\">$V$</span> המתקבל במוצא המערכת.",
+    "options": [
+      "<span class=\"math-container\">$V = DR_{nn}(\\tau_R - \\tau_T)$</span>",
+      "<span class=\"math-container\">$V = R_{nn}(\\tau_R - \\tau_T)$</span>",
+      "<span class=\"math-container\">$V = DR_{nn}(\\tau_R)$</span>",
+      "<span class=\"math-container\">$V = DR_{nn}(\\tau_T)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_12_08_2004/q7.png"
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת לגילוי צוללות המתוארת באיור. הנח כי האות <span class=\"math-container\">$n(t)$</span> הוא תהליך סטציונרי וארגודי, וכן הנח כי האות מונחת בפקטור <span class=\"math-container\">$D$</span> בזמן המעבר בתווך ובזמן ההחזרה. וכן הנח כי זמן האינטגרציה <span class=\"math-container\">$T$</span> ארוך מאד.",
+    "question_text": "יהי <span class=\"math-container\">$\\tau_T$</span> זמן ההשהיה שבו מתקבל ההחזר מקסימלי, תהי <span class=\"math-container\">$c$</span> מהירות הקול במים. מהו המרחק לצוללת?",
+    "options": [
+      "<span class=\"math-container\">$R = \\dfrac{c\\tau_T}{4}$</span>",
+      "<span class=\"math-container\">$R = \\dfrac{c\\tau_T}{8}$</span>",
+      "<span class=\"math-container\">$R = \\dfrac{c\\tau_T}{2}$</span>",
+      "<span class=\"math-container\">$R = c\\tau_T$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "",
+    "question_text": "נתונה מערכת ליניארית המבצעת גזירה של אות. למערכת מכניסים אות סטציונרי במובן הרחב בעל אוטו-קורלאציה <span class=\"math-container\">$R_{xx}(\\tau)$</span>. חשב את הקרוס-קורלאציה בין האות בכניסה לאות ביציאה:",
+    "options": [
+      "<span class=\"math-container\">$R_{xy}(\\tau) = -\\dfrac{dR_{xx}(\\tau)}{d\\tau}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = -\\dfrac{d^2R_{xx}(\\tau)}{d\\tau^2}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{dR_{xx}(\\tau)}{d\\tau}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = R_{xx}(\\tau)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "",
+    "question_text": "למערכת הליניארית המבצעת גזירה שבסעיף הקודם, חשב את האוטו-קורלאציה של האות במוצא:",
+    "options": [
+      "<span class=\"math-container\">$R_{yy}(\\tau) = -\\dfrac{d^2R_{xx}(\\tau)}{d\\tau^2}$</span>",
+      "<span class=\"math-container\">$R_{yy}(\\tau) = \\dfrac{d^2R_{xx}(\\tau)}{d\\tau^2}$</span>",
+      "<span class=\"math-container\">$R_{yy}(\\tau) = \\displaystyle\\int_0^{\\tau} R_{xy}(\\tau')\\,d\\tau'$</span>",
+      "<span class=\"math-container\">$R_{yy}(\\tau) = \\displaystyle\\int_0^{\\tau} R_{xx}(\\tau')\\,d\\tau'$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

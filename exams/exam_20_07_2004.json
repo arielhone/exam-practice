@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונה פונקצית הצפיפות הדו-משתנית הבאה:<br><span class=\"math-container\">$$f_{xy}(x,y) = \\begin{cases} be^{-(x+y)} & 0 < x < a,\\; 0 < y < \\infty \\\\ 0 & \\text{else} \\end{cases}$$</span>",
+    "question_text": "חשב את <span class=\"math-container\">$b$</span> כפונקציה של <span class=\"math-container\">$a$</span>.",
+    "options": [
+      "<span class=\"math-container\">$b = \\dfrac{e^a}{e^a - 1}$</span>",
+      "<span class=\"math-container\">$b = \\dfrac{1}{e^a - 1}$</span>",
+      "<span class=\"math-container\">$b = \\dfrac{e^a}{e^{-a} - 1}$</span>",
+      "<span class=\"math-container\">$b = \\dfrac{e^a}{e^a + 1}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתונה פונקצית הצפיפות הדו-משתנית הבאה:<br><span class=\"math-container\">$$f_{xy}(x,y) = \\begin{cases} be^{-(x+y)} & 0 < x < a,\\; 0 < y < \\infty \\\\ 0 & \\text{else} \\end{cases}$$</span>",
+    "question_text": "חשב את פונקצית ה-CDF עבור פונקצית הצפיפות הנתונה בסעיף א.",
+    "options": [
+    "$F_{xy}(x,y) = b \\cdot (1-e^{-y})(1-e^{-x})$ עבור $0 < x < a$ ו-$y > 0$",
+    "$F_{xy}(x,y) = b \\cdot (1-e^{-y})(1-e^{-x})$ עבור $0 < x < a$ ו-$y > 0$; ו-$b \\cdot (1-e^{-y})(1-e^{-a})$ עבור $x \\ge a$ ו-$y > 0$",
+    "$F_{xy}(x,y) = b \\cdot (1-e^{y})(1-e^{x})$ עבור $0 < x < a$ ו-$y > 0$",
+    "$F_{xy}(x,y) = b \\cdot (1+e^{-y})(1+e^{-x})$ עבור $0 < x < a$ ו-$y > 0$"
+  ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתונה פונקצית הצפיפות הדו-משתנית הבאה:<br><span class=\"math-container\">$$f_{xy}(x,y) = \\begin{cases} be^{-(x+y)} & 0 < x < a,\\; 0 < y < \\infty \\\\ 0 & \\text{else} \\end{cases}$$</span>",
+    "question_text": "חשב את ההסתברות <span class=\"math-container\">$P(0.5a < x < 0.6a)$</span> עבור פונקצית הצפיפות הנתונה בסעיף א.",
+    "options": [
+      "<span class=\"math-container\">$b(1 - e^{-0.1a})$</span>",
+      "<span class=\"math-container\">$b(e^{0.5a} - e^{-0.6a})$</span>",
+      "<span class=\"math-container\">$b(e^{-0.5a} - e^{0.6a})$</span>",
+      "<span class=\"math-container\">$b(e^{-0.5a} - e^{-0.6a})$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון רעש לבן <span class=\"math-container\">$S_n(\\omega) = \\dfrac{N_0}{2}$</span> בכניסה למערכת ליניארית בעלת תגובה להלם מהצורה:<br><span class=\"math-container\">$$h(t) = u(t)\\,wt\\,e^{-wt}, \\quad w > 0$$</span><br>(<span class=\"math-container\">$u(t)$</span> היא פונקצית מדרגה).",
+    "question_text": "חשב את הקרוס-קורלאציה בין האות בכניסה לאות במוצא.",
+    "options": [
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{2}e^{-w\\tau}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{4}e^{-w\\tau}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{2}w\\tau e^{-w\\tau}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{4}e^{-2w\\tau}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^2 + Be^{-2|\\tau|}$</span> <span class=\"math-container\">$(A,B > 0)$</span>. התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = u(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.",
+    "question_text": "חשב את ממוצע האות במוצא הפילטר.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{A}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{B}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A}{w^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A+B}{w}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^2 + Be^{-2|\\tau|}$</span> <span class=\"math-container\">$(A,B > 0)$</span>. התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = u(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.<br>רעש לבן <span class=\"math-container\">$S_n(\\omega) = \\dfrac{N_0}{2}$</span> נכנס למערכת הליניארית המתוארת על ידי תגובה להלם כמו לעיל.",
+    "question_text": "חשב את ריבוע המתח במוצא:",
+    "options": [
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{w}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{2w}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{3w}$</span>",
+      "<span class=\"math-container\">$\\overline{y^2} = \\dfrac{N_0}{4w}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון המקלט הבא (ראה איור): האות <span class=\"math-container\">$y(t) = x(t)\\cos(\\omega_0 t)$</span>. האות <span class=\"math-container\">$x(t)$</span> הוא תהליך מוגבל פס המרוכז בתדר 0 (DC) שרוחבו קטן מרוחב הפילטר במקלט. האות <span class=\"math-container\">$x(t)$</span> הוא סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\overline{x(t)} = \\mu_x$</span> ואוטו-קורלציה <span class=\"math-container\">$R_{xx}(\\tau)$</span> וצפיפות הספק ספקטרלית <span class=\"math-container\">$S_x(\\omega)$</span>. קלט המקלט הוא <span class=\"math-container\">$Y(t) + Y(t-T)$</span>.",
+    "question_text": "מהו האות <span class=\"math-container\">$z(t)$</span> המתקבל במוצא הפילטר:",
+    "options": [
+      "<span class=\"math-container\">$z(t) = \\frac{1}{2}\\left(x(t) + x(t-T)\\cos(\\omega_0 T)\\right)$</span>",
+      "<span class=\"math-container\">$z(t) = \\frac{1}{2}\\left(x(t-T) + x(t)\\cos(\\omega_0 T)\\right)$</span>",
+      "<span class=\"math-container\">$z(t) = \\frac{1}{2}\\left(x(t-T) + x(t)\\right)$</span>",
+      "<span class=\"math-container\">$z(t) = \\left(x(t-T) + x(t)\\right)\\cos(\\omega_0 T)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_20_07_2004/q7.png"
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון המקלט הבא (ראה איור): האות <span class=\"math-container\">$y(t) = x(t)\\cos(\\omega_0 t)$</span>. האות <span class=\"math-container\">$x(t)$</span> הוא תהליך מוגבל פס המרוכז בתדר 0 (DC) שרוחבו קטן מרוחב הפילטר במקלט. האות <span class=\"math-container\">$x(t)$</span> הוא סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\overline{x(t)} = \\mu_x$</span> ואוטו-קורלציה <span class=\"math-container\">$R_{xx}(\\tau)$</span> וצפיפות הספק ספקטרלית <span class=\"math-container\">$S_x(\\omega)$</span>. קלט המקלט הוא <span class=\"math-container\">$Y(t) + Y(t-T)$</span>.",
+    "question_text": "מהו ממוצע האות <span class=\"math-container\">$\\overline{z(t)}$</span> המתקבל במוצא הפילטר:",
+    "options": [
+      "<span class=\"math-container\">$\\overline{z(t)} = \\mu_x$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)} = \\mu_x \\cos^2\\!\\left(\\tfrac{1}{2}\\omega_0 T\\right)$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)} = 2\\mu_x \\cos(\\omega_0 T)$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)} = \\mu_x \\cos\\!\\left(\\tfrac{1}{2}\\omega_0 T\\right)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון המקלט הבא (ראה איור): האות <span class=\"math-container\">$y(t) = x(t)\\cos(\\omega_0 t)$</span>. האות <span class=\"math-container\">$x(t)$</span> הוא תהליך מוגבל פס המרוכז בתדר 0 (DC) שרוחבו קטן מרוחב הפילטר במקלט. האות <span class=\"math-container\">$x(t)$</span> הוא סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\overline{x(t)} = \\mu_x$</span> ואוטו-קורלציה <span class=\"math-container\">$R_{xx}(\\tau)$</span> וצפיפות הספק ספקטרלית <span class=\"math-container\">$S_x(\\omega)$</span>. קלט המקלט הוא <span class=\"math-container\">$Y(t) + Y(t-T)$</span>.",
+    "question_text": "מהו ממוצע האות בריבוע <span class=\"math-container\">$\\overline{z(t)^2}$</span> המתקבל במוצא הפילטר:",
+    "options": [
+      "<span class=\"math-container\">$\\overline{z(t)^2} = \\frac{1}{4}R_{xx}(0)(1+\\sin^2(\\omega_0 T)) + \\frac{1}{2}R_{xx}(T)\\cos(\\omega_0 T)$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)^2} = R_{xx}(0)(1+\\cos^2(\\omega_0 T)) + \\frac{1}{2}R_{xx}(T)\\cos(\\omega_0 T)$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)^2} = R_{xx}(0) + \\frac{1}{2}R_{xx}(T)\\cos(\\omega_0 T)$</span>",
+      "<span class=\"math-container\">$\\overline{z(t)^2} = \\frac{1}{4}R_{xx}(0)(1+\\cos^2(\\omega_0 T)) + \\frac{1}{2}R_{xx}(T)\\cos(\\omega_0 T)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון המקלט הבא (ראה איור): האות <span class=\"math-container\">$y(t) = x(t)\\cos(\\omega_0 t)$</span>. האות <span class=\"math-container\">$x(t)$</span> הוא תהליך מוגבל פס המרוכז בתדר 0 (DC) שרוחבו קטן מרוחב הפילטר במקלט. האות <span class=\"math-container\">$x(t)$</span> הוא סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\overline{x(t)} = \\mu_x$</span> ואוטו-קורלציה <span class=\"math-container\">$R_{xx}(\\tau)$</span> וצפיפות הספק ספקטרלית <span class=\"math-container\">$S_x(\\omega)$</span>. קלט המקלט הוא <span class=\"math-container\">$Y(t) + Y(t-T)$</span>.",
+    "question_text": "מהי צפיפות ההספק הספקטרלית <span class=\"math-container\">$S_z(\\omega)$</span> המתקבלת במוצא הפילטר:",
+    "options": [
+      "<span class=\"math-container\">$S_z(\\omega) = S_x(\\omega)\\left(\\frac{1}{4}(1+\\cos^2(\\omega_0 T)) + \\frac{1}{2}\\cos(\\omega T)\\cos(\\omega_0 T)\\right)$</span>",
+      "<span class=\"math-container\">$S_z(\\omega) = S_x(\\omega)\\left(\\frac{1}{4} + \\frac{1}{2}\\cos(\\omega T)\\cos(\\omega_0 T)\\right)$</span>",
+      "<span class=\"math-container\">$S_z(\\omega) = S_x(\\omega)\\left(\\frac{1}{4}\\cos^2(\\omega_0 T) + \\frac{1}{2}\\cos(\\omega T)\\cos(\\omega_0 T)\\right)$</span>",
+      "<span class=\"math-container\">$S_z(\\omega) = S_x(\\omega)\\left(\\frac{1}{4}(1+\\sin^2(\\omega_0 T)) + \\frac{1}{2}\\cos(\\omega T)\\cos(\\omega_0 T)\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

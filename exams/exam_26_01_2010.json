@@ -1,0 +1,197 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי פונקציית ה-PDF של ארלאנג (Erlang):<br><span class=\"math-container\">$$f_X(x)=\\frac{a^N x^{N-1}e^{-ax}}{(N-1)!}\\,u(x),\\quad a>0,\\; N=1,2,\\ldots$$</span>",
+    "question_text": "מהי הפונקציה הקרקטריסטית <span class=\"math-container\">$\\Phi_X(\\omega)$</span> של המשתנה האקראי <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=\\left(\\dfrac{a}{a-j\\omega}\\right)^N$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=\\left(\\dfrac{2a}{a-j\\omega}\\right)^{2N}$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=\\left(\\dfrac{a}{a+j\\omega}\\right)^N$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=\\left(\\dfrac{a}{a+j\\omega}\\right)^{N-1}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי פונקציית ה-PDF של ארלאנג:<br><span class=\"math-container\">$$f_X(x)=\\frac{a^N x^{N-1}e^{-ax}}{(N-1)!}\\,u(x),\\quad a>0,\\; N=1,2,\\ldots$$</span>",
+    "question_text": "מה הממוצע של המשתנה האקראי <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{N}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2N}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{N-1}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2N-1}{a}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי פונקציית ה-PDF של ארלאנג:<br><span class=\"math-container\">$$f_X(x)=\\frac{a^N x^{N-1}e^{-ax}}{(N-1)!}\\,u(x),\\quad a>0,\\; N=1,2,\\ldots$$</span>",
+    "question_text": "מהי סטיית התקן של המשתנה האקראי <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{\\sqrt{N}}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\sqrt{N-1}}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2\\sqrt{N-1}}{a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2\\sqrt{N-2}}{a}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי פונקציית ה-PDF של ארלאנג:<br><span class=\"math-container\">$$f_X(x)=\\frac{a^N x^{N-1}e^{-ax}}{(N-1)!}\\,u(x),\\quad a>0,\\; N=1,2,\\ldots$$</span>",
+    "question_text": "מהי פונקציית ה-CDF של המשתנה האקראי <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_X(x)=\\left[1-e^{-ax}\\displaystyle\\sum_{n=0}^{N-1}\\frac{(ax)^n}{n!}\\right]u(x)$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\left[1-e^{-ax}\\displaystyle\\sum_{n=0}^{N-1}\\frac{(ax)^n}{(n-1)!}\\right]u(x)$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\left[1-e^{-2ax}\\displaystyle\\sum_{n=0}^{N-1}\\frac{(ax)^n}{(n-1)!}\\right]u(x)$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\left[1-e^{-2ax}\\displaystyle\\sum_{n=2}^{N-1}\\frac{(ax)^n}{(n-1)!}\\right]u(x)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי פונקציית ה-PDF של ארלאנג:<br><span class=\"math-container\">$$f_X(x)=\\frac{a^N x^{N-1}e^{-ax}}{(N-1)!}\\,u(x),\\quad a>0,\\; N=1,2,\\ldots$$</span>",
+    "question_text": "עבור <span class=\"math-container\">$a=1,\\,N=2$</span>, מה ההסתברות ש-<span class=\"math-container\">$X\\in[-1,2]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$1-\\dfrac{3}{e^2}$</span>",
+      "<span class=\"math-container\">$1-\\dfrac{1}{e}$</span>",
+      "<span class=\"math-container\">$1-\\dfrac{2}{e}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{e}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון התהליך האקראי:<br><span class=\"math-container\">$$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$$</span><br>המופע <span class=\"math-container\">$\\Theta(t)$</span> הנו תהליך אקראי סטציונרי במובן הרחב, מתפלג גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma^2$</span>.<br>(רמז: <span class=\"math-container\">$\\int_{-\\infty}^{+\\infty}e^{-(ax)^2}\\cos(bx)\\,dx=\\dfrac{\\sqrt{\\pi}}{a}e^{-b^2/(4a^2)}$</span>)",
+    "question_text": "חשב את ממוצע האות <span class=\"math-container\">$\\mu_X(t)=\\overline{X(t)}$</span> כפונקציה של <span class=\"math-container\">$t$</span>.",
+    "options": [
+      "<span class=\"math-container\">$A\\cdot e^{-\\sigma^2/2}\\cdot\\cos(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\cdot e^{-\\sigma^2/2}\\cdot\\sin(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\cdot e^{-\\sigma^2}\\cdot\\cos(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\cdot e^{-3\\sigma^2}\\cdot\\cos(2\\pi f_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון התהליך האקראי:<br><span class=\"math-container\">$$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$$</span><br>המופע <span class=\"math-container\">$\\Theta(t)$</span> הנו תהליך אקראי סטציונרי במובן הרחב, מתפלג גאוסית בעל ממוצע 0 ושונות <span class=\"math-container\">$\\sigma^2$</span>.",
+    "question_text": "חשב את ההספק הממוצע <span class=\"math-container\">$\\overline{X(t)^2}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\cos(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\sin(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\left[\\dfrac{1}{2}+e^{-\\sigma^2/2}\\sin(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\left[e^{-\\sigma^2}\\cos(4\\pi f_0 t)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "האות <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> (כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma^2$</span>, וצר-סרט ביחס ל-<span class=\"math-container\">$f_0$</span>) מוזן לגלאי מכפל ומסנן מעביר נמוכים (LPF) ברוחב סרט <span class=\"math-container\">$B=f_0/2$</span> ובגובה 1, כמתואר באיור. לתהליך מצטרף רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> עם ממוצע 0 ואוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>.",
+    "question_text": "כתוב ביטוי לתהליך האקראי <span class=\"math-container\">$Y_S(t)$</span> המתקבל במוצא הגלאי כתוצאה מהאות בלבד (ללא רעש). הנח כי <span class=\"math-container\">$\\Theta(t)$</span> צר-סרט ביחס ל-<span class=\"math-container\">$f_0$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\cos(\\Theta(t))$</span>",
+      "<span class=\"math-container\">$A\\cos(\\Theta(t))$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\cos(\\Theta(t)+2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\cos(\\Theta(t)+2\\pi f_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_26_01_2010/q8.png"
+  },
+  {
+    "id": "q9",
+    "preamble": "האות <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> (כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma^2$</span>, וצר-סרט ביחס ל-<span class=\"math-container\">$f_0$</span>) מוזן לגלאי מכפל ומסנן מעביר נמוכים (LPF) ברוחב סרט <span class=\"math-container\">$B=f_0/2$</span> ובגובה 1. לתהליך מצטרף רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>. מוצא גלאי המכפל עם ה-LPF: <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\,e^{-\\sigma^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "האות <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> (כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma^2$</span>, וצר-סרט ביחס ל-<span class=\"math-container\">$f_0$</span>) מוזן לגלאי מכפל ומסנן מעביר נמוכים (LPF) ברוחב סרט <span class=\"math-container\">$B=f_0/2$</span> ובגובה 1. לתהליך מצטרף רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>. מוצא גלאי המכפל עם ה-LPF: <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את המומנט השני <span class=\"math-container\">$\\overline{Y(t)^2}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}\\!\\left(\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)+N_0 B\\right)$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}\\!\\left(\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)+2N_0 B\\right)$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{8}\\left(1+e^{-2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "האות <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> (כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma^2$</span>) מוזן לגלאי מכפל ומסנן מעביר נמוכים (LPF) ברוחב סרט <span class=\"math-container\">$B$</span> ובגובה 1. לתהליך מצטרף רעש לבן גאוסי <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\frac{N_0}{2}\\delta(\\tau)$</span>.",
+    "question_text": "מהו רוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF כך שיחס הספק האות להספק הרעש במוצאו יהיה <span class=\"math-container\">$10\\,\\text{dB}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$B=\\dfrac{A^2}{40N_0}\\left(1+e^{-2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2}{20N_0}\\left(1+e^{-2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2}{40N_0}\\left(1+e^{-\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2}{40N_0}\\left(1+e^{-4\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>.",
+    "question_text": "חשב את תמסורת פורייה של האות <span class=\"math-container\">$x(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{2}{(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{2}{2(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{1}{2(W+j\\omega)^3}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{1}{2(2W+j\\omega)^3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>. תמסורת פורייה של האות: <span class=\"math-container\">$x(\\omega)=\\dfrac{2}{(W+j\\omega)^3}$</span>.",
+    "question_text": "מהי פונקציית התמסורת של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2+\\omega^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2+\\omega^2}{(W+j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{W_N^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{1}{\\pi CP}\\cdot\\dfrac{2W_N^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>. פונקציית התמסורת של המסננת המתואמת: <span class=\"math-container\">$H_{opt}(\\omega)=\\frac{1}{\\pi CP}\\cdot\\frac{W_N^2+\\omega^2}{(W-j\\omega)^3}\\cdot e^{-j\\omega t_0}$</span>.",
+    "question_text": "מהי פונקציית התגובה להלם של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\left(W_N^2-\\dfrac{d^2}{dt^2}\\right)\\!\\left[u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}\\right]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\,W_N^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{3}{CP}\\,W_N^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{1}{CP}\\,W^2\\cdot u(t_0-t)\\cdot(t_0-t)^2\\cdot e^{-W(t_0-t)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתון אות לא אקראי <span class=\"math-container\">$x(t)=u(t)\\,t^2 e^{-Wt}$</span> אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{P}{W_N^2+\\omega^2}$</span>.<br>(רמז: <span class=\"math-container\">$\\displaystyle\\int_{-\\infty}^{\\infty}\\frac{a^2+\\omega^2}{(b^2+\\omega^2)^3}\\,d\\omega=\\frac{\\pi(b^2+3a^2)}{8b^5}$</span>)",
+    "question_text": "מהו ה-SNR המיטבי?",
+    "options": [
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\dfrac{W^2+3W_N^2}{4PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{4PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{8PW^5}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{opt}=\\pi\\dfrac{W^2+3W_N^2}{16PW^5}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

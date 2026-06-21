@@ -1,0 +1,184 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון: <span class=\"math-container\">$z=|x|$</span>.",
+    "question_text": "מהי פונקציית ה-CDF של המשתנה האקראי <span class=\"math-container\">$z$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_Z(z)=\\bigl[F_X(z)-F_X(-z)\\bigr]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=\\bigl[F_X(z)\\cdot F_X(-z)\\bigr]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=F_X(z)-F_X(-z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=F_X(z)+F_X(-z)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון כי <span class=\"math-container\">$y=|x|+n$</span> כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונויות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$y$</span> גאוסי?",
+    "options": [
+      "לא",
+      "כן, בהנחות מסוימות",
+      "כן",
+      "היה גאוסי אם התוחלת של <span class=\"math-container\">$X$</span> הייתה שונה מאפס"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון כי <span class=\"math-container\">$y=|x|+n$</span> כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונויות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$y$</span> אורתוגונאליים, חסרי קורלציה?",
+    "options": [
+      "אורתוגונאליים, לא ח\"ק",
+      "אורתוגונאליים, ח\"ק",
+      "לא אורתוגונאליים, לא ח\"ק",
+      "לא אורתוגונאליים, ח\"ק"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם <span class=\"math-container\">$S_Y(\\omega)=H_1$</span> ושתוחלתו אפס. תהליך זה מוזן לפילטר מעביר תדרי ביניים (BPF) כשאליו מסתפח אדיטיבית רעש לבן עם <span class=\"math-container\">$R_N(\\tau)=(N_0/2)\\delta(\\tau)$</span> וממוצע אפס. פונקציית התמסורת של הפילטר:<br><span class=\"math-container\">$$H(f)=\\begin{cases}0.5 & f_0-B/2<|f|<f_0+B/2\\\\0 & \\text{otherwise}\\end{cases},\\quad B\\ll f_0$$</span>",
+    "question_text": "מה יהיה ממוצע התהליך במוצא הפילטר?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם <span class=\"math-container\">$S_Y(\\omega)=H_1$</span> ושתוחלתו אפס. תהליך זה מוזן לפילטר BPF עם <span class=\"math-container\">$H(f)=0.5$</span> בתחום <span class=\"math-container\">$f_0-B/2<|f|<f_0+B/2$</span>, אחרת 0. אליו מסתפח רעש לבן עם <span class=\"math-container\">$R_N(\\tau)=(N_0/2)\\delta(\\tau)$</span>.",
+    "question_text": "נתון כי במוצא הפילטר נתקבל יחס אות לרעש הגדול מ-100. מה יהיה התנאי לכך?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0}>50$</span>",
+      "<span class=\"math-container\">$\\left(\\dfrac{H_1}{N_0}\\right)^2>100$</span>",
+      "<span class=\"math-container\">$\\dfrac{H_1}{N_0}>\\sqrt{50}$</span>",
+      "אף תשובה לא נכונה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם <span class=\"math-container\">$S_Y(\\omega)=H_1$</span> ושתוחלתו אפס. תהליך זה מוזן לפילטר BPF עם <span class=\"math-container\">$H(f)=0.5$</span> בתחום <span class=\"math-container\">$f_0-B/2<|f|<f_0+B/2$</span>, אחרת 0. אליו מסתפח רעש לבן עם <span class=\"math-container\">$R_N(\\tau)=(N_0/2)\\delta(\\tau)$</span> וממוצע אפס.",
+    "question_text": "מה יהיה ממוצע הרעש במוצא הפילטר?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם <span class=\"math-container\">$S_Y(\\omega)=H_1$</span> ושתוחלתו אפס. תהליך זה מוזן לפילטר BPF עם <span class=\"math-container\">$H(f)=0.5$</span> בתחום <span class=\"math-container\">$f_0-B/2<|f|<f_0+B/2$</span>, אחרת 0. אליו מסתפח רעש לבן עם <span class=\"math-container\">$R_N(\\tau)=(N_0/2)\\delta(\\tau)$</span>.",
+    "question_text": "מה יהיה סה\"כ הספק הרעש במוצא הפילטר (בכל התדרים)?",
+    "options": [
+      "<span class=\"math-container\">$0.25\\,N_0 B$</span>",
+      "<span class=\"math-container\">$0.5\\,N_0 B$</span>",
+      "אף תשובה לא נכונה",
+      "0"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי <span class=\"math-container\">$X(t)$</span>:<br><span class=\"math-container\">$$Y(t)=\\int_0^T X(t-\\sigma)\\,d\\sigma$$</span><br>ידוע ש-<span class=\"math-container\">$X(t)$</span> הוא ת\"א סטציונרי בעל תוחלת <span class=\"math-container\">$\\beta$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "מה תהיה תוחלת התהליך <span class=\"math-container\">$Y(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\beta T$</span>",
+      "<span class=\"math-container\">$\\beta$</span>",
+      "<span class=\"math-container\">$\\beta/T$</span>",
+      "לא ניתן לדעת"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי <span class=\"math-container\">$X(t)$</span>:<br><span class=\"math-container\">$$Y(t)=\\int_0^T X(t-\\sigma)\\,d\\sigma$$</span><br>ידוע ש-<span class=\"math-container\">$X(t)$</span> הוא ת\"א סטציונרי בעל תוחלת <span class=\"math-container\">$\\beta$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "האם התהליך <span class=\"math-container\">$Y(t)$</span> מהווה תהליך אקראי סטציונרי?",
+    "options": [
+      "כן",
+      "לא",
+      "א\"א כרגע לתת תשובה חד משמעית, חסר נתון בשאלה",
+      "סטציונרי רק עם <span class=\"math-container\">$\\beta=0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון כי <span class=\"math-container\">$Z(t)$</span> מהווה תהליך אקראי גאוסי עם תוחלת 6 ושונות <span class=\"math-container\">$\\sigma^2$</span>, נעביר אותו דרך מעגל חשמלי שבמוצאו נקבל תהליך אקראי חדש:<br><span class=\"math-container\">$$W(t)=\\begin{cases}1 & X(t)\\geq 0\\\\-1 & X(t)<0\\end{cases}$$</span><br>השתמש בפונקציה <span class=\"math-container\">$Q(x)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_x^{+\\infty}e^{-z^2/2}\\,dz$</span>.",
+    "question_text": "חשב את ההסתברות <span class=\"math-container\">$P\\{W(t)=1\\}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$1-Q\\!\\left(\\dfrac{6}{\\sigma}\\right)$</span>",
+      "0.5",
+      "<span class=\"math-container\">$Q\\!\\left(\\dfrac{6}{\\sigma}\\right)$</span>",
+      "אף תשובה לא נכונה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>. אליו מצטרף רעש עם ספקטרום הספק <span class=\"math-container\">$S_n(\\omega)=\\dfrac{W}{W^2+\\omega^2}$</span>.<br>(רמז: <span class=\"math-container\">$\\dfrac{1}{\\alpha+j\\omega}\\leftrightarrow u(t)e^{-\\alpha t}$</span>)",
+    "question_text": "מהו האות בתחום התדר <span class=\"math-container\">$x(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha+1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)(\\alpha W+j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)(\\alpha W-j\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>, עם ספקטרום <span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>. ספקטרום הרעש: <span class=\"math-container\">$S_n(\\omega)=\\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "כתוב פונקציית תמסורת למסננת מתואמת עבור האות הנ\"ל.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W-j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W+j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W+j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>, עם ספקטרום הרעש <span class=\"math-container\">$S_n(\\omega)=\\dfrac{W}{W^2+\\omega^2}$</span>. פונקציית התמסורת המתואמת: <span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>.",
+    "question_text": "מהי פונקציית התגובה להלם המתאימה לפונקציית התמסורת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\Bigl[(\\alpha-1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>. פונקציית התגובה להלם של המסננת המתואמת:<br><span class=\"math-container\">$$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$$</span>",
+    "question_text": "האם קיים זמן <span class=\"math-container\">$t_o$</span> שבו פונקציית התגובה להלם סיבתית?",
+    "options": [
+      "הפונקציה סיבתית לכל <span class=\"math-container\">$t_o>0$</span>",
+      "הפונקציה אינה סיבתית",
+      "הפונקציה סיבתית לכל <span class=\"math-container\">$t_o<0$</span>",
+      "הפונקציה סיבתית לכל <span class=\"math-container\">$t_o>\\alpha$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

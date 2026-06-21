@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = q(t+\\varepsilon)$</span>, כאשר <span class=\"math-container\">$\\varepsilon$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,T]$</span>. <span class=\"math-container\">$q(t)$</span> היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.",
+    "question_text": "חשב את האוטוקורלציה של התהליך.",
+    "options": [
+      "<span class=\"math-container\">$R_X(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^T q(z)\\,q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\dfrac{2}{T}\\displaystyle\\int_0^T q(z)\\,q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^{2T} q(z)\\,q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^T q(z+T)\\,q(z+\\tau)\\,dz$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = q(t+\\varepsilon)$</span>, כאשר <span class=\"math-container\">$\\varepsilon$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,T]$</span>. <span class=\"math-container\">$q(t)$</span> היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.<br>כעת נתון תהליך אקראי נוסף <span class=\"math-container\">$Y(t) = r(t+\\varepsilon)$</span>, <span class=\"math-container\">$r(t)$</span> גם היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.",
+    "question_text": "חשב את הקרוס-קורלציה של התהליך.",
+    "options": [
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^T q(z)\\,r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^{3T} q(z)\\,r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\displaystyle\\int_0^{2T} q(z)\\,r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\dfrac{1}{T}\\displaystyle\\int_0^T q(z)\\,r^2(z+\\tau)\\,dz$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau, & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau, & 0 < t < \\tau \\\\ 0, & \\text{else} \\end{cases}$$</span><br>נתון כי לאות הנ\"ל מוסיפים רעש בעל צפיפות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "חשב את התמרת פורייה של האות.",
+    "options": [
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\left(\\dfrac{\\sin\\!\\left(\\frac{\\omega\\tau}{2}\\right)}{\\frac{\\omega\\tau}{2}}\\right)^{\\!2}$</span>",
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\left(\\dfrac{\\sin\\!\\left(\\frac{\\omega\\tau}{2}\\right)}{\\omega\\tau}\\right)^{\\!2}$</span>",
+      "<span class=\"math-container\">$X(\\omega) = \\left(\\dfrac{\\sin\\!\\left(\\frac{\\omega\\tau}{2}\\right)}{\\frac{\\omega\\tau}{2}}\\right)^{\\!2}$</span>",
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\,\\dfrac{\\sin\\!\\left(\\frac{\\omega\\tau}{2}\\right)}{\\frac{\\omega\\tau}{2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau, & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau, & 0 < t < \\tau \\\\ 0, & \\text{else} \\end{cases}$$</span><br>נתון כי לאות הנ\"ל מוסיפים רעש בעל צפיידות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "מצא את פונקצית התמסורת של המסננת המתואמת.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau\\,\\dfrac{W^2+\\omega^2}{W}\\,\\text{Sinc}^2\\!\\left(\\dfrac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = \\dfrac{\\omega^2}{W}\\,\\text{Sinc}^2\\!\\left(\\dfrac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau\\,\\dfrac{W^2+\\omega^2}{W}\\,\\text{Sinc}^2\\!\\left(\\dfrac{\\omega\\tau}{2}\\right)$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau W\\,\\text{Sinc}^2\\!\\left(\\dfrac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau, & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau, & 0 < t < \\tau \\\\ 0, & \\text{else} \\end{cases}$$</span><br>נתון כי לאות הנ\"ל מוסיפים רעש בעל צפיידות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "מהי פונקצית התגובה להלם של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t) = \\dfrac{1}{2\\pi C}\\!\\left[Wx(t-t_0) + \\dfrac{A}{W\\tau}\\bigl(2\\delta(t-t_0) - \\delta(t-t_0-\\tau) - \\delta(t-t_0+\\tau)\\bigr)\\right]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t) = \\dfrac{1}{2\\pi C}\\!\\left[Wx(t-t_0) + \\dfrac{A}{W\\tau}\\bigl(2\\delta(t-t_0) - \\delta(t-t_0+\\tau)\\bigr)\\right]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t) = \\dfrac{1}{2\\pi C}\\!\\left[Wx(t-t_0) + W\\bigl(2\\delta(t-t_0) - \\delta(t-t_0-\\tau) - \\delta(t-t_0+\\tau)\\bigr)\\right]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t) = \\dfrac{1}{2\\pi C}\\!\\left[Wx(t-t_0) + \\dfrac{A}{W\\tau}\\bigl(2\\delta(t-t_0) + \\delta(t-t_0+\\tau)\\bigr)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau, & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau, & 0 < t < \\tau \\\\ 0, & \\text{else} \\end{cases}$$</span><br>נתון כי לאות הנ\"ל מוסיפים רעש בעל צפיידות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "כיצד נבחר את <span class=\"math-container\">$t_0$</span> כך שפונקצית התגובה להלם <span class=\"math-container\">$h_{opt}(t)$</span> תהיה סיבתית?",
+    "options": [
+      "<span class=\"math-container\">$t_0 \\geq \\tau$</span>",
+      "<span class=\"math-container\">$t_0 < \\tau$</span>",
+      "<span class=\"math-container\">$t_0 < 2\\tau$</span>",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "",
+    "question_text": "מהי תוחלת המשתנה האקראי <span class=\"math-container\">$X$</span> אם נתונה לנו פונקצית צפיפות הפילוג שלו: <span class=\"math-container\">$$f_X(x) = \\frac{\\alpha}{\\pi(\\alpha^2+x^2)}$$</span>?",
+    "options": [
+      "אף תשובה מתוך התשובות הבאות איננה נכונה.",
+      "<span class=\"math-container\">$\\dfrac{1}{\\pi\\alpha^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\alpha}{\\pi}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{\\pi\\alpha}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> עם פונקצית צפיפות הפילוג: <span class=\"math-container\">$$f_X(x) = \\frac{\\alpha}{\\pi(\\alpha^2+x^2)}$$</span>",
+    "question_text": "כעת נתון כי: <span class=\"math-container\">$Y = 1/X$</span>. מהו ה-PDF עבור המשתנה <span class=\"math-container\">$Y$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{1/\\alpha}{\\pi\\bigl((1/\\alpha)^2+y^2\\bigr)}$</span>",
+      "אף אחת מהתשובות הבאות איננה נכונה.",
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{1}{\\pi(1+y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\dfrac{1/2}{\\pi(1/4+y^2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "",
+    "question_text": "נתון מ\"א <span class=\"math-container\">$Z$</span> עם PDF: <span class=\"math-container\">$$f_Z(z) = \\begin{cases} \\dfrac{1}{\\pi} & |z| < \\dfrac{\\pi}{2} \\\\ 0 & \\text{O.W.} \\end{cases}$$</span><br>כמו-כן: <span class=\"math-container\">$T = \\tan(Z)$</span>. מצא את ה-PDF עבור המשתנה <span class=\"math-container\">$T$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{1}{\\pi(1+t^2)}$</span>",
+      "אף אחת מהתשובות הבאות איננה נכונה.",
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{2}{\\pi\\cos(t)}$</span>",
+      "<span class=\"math-container\">$f_T(t) = \\dfrac{1/2}{\\pi\\cos(t)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג <span class=\"math-container\">$\\chi^2$</span> ריבוע: <span class=\"math-container\">$$f_x(x) = \\frac{x^{\\frac{N}{2}-1}}{2^{\\frac{N}{2}}\\,\\Gamma\\!\\left(\\frac{N}{2}\\right)}\\,e^{-x/2}\\,u(x)$$</span> כאשר פונקצית גמא מוגדרת בצורה: <span class=\"math-container\">$\\Gamma(z) = \\displaystyle\\int_0^{\\infty} y^{z-1}e^{-y}\\,dy$</span>.",
+    "question_text": "חשב את התוחלת של האות <span class=\"math-container\">$Y = 2X$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E\\{Y\\} = 2N$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = N^2$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = N$</span>",
+      "<span class=\"math-container\">$E\\{Y\\} = 3N$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון אות אקראי: <span class=\"math-container\">$$X(t) = A_c\\cdot\\bigl[1 + m\\cdot\\sin(2\\pi f_m t+\\phi)\\bigr]\\cdot\\cos(2\\pi f_c t+\\theta)$$</span> המופעים <span class=\"math-container\">$\\theta,\\phi$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיפות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta,\\phi\\in[-\\pi,+\\pi]$</span>.",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$\\mu_x = \\overline{X(t)}$</span> והשונות <span class=\"math-container\">$\\sigma_x^2$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_x^2 = \\left(1+\\dfrac{m^2}{2}\\right)\\dfrac{A_c^2}{2}$</span> ו- <span class=\"math-container\">$\\mu_X = 0$</span>",
+      "<span class=\"math-container\">$\\sigma_x^2 = \\dfrac{m^2 A_c^2}{2}$</span> ו- <span class=\"math-container\">$\\mu_X = 0$</span>",
+      "<span class=\"math-container\">$\\sigma_x^2 = \\dfrac{A_c^2}{2}$</span> ו- <span class=\"math-container\">$\\mu_X = A_c$</span>",
+      "<span class=\"math-container\">$\\sigma_x^2 = \\left(1+m^2\\right)\\dfrac{A_c^2}{2}$</span> ו- <span class=\"math-container\">$\\mu_X = A_c$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון אות אקראי: <span class=\"math-container\">$$X(t) = A_c\\cdot\\bigl[1 + m\\cdot\\sin(2\\pi f_m t+\\phi)\\bigr]\\cdot\\cos(2\\pi f_c t+\\theta)$$</span> המופעים <span class=\"math-container\">$\\theta,\\phi$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיפות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta,\\phi\\in[-\\pi,+\\pi]$</span>.",
+    "question_text": "מהי האוטוקורלציה הסטטסטית <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\sin(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון אות אקראי: <span class=\"math-container\">$$X(t) = A_c\\cdot\\bigl[1 + m\\cdot\\sin(2\\pi f_m t+\\phi)\\bigr]\\cdot\\cos(2\\pi f_c t+\\theta)$$</span> המופעים <span class=\"math-container\">$\\theta,\\phi$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיפות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta,\\phi\\in[-\\pi,+\\pi]$</span>.",
+    "question_text": "כתוב ביטוי לצפיפות ההספק ליחידת תדר (PSD) <span class=\"math-container\">$S_X(f)$</span>. (<span class=\"math-container\">$*$</span> מסמן קונבולוציה)",
+    "options": [
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f)+\\dfrac{m^2}{4}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f)+\\dfrac{m^2}{4}\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4}\\!\\left\\{\\delta(f)+\\dfrac{m^2}{4j}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(f) = \\dfrac{A_c^2}{4j}\\!\\left\\{\\delta(f)+\\dfrac{m^2}{4}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון אות אקראי: <span class=\"math-container\">$$X(t) = A_c\\cdot\\bigl[1 + m\\cdot\\sin(2\\pi f_m t+\\phi)\\bigr]\\cdot\\cos(2\\pi f_c t+\\theta)$$</span> המופעים <span class=\"math-container\">$\\theta,\\phi$</span> הנם משתנים אקראיים בלתי תלויים בעלי פונקציית צפיפות הסתברות (PDF) אחידה בתחום <span class=\"math-container\">$\\theta,\\phi\\in[-\\pi,+\\pi]$</span>.<br>האות מוזן למבוא מסננת Hilbert בעלת פונקצית תמסורת ותגובה להלם: <span class=\"math-container\">$$h(t)=\\frac{1}{\\pi t},\\quad H(jf)=-j\\operatorname{sgn}(f)$$</span> במוצאה של המסננת מתקבלת התמרת Hilbert: <span class=\"math-container\">$\\hat{X}(t)$</span>.",
+    "question_text": "כתוב ביטוי לאוטו-קורלאציה <span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\sin(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau) = \\dfrac{A_c^2}{2}\\!\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית צפיפות הפילוג <span class=\"math-container\">$f_{Y(t)}(y)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_{Y(t)}(y) = \\dfrac{1}{\\sqrt{2\\pi}\\,|a|\\,\\sigma}\\,e^{-\\dfrac{(y-b)^2}{2a^2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y) = \\dfrac{\\sqrt{2\\pi}}{|a|\\,\\sigma}\\,e^{-\\dfrac{(y-b)^2}{2a^2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y) = \\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\dfrac{(y-b)^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y) = \\dfrac{\\sqrt{2\\pi}}{|a|\\,\\sigma}\\,e^{-\\dfrac{y^2}{2a^2\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "מהו הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y(t)} = b$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = a$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = \\dfrac{a}{2}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = \\dfrac{b}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "מהו המומנט השני <span class=\"math-container\">$\\overline{Y^2(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y^2(t)} = a^2\\sigma^2 + b^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)} = b^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)} = a^2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)} = a^2\\sigma^2 - b^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q18",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית האוטוקורלציה הסטטיסטית <span class=\"math-container\">$R_{YY}(\\tau)$</span> (כפונקציה של הפרמטרים <span class=\"math-container\">$a$</span>, <span class=\"math-container\">$b$</span> ו-<span class=\"math-container\">$R_{XX}(\\tau)$</span>).",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau) = a^2 R_{XX}(\\tau) + b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = R_{XX}(\\tau) + b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{R_{XX}(\\tau)}{a^2} + b^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q19",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית צפיפות הספק ליחידת תדר <span class=\"math-container\">$S_Y(\\omega)$</span> של האות במוצא אם נתונה <span class=\"math-container\">$S_X(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega) = a^2 S_X(\\omega) + 2\\pi b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = 2\\pi b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = a^2 S_X(\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q20",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>: <span class=\"math-container\">$$f_{X(t)}(x) = \\frac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{x^2}{2\\sigma^2}}$$</span> פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל תהליך אקראי הנתון ע\"י הטרנספורמציה הליניארית: <span class=\"math-container\">$Y(t) = a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> הם קבועים.",
+    "question_text": "נתון שהרעש במוצא המערכת מצטרף לאות דטרמיניסטי <span class=\"math-container\">$V(t) = V_0\\,e^{-\\frac{t^2}{2\\sigma_V^2}}$</span>. מה תהיה פונקצית התמסורת של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega) = C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{a^2 S_X(\\omega)+2\\pi b^2\\delta(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{a^2 S_X(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = C\\,\\dfrac{e^{-j\\omega t_0}}{a^2 S_X(\\omega)+2\\pi b^2\\delta(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{S_X(\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

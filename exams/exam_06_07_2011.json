@@ -1,0 +1,275 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "כתוב ביטוי למשרעת <span class=\"math-container\">$A(t)$</span> ולמופע (פאזה) <span class=\"math-container\">$\\theta(t)$</span> של התהליך האקראי <span class=\"math-container\">$X(t)$</span> המתקבל במוצא (כפונקציה של התהליכים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span>).",
+    "options": [
+      "<span class=\"math-container\">$A(t)=\\sqrt{I(t)^2+Q(t)^2}\\;,\\quad\\theta(t)=\\arctan\\!\\left(\\dfrac{Q(t)}{I(t)}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=\\dfrac{1}{2}\\sqrt{I(t)^2+Q(t)^2}\\;,\\quad\\theta(t)=\\arctan\\!\\left(\\dfrac{Q(t)}{I(t)}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=\\sqrt{I(t)^2+Q(t)^2}\\;,\\quad\\theta(t)=\\arctan\\!\\left(\\dfrac{I(t)}{Q(t)}\\right)$</span>",
+      "<span class=\"math-container\">$A(t)=\\sqrt{I(t)^2+Q(t)^2}\\;,\\quad\\theta(t)=\\sin\\!\\left(\\dfrac{Q(t)}{I(t)}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_06_07_2011/q1.png"
+  },
+  {
+    "id": "q2",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "כתוב ביטוי לפונקצית צפיפות הפילוג המשותפת <span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)$</span> של התהליכים האקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)=\\dfrac{1}{2\\pi\\sigma^2}\\,e^{-\\frac{I^2+Q^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)=\\dfrac{1}{2\\pi\\sigma^2}\\,e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)=\\dfrac{1}{\\pi\\sigma^2}\\,e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)=\\dfrac{\\pi}{\\sigma^2}\\,e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "מהו מקדם הקורלציה <span class=\"math-container\">$\\rho(t)$</span> של האותות?",
+    "options": [
+      "<span class=\"math-container\">$\\rho(t)=0$</span>",
+      "<span class=\"math-container\">$\\rho(t)=\\dfrac{1}{\\sigma^2}$</span>",
+      "<span class=\"math-container\">$\\rho(t)=-\\dfrac{1}{\\sigma^2}$</span>",
+      "<span class=\"math-container\">$\\rho(t)=\\dfrac{\\mu^2}{\\sigma^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "כתוב את פונקצית הצפיפות המשותפת <span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)$</span> של המעטפת והמופע.",
+    "options": [
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)=\\dfrac{A}{2\\pi\\sigma^2}\\,e^{-\\frac{A^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)=\\dfrac{A}{2\\pi\\sigma^2}\\,e^{-\\frac{A^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)=\\dfrac{A}{2\\pi\\sigma^2}\\,e^{-\\frac{A^2+\\theta^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)=\\dfrac{A}{2\\pi\\sigma^2}\\,e^{-\\frac{A^2+2\\theta^2}{2\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "חשב את צפיפות הפילוג השולית <span class=\"math-container\">$f_{A(t)}(A)$</span> של המשרעת.",
+    "options": [
+      "<span class=\"math-container\">$f_{A(t)}(A)=\\begin{cases}\\dfrac{A}{\\sigma^2}\\,e^{-\\frac{A^2}{2\\sigma^2}} & A\\geq 0\\\\ 0 & A<0\\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A)=\\begin{cases}\\dfrac{1}{2\\pi\\sigma^2}\\,e^{-\\frac{A^2}{2\\sigma^2}} & A\\geq 0\\\\ 0 & A<0\\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A)=\\dfrac{A}{\\sigma^2}\\,e^{-\\frac{A^4}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A)=\\begin{cases}\\dfrac{2A}{\\sigma}\\,e^{-\\frac{A^2}{2\\sigma^2}} & A\\geq 0\\\\ 0 & A<0\\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "עבור איזה ערך <span class=\"math-container\">$A$</span> מקבלת פונקצית צפיפות הפילוג השולית <span class=\"math-container\">$f_{A(t)}(A)$</span> את המקסימום?",
+    "options": [
+      "<span class=\"math-container\">$A=\\sigma$</span>",
+      "<span class=\"math-container\">$A=\\dfrac{1}{2}\\sigma$</span>",
+      "<span class=\"math-container\">$A=2\\sigma$</span>",
+      "<span class=\"math-container\">$A=0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "מהו הערך המקסימאלי של <span class=\"math-container\">$f_{A(t)}(A)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\max f_{A(t)}(A)=\\dfrac{1}{\\sigma\\sqrt{e}}$</span>",
+      "<span class=\"math-container\">$\\max f_{A(t)}(A)=\\dfrac{2}{\\sigma\\sqrt{e}}$</span>",
+      "<span class=\"math-container\">$\\max f_{A(t)}(A)=\\dfrac{\\sigma}{\\sigma\\sqrt{e}}=\\dfrac{1}{\\sqrt{e}}$</span>",
+      "<span class=\"math-container\">$\\max f_{A(t)}(A)=\\dfrac{1}{\\sigma}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "חשב את צפיפות הפילוג השולית <span class=\"math-container\">$f_{\\theta(t)}(\\theta)$</span> של הפאזה.",
+    "options": [
+      "<span class=\"math-container\">$f_{\\theta(t)}(\\theta)=\\begin{cases}\\dfrac{1}{2\\pi} & \\theta\\in[0,2\\pi]\\\\ 0 & \\theta\\notin[0,2\\pi]\\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{\\theta(t)}(\\theta)=\\begin{cases}\\dfrac{\\theta}{2\\pi} & \\theta\\in[0,2\\pi]\\\\ 0 & \\theta\\notin[0,2\\pi]\\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{\\theta(t)}(\\theta)=\\dfrac{1}{2\\pi}$</span>",
+      "<span class=\"math-container\">$f_{\\theta(t)}(\\theta)=\\begin{cases}\\dfrac{\\theta}{\\pi} & \\theta\\in[0,2\\pi]\\\\ 0 & \\theta\\notin[0,2\\pi]\\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "האם המשרעת והפאזה הם משתנים אקראיים תלויים? האם הם חסרי קורלציה?",
+    "options": [
+      "המשרעת והפאזה בלתי תלויים וחסרי קורלציה.",
+      "המשרעת והפאזה תלויים וחסרי קורלציה.",
+      "המשרעת והפאזה בלתי תלויים ואינם חסרי קורלציה.",
+      "המשרעת והפאזה תלויים ואינם חסרי קורלציה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "חשב את המומנט הראשון <span class=\"math-container\">$\\overline{A(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{A(t)}=\\sigma\\sqrt{\\dfrac{\\pi}{2}}$</span>",
+      "<span class=\"math-container\">$\\overline{A(t)}=\\sigma\\sqrt{\\pi}$</span>",
+      "<span class=\"math-container\">$\\overline{A(t)}=\\sqrt{\\pi}$</span>",
+      "<span class=\"math-container\">$\\overline{A(t)}=\\sigma\\sqrt{\\dfrac{\\pi}{4}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$\\omega_0$</span> באמצעות מאפנן I/Q כך שמתקבל:<br><span class=\"math-container\">$$X(t)=I(t)\\cos(\\omega_0 t)+Q(t)\\sin(\\omega_0 t)=A(t)\\cos(\\omega_0 t+\\theta(t))$$</span>",
+    "question_text": "חשב את המומנט השני <span class=\"math-container\">$\\overline{A^2(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{A^2(t)}=2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{A^2(t)}=\\dfrac{\\sigma^2}{2}$</span>",
+      "<span class=\"math-container\">$\\overline{A^2(t)}=2\\sigma$</span>",
+      "<span class=\"math-container\">$\\overline{A^2(t)}=\\sigma^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא כך שמתקבל <span class=\"math-container\">$X(t)=A(t)\\cos(\\omega_0 t+\\theta(t))$</span>. ההספק הרגעי מוגדר <span class=\"math-container\">$P(t)=A^2(t)$</span>.",
+    "question_text": "כתוב ביטוי כללי לפונקצית צפיפות הפילוג (PDF) <span class=\"math-container\">$f_{P(t)}(P)$</span> של ההספק הרגעי, כאשר המשרעת מתפלגת כפי שחישבת בשאלה 5.",
+    "options": [
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{2\\sqrt{P}}\\bigl(f_{A(t)}(\\sqrt{P})+f_{A(t)}(-\\sqrt{P})\\bigr)$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{2\\sqrt{P}}\\bigl(f_{A(t)}(\\sqrt{P})-f_{A(t)}(-\\sqrt{P})\\bigr)$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{\\sqrt{P}}\\,f_{A(t)}(\\sqrt{P})$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{\\sqrt{P}}\\bigl(f_{A(t)}(\\sqrt{P})-f_{A(t)}(-\\sqrt{P})\\bigr)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא כך שמתקבל <span class=\"math-container\">$X(t)=A(t)\\cos(\\omega_0 t+\\theta(t))$</span>. ההספק הרגעי מוגדר <span class=\"math-container\">$P(t)=A^2(t)$</span>.",
+    "question_text": "כתוב ביטוי קונקרטי לפונקצית צפיפות הפילוג (PDF) <span class=\"math-container\">$f_{P(t)}(P)$</span> כאשר המשרעת מתפלגת על פי התפלגות Rayleigh שחישבת בשאלה 5.",
+    "options": [
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{2\\sigma^2}\\,e^{-\\frac{P}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{\\sigma^2}\\,e^{-\\frac{P}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{2}{\\sigma^2}\\,e^{-\\frac{P}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{P(t)}(P)=\\dfrac{1}{2\\sigma^2}\\,e^{-\\frac{P}{\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא כך שמתקבל <span class=\"math-container\">$X(t)=A(t)\\cos(\\omega_0 t+\\theta(t))$</span>. ההספק הרגעי מוגדר <span class=\"math-container\">$P(t)=A^2(t)$</span>.",
+    "question_text": "מהו ההספק הממוצע <span class=\"math-container\">$\\overline{P(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{P(t)}=2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{P(t)}=4\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{P(t)}=\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{P(t)}=2\\sigma$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית, המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא כך שמתקבל <span class=\"math-container\">$X(t)=A(t)\\cos(\\omega_0 t+\\theta(t))$</span>. ההספק הרגעי מוגדר <span class=\"math-container\">$P(t)=A^2(t)$</span>. היעזר באינטגרלים: <span class=\"math-container\">$\\int_0^\\infty x^2 e^{-x^2}dx=\\frac{\\sqrt{\\pi}}{4}$</span> ו-<span class=\"math-container\">$\\int_0^\\infty x^n e^{-ax}dx=\\frac{n!}{a^{n+1}}$</span>.",
+    "question_text": "חשב את סטיית התקן <span class=\"math-container\">$\\sigma_P$</span> של ההספק.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_P=2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\sigma_P=\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\sigma_P=4\\sigma^4$</span>",
+      "<span class=\"math-container\">$\\sigma_P=4\\sigma^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau)=\\overline{X(t)X(t+\\tau)}$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית צפיפות הפילוג <span class=\"math-container\">$f_{Y(t)}(y)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_{Y(t)}(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,|a|\\,\\sigma}\\,e^{-\\frac{(y-b)^2}{2a^2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y)=\\dfrac{\\sqrt{2\\pi}}{|a|\\,\\sigma}\\,e^{-\\frac{(y-b)^2}{2a^2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma}\\,e^{-\\frac{(y-b)^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{Y(t)}(y)=\\dfrac{\\sqrt{2\\pi}}{|a|\\,\\sigma}\\,e^{-\\frac{y^2}{2a^2\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> קבועים.",
+    "question_text": "מהו הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y(t)}=b$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=a$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{a}{2}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)}=\\dfrac{b}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q18",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> קבועים.",
+    "question_text": "מהו המומנט השני <span class=\"math-container\">$\\overline{Y^2(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y^2(t)}=a^2\\sigma^2+b^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)}=b^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)}=a^2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\overline{Y^2(t)}=a^2\\sigma^2-b^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q19",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. פונקצית הקורלציה הסטטיסטית של הרעש נתונה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית האוטוקורלציה הסטטיסטית <span class=\"math-container\">$R_{YY}(\\tau)$</span> (כפונקציה של <span class=\"math-container\">$a, b$</span> ו-<span class=\"math-container\">$R_{XX}(\\tau)$</span>).",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau)=a^2R_{XX}(\\tau)+b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=R_{XX}(\\tau)+b^2$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\dfrac{R_{XX}(\\tau)}{a^2}+b^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q20",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>, כאשר <span class=\"math-container\">$a$</span> ו-<span class=\"math-container\">$b$</span> קבועים.",
+    "question_text": "כתוב ביטוי לפונקצית צפיפות הספק ליחידת תדר <span class=\"math-container\">$S_Y(\\omega)$</span> של האות במוצא אם נתונה <span class=\"math-container\">$S_X(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega)=a^2S_X(\\omega)+2\\pi b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=2\\pi b^2\\delta(\\omega)$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=a^2S_X(\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q21",
+    "preamble": "נתון רעש אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב, המתפלג בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. הרעש מוזן למבוא של מערכת שבמוצאה מתקבל: <span class=\"math-container\">$Y(t)=a\\cdot X(t)+b$</span>. נתון שהרעש במוצא המערכת מצטרף לאות דטרמיניסטי <span class=\"math-container\">$V(t)=V_0\\,e^{-\\frac{t^2}{2\\sigma_V^2}}$</span>.",
+    "question_text": "מה תהיה פונקצית התמסורת של המסננת המתואמת?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{a^2S_X(\\omega)+2\\pi b^2\\delta(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{a^2S_X(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=C\\,\\dfrac{e^{-j\\omega t_0}}{a^2S_X(\\omega)+2\\pi b^2\\delta(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=C\\,\\dfrac{e^{-\\frac{1}{2}(\\omega\\sigma_V)^2-j\\omega t_0}}{S_X(\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

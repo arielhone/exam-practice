@@ -1,0 +1,158 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = A$</span>, כאשר <span class=\"math-container\">$A$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,1]$</span>.",
+    "question_text": "כיצד נראית פונקציה אופיינית מתוך המדגם האקראי?",
+    "options": [
+      "קו ישר אופקי.",
+      "פונקציית סינוס.",
+      "פונקציית קוסינוס.",
+      "קו ישר אלכסוני."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = A$</span>, כאשר <span class=\"math-container\">$A$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,1]$</span>.",
+    "question_text": "מהו סוג התהליך?",
+    "options": [
+      "תהליך אקראי בדיד.",
+      "סדרה אקראית בדידה.",
+      "תהליך אקראי רציף.",
+      "סדרה אקראית רציפה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = A$</span>, כאשר <span class=\"math-container\">$A$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,1]$</span>.",
+    "question_text": "האם התהליך דטרמיניסטי?",
+    "options": [
+      "לפעמים כן ולפעמים לא.",
+      "לא.",
+      "כן.",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = A$</span>, כאשר <span class=\"math-container\">$A$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,1]$</span>.",
+    "question_text": "מהו הממוצע של התהליך?",
+    "options": [
+      "<span class=\"math-container\">$0.4$</span>",
+      "<span class=\"math-container\">$0.5$</span>",
+      "<span class=\"math-container\">$0.25$</span>",
+      "<span class=\"math-container\">$0.6$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = A$</span>, כאשר <span class=\"math-container\">$A$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,1]$</span>.",
+    "question_text": "מהי פונקציית האוטוקורלציה <span class=\"math-container\">$R_{XX}(t, t+\\tau)$</span> של התהליך?",
+    "options": [
+      "<span class=\"math-container\">$\\tau$</span>",
+      "<span class=\"math-container\">$\\tau^2$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{3}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון אות אקראי סטציונרי במובן הרחב <span class=\"math-container\">$X(t)$</span> עם ממוצע 5 וולט וספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = 5\\pi\\delta(\\omega) + \\frac{3}{1+\\omega^2}$$</span> האות מוכנס למערכת ליניארית עם תגובה להלם <span class=\"math-container\">$h(t) = \\exp(-|t|)$</span>.",
+    "question_text": "חשב את פונקציית התמסורת של הרשת.",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{2}{1+\\omega^2}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{2}{\\omega^2}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{2}{1+\\omega^4}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{1}{1+\\omega}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון אות אקראי סטציונרי במובן הרחב <span class=\"math-container\">$X(t)$</span> עם ממוצע 5 וולט וספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = 5\\pi\\delta(\\omega) + \\frac{3}{1+\\omega^2}$$</span> האות מוכנס למערכת ליניארית עם תגובה להלם <span class=\"math-container\">$h(t) = \\exp(-|t|)$</span>.",
+    "question_text": "מהו ממוצע האות במוצא הרשת?",
+    "options": [
+      "8 וולט.",
+      "5 וולט.",
+      "2.5 וולט.",
+      "10 וולט."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון אות אקראי סטציונרי במובן הרחב <span class=\"math-container\">$X(t)$</span> עם ממוצע 5 וולט וספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = 5\\pi\\delta(\\omega) + \\frac{3}{1+\\omega^2}$$</span> האות מוכנס למערכת ליניארית עם תגובה להלם <span class=\"math-container\">$h(t) = \\exp(-|t|)$</span>.",
+    "question_text": "מהו ספקטרום ההספק במוצא הרשת?",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega) = 10\\pi\\delta(\\omega) + \\dfrac{12}{(1+\\omega^2)^2}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = 20\\pi\\delta(\\omega) + \\dfrac{12}{(1+\\omega^2)^3}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = 10\\pi\\delta(\\omega) + \\dfrac{12}{(1+\\omega)^3}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = 20\\pi\\delta(\\omega) + \\dfrac{1}{(1+\\omega^2)^4}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון אות אקראי סטציונרי במובן הרחב <span class=\"math-container\">$X(t)$</span> עם ממוצע 5 וולט וספקטרום הספק: <span class=\"math-container\">$$S_X(\\omega) = 5\\pi\\delta(\\omega) + \\frac{3}{1+\\omega^2}$$</span> האות מוכנס למערכת ליניארית עם תגובה להלם <span class=\"math-container\">$h(t) = \\exp(-|t|)$</span>.",
+    "question_text": "מהו ההספק הממוצע במוצא הרשת?",
+    "options": [
+      "20 ואט.",
+      "12.25 ואט.",
+      "10.5 ואט.",
+      "7.25 ואט."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג <span class=\"math-container\">$\\chi^2$</span> בריבוע: <span class=\"math-container\">$$f_x(x) = \\frac{x^{\\frac{N}{2}-1}}{2^{\\frac{N}{2}}\\,\\Gamma\\!\\left(\\frac{N}{2}\\right)}\\,e^{-x/2}\\,u(x)$$</span> כאשר פונקציית גמא מוגדרת בצורה: <span class=\"math-container\">$\\Gamma(z) = \\displaystyle\\int_0^{\\infty} y^{z-1}e^{-y}\\,dy$</span>.",
+    "question_text": "חשב את התוחלת של האות <span class=\"math-container\">$X$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E\\{X\\} = 0.5N$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = N^2$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = N$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = 3N$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג <span class=\"math-container\">$\\chi^2$</span> בריבוע: <span class=\"math-container\">$$f_x(x) = \\frac{x^{\\frac{N}{2}-1}}{2^{\\frac{N}{2}}\\,\\Gamma\\!\\left(\\frac{N}{2}\\right)}\\,e^{-x/2}\\,u(x)$$</span> כאשר פונקציית גמא מוגדרת בצורה: <span class=\"math-container\">$\\Gamma(z) = \\displaystyle\\int_0^{\\infty} y^{z-1}e^{-y}\\,dy$</span>.",
+    "question_text": "חשב את המומנט השני של האות <span class=\"math-container\">$X$</span>.",
+    "options": [
+      "<span class=\"math-container\">$m_2 = N^2$</span>",
+      "<span class=\"math-container\">$m_2 = N(N+1)$</span>",
+      "<span class=\"math-container\">$m_2 = N(N^2+2)$</span>",
+      "<span class=\"math-container\">$m_2 = N(N+2)$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג <span class=\"math-container\">$\\chi^2$</span> בריבוע: <span class=\"math-container\">$$f_x(x) = \\frac{x^{\\frac{N}{2}-1}}{2^{\\frac{N}{2}}\\,\\Gamma\\!\\left(\\frac{N}{2}\\right)}\\,e^{-x/2}\\,u(x)$$</span> כאשר פונקציית גמא מוגדרת בצורה: <span class=\"math-container\">$\\Gamma(z) = \\displaystyle\\int_0^{\\infty} y^{z-1}e^{-y}\\,dy$</span>.",
+    "question_text": "חשב את סטיית התקן של האות <span class=\"math-container\">$X$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_X = \\sqrt{2N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X = \\sqrt{N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X = \\sqrt{3N}$</span>",
+      "<span class=\"math-container\">$\\sigma_X = N$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

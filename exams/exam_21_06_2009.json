@@ -1,0 +1,197 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון תהליך ממוצע נע (Moving Average):<br><span class=\"math-container\">$$Y(t)=\\frac{1}{2T}\\int_{t-T}^{t+T}X(t')\\,dt'$$</span><br>ניתן לכתוב <span class=\"math-container\">$Y(t)=h(t)*X(t)$</span> כאשר <span class=\"math-container\">$h(t)$</span> היא תגובת המסנן.",
+    "question_text": "מהי תגובת הדחף <span class=\"math-container\">$h(\\tau)$</span> של המסנן?",
+    "options": [
+      "<span class=\"math-container\">$h(\\tau)=\\dfrac{1}{2T}\\bigl[u(\\tau-(-T))-u(\\tau-T)\\bigr]$</span>",
+      "<span class=\"math-container\">$h(\\tau)=\\dfrac{1}{2T}\\bigl[u(\\tau+(-T))-u(\\tau-T)\\bigr]$</span>",
+      "<span class=\"math-container\">$h(\\tau)=\\dfrac{1}{2T}\\bigl[u((-T)-\\tau)-u(T-\\tau)\\bigr]$</span>",
+      "<span class=\"math-container\">$h(\\tau)=\\dfrac{1}{2T}\\bigl[u((-T)+\\tau)-u(T+\\tau)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון תהליך ממוצע נע (Moving Average):<br><span class=\"math-container\">$$Y(t)=\\frac{1}{2T}\\int_{t-T}^{t+T}X(t')\\,dt'$$</span><br>פונקציית תגובת הדחף של המסנן: <span class=\"math-container\">$h(\\tau)=\\dfrac{1}{2T}\\bigl[u(\\tau+T)-u(\\tau-T)\\bigr]$</span>.",
+    "question_text": "מהי פונקציית התמסורת <span class=\"math-container\">$H(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{\\sin(T\\omega)}{T\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{\\cos(T\\omega)}{T\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\dfrac{\\sin(2T\\omega)}{T\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega)=\\sin(T\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון תהליך ממוצע נע (Moving Average):<br><span class=\"math-container\">$$Y(t)=\\frac{1}{2T}\\int_{t-T}^{t+T}X(t')\\,dt'$$</span><br>פונקציית התמסורת: <span class=\"math-container\">$H(\\omega)=\\dfrac{\\sin(T\\omega)}{T\\omega}$</span>.",
+    "question_text": "מהו ספקטרום הספק המוצא <span class=\"math-container\">$S_Y(\\omega)$</span> כתלות ב-<span class=\"math-container\">$S_X(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega)=S_X(\\omega)\\left(\\dfrac{\\sin(T\\omega)}{T\\omega}\\right)^2$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=S_X(\\omega)\\left(\\dfrac{\\cos(T\\omega)}{T\\omega}\\right)^2$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=(S_X(\\omega))^2\\left(\\dfrac{\\sin(T\\omega)}{T\\omega}\\right)^2$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=S_X(\\omega)\\left(\\dfrac{\\sin(2T\\omega)}{T\\omega}\\right)^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> עם פונקציית צפיפות הסתברות מסוג Poisson רציף:<br><span class=\"math-container\">$$f_X(x)=e^{-b}\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}\\delta(x-k),\\quad b>0$$</span>",
+    "question_text": "מהי ה-CDF של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_X(x)=e^{-b}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}u(x-k)$</span>",
+      "<span class=\"math-container\">$F_X(x)=e^{-b}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}u(2x-k)$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\displaystyle\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}u(x-k)$</span>",
+      "<span class=\"math-container\">$F_X(x)=e^{-b}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{b}{k!}u(x-k)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> עם פונקציית צפיפות הסתברות מסוג Poisson רציף:<br><span class=\"math-container\">$$f_X(x)=e^{-b}\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}\\delta(x-k),\\quad b>0$$</span>",
+    "question_text": "מהי פונקציית המאפיין (Characteristic Function) <span class=\"math-container\">$\\Phi_X(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=e^{b(e^{j\\omega}-1)}$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=b(e^{j\\omega}-1)$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=be^{j\\omega}$</span>",
+      "<span class=\"math-container\">$\\Phi_X(\\omega)=b(e^{j\\omega}+1)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> עם פונקציית צפיפות הסתברות מסוג Poisson רציף:<br><span class=\"math-container\">$$f_X(x)=e^{-b}\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}\\delta(x-k),\\quad b>0$$</span>",
+    "question_text": "מהו ממוצע <span class=\"math-container\">$\\mu_X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\mu_X=b$</span>",
+      "<span class=\"math-container\">$\\mu_X=2b$</span>",
+      "<span class=\"math-container\">$\\mu_X=b^2$</span>",
+      "<span class=\"math-container\">$\\mu_X=b+1$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> עם פונקציית צפיפות הסתברות מסוג Poisson רציף:<br><span class=\"math-container\">$$f_X(x)=e^{-b}\\sum_{k=0}^{\\infty}\\frac{b^k}{k!}\\delta(x-k),\\quad b>0$$</span>",
+    "question_text": "מהו סטיית התקן <span class=\"math-container\">$\\sigma_X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_X=\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$\\sigma_X=b$</span>",
+      "<span class=\"math-container\">$\\sigma_X=b^2$</span>",
+      "<span class=\"math-container\">$\\sigma_X=2b$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>. ספקטרום הרעש: <span class=\"math-container\">$S_n(\\omega)=\\dfrac{W}{W^2+\\omega^2}$</span>.<br>רמז: <span class=\"math-container\">$\\dfrac{1}{\\alpha+j\\omega}\\leftrightarrow u(t)e^{-\\alpha t}$</span>.",
+    "question_text": "מהו <span class=\"math-container\">$x(\\omega)$</span>, הטרנספורם של פורייה של <span class=\"math-container\">$x(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha+1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)(\\alpha W+j\\omega)}$</span>",
+      "<span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W+j\\omega)(\\alpha W-j\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>, עם <span class=\"math-container\">$x(\\omega)=\\dfrac{(\\alpha-1)W}{(W-j\\omega)(\\alpha W-j\\omega)}$</span>. ספקטרום הרעש: <span class=\"math-container\">$S_n(\\omega)=\\dfrac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "מהי פונקציית התמסורת של המסננת המתואמת <span class=\"math-container\">$H_{opt}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W-j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{\\alpha W+j\\omega}{W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W+j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>. פונקציית התמסורת של המסננת המתואמת: <span class=\"math-container\">$H_{opt}(\\omega)=\\dfrac{\\alpha-1}{2\\pi C}\\cdot\\dfrac{W-j\\omega}{\\alpha W+j\\omega}\\cdot e^{-j\\omega t_o}$</span>.",
+    "question_text": "מהי תגובת הדחף <span class=\"math-container\">$h_{opt}(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}\\Bigr]$</span>",
+      "<span class=\"math-container\">$h_{opt}(t)=\\dfrac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha-1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון האות <span class=\"math-container\">$x(t)=u(-t)\\cdot\\bigl(e^{Wt}-e^{\\alpha Wt}\\bigr)$</span>, <span class=\"math-container\">$\\alpha>1$</span>. תגובת הדחף של המסננת המתואמת:<br><span class=\"math-container\">$$h_{opt}(t)=\\frac{\\alpha-1}{2\\pi C}\\Bigl[(\\alpha+1)W\\cdot u(t-t_o)\\cdot e^{-\\alpha W(t-t_o)}-\\delta(t-t_o)\\Bigr]$$</span>",
+    "question_text": "עבור אילו ערכי <span class=\"math-container\">$t_o$</span> המסננת סיבתית?",
+    "options": [
+      "<span class=\"math-container\">$t_o>0$</span>",
+      "המסננת אינה סיבתית לעולם",
+      "<span class=\"math-container\">$t_o<0$</span>",
+      "<span class=\"math-container\">$t_o>\\alpha$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר:<br><span class=\"math-container\">$$R(X,Y)=\\sqrt{(A_0\\cos\\theta_0+X)^2+(A_0\\sin\\theta_0+Y)^2}$$</span><br><span class=\"math-container\">$$\\Theta(X,Y)=\\arctan\\frac{A_0\\sin\\theta_0+Y}{A_0\\cos\\theta_0+X}$$</span>",
+    "question_text": "מהם <span class=\"math-container\">$X(R,\\Theta)$</span> ו-<span class=\"math-container\">$Y(R,\\Theta)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$X=R\\cos\\Theta-A_0\\cos\\theta_0,\\quad Y=R\\sin\\Theta-A_0\\sin\\theta_0$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta-A_0,\\quad Y=R\\sin\\Theta-A_0\\sin\\theta_0$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta,\\quad Y=R\\sin\\Theta$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta-2A_0\\cos\\theta_0,\\quad Y=R\\sin\\Theta-3A_0\\sin\\theta_0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות).",
+    "question_text": "חשב את היעקוביאן <span class=\"math-container\">$J$</span> של ההמרה.",
+    "options": [
+      "<span class=\"math-container\">$J=R$</span>",
+      "<span class=\"math-container\">$J=R^2$</span>",
+      "<span class=\"math-container\">$J=2R$</span>",
+      "<span class=\"math-container\">$J=R\\cos\\Theta$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות). <span class=\"math-container\">$J=R$</span>.",
+    "question_text": "מהי פונקציית הצפיפות המשותפת <span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\cos(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\sin(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r^2}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\cos(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות). רמז: <span class=\"math-container\">$I_0(u)=\\dfrac{1}{2\\pi}\\displaystyle\\int_0^{2\\pi}e^{u\\cos\\varphi}d\\varphi$</span>.",
+    "question_text": "מהי פונקציית הצפיפות השולית <span class=\"math-container\">$f_R(r)$</span> (התפלגות Rice)?",
+    "options": [
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{1}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{r}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r^2}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

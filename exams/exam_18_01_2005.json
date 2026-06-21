@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג: <span class=\"math-container\">$f_x(x) = \\lambda e^{-\\lambda x}u(x)$</span>.",
+    "question_text": "חשב את התוחלת של האות <span class=\"math-container\">$X$</span>:",
+    "options": [
+      "<span class=\"math-container\">$E\\{X\\} = \\dfrac{1}{\\lambda^2}$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = \\dfrac{1}{\\lambda}$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = \\lambda^2$</span>",
+      "<span class=\"math-container\">$E\\{X\\} = \\lambda$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג: <span class=\"math-container\">$f_x(x) = \\lambda e^{-\\lambda x}u(x)$</span>.<br>אות התקשורת עובר דרך התקן הנקרא מכמת ואשר במוצאו נקבל משתנה אקראי חדש: <span class=\"math-container\">$Y = floor(X)$</span>, כלומר הערך השלם הנמוך של המשתנה האקראי <span class=\"math-container\">$X$</span> (מעגלים כלפי מטה).",
+    "question_text": "מהי פונקצית צפיפות הפילוג של <span class=\"math-container\">$Y = floor(X)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty}\\left[e^{-(n+1)\\lambda} - e^{-\\lambda(n-1)}\\right]\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty} e^{-(n+1)\\lambda}(1-e^{-2\\lambda})\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty} e^{-n\\lambda}(1-e^{-\\lambda})\\delta(y-n)$</span>",
+      "<span class=\"math-container\">$f_y(y) = \\displaystyle\\sum_{n=0}^{\\infty} e^{-n}\\!\\left(1-\\frac{1}{e}\\right)\\delta(y-n)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון אות תקשורת אקראי המתפלג על פי פילוג: <span class=\"math-container\">$f_x(x) = \\lambda e^{-\\lambda x}u(x)$</span>.<br>אות התקשורת עובר דרך התקן הנקרא מכמת ואשר במוצאו נקבל משתנה אקראי חדש: <span class=\"math-container\">$Y = floor(X)$</span>, כלומר הערך השלם הנמוך של המשתנה האקראי <span class=\"math-container\">$X$</span> (מעגלים כלפי מטה).",
+    "question_text": "נגדיר את שגיאת הכימות כ: <span class=\"math-container\">$Z = Y - X = floor(X) - X$</span>. מהי תוחלת שגיאת הכימות?",
+    "options": [
+      "<span class=\"math-container\">$E\\{Z\\} = 1 - \\dfrac{e^{-\\lambda}\\left(1-\\frac{1}{e}\\right)^2}{1-e^{-\\lambda}}$</span>",
+      "<span class=\"math-container\">$E\\{Z\\} = 1 - \\dfrac{e^{-\\lambda}}{1-e^{-\\lambda}}$</span>",
+      "<span class=\"math-container\">$E\\{Z\\} = \\dfrac{1}{\\lambda} - \\dfrac{e^{-\\lambda}}{1-e^{-\\lambda}}$</span>",
+      "<span class=\"math-container\">$E\\{Z\\} = \\dfrac{1}{\\lambda} - \\dfrac{e^{-\\lambda}\\left(1-\\frac{1}{e}\\right)^2}{1-e^{-\\lambda}}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = a\\cos(Yt + \\phi)$</span> כאשר:<br><span class=\"math-container\">$$f_\\phi(\\phi) = \\begin{cases} \\dfrac{1}{2\\pi} & -\\pi \\le \\phi \\le \\pi \\\\ 0 & \\text{otherwise} \\end{cases}$$</span><br><span class=\"math-container\">$Y$</span> הינו משתנה אקראי עם פונקצית צפיפות פילוג (PDF) <span class=\"math-container\">$f_Y(y) = g(y)$</span>. <span class=\"math-container\">$\\phi, Y$</span> — משתנים אקראיים בת\"ס.",
+    "question_text": "מצא את ספקטרום ההספק של התהליך <span class=\"math-container\">$X(t)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega) = a^2(g(-\\omega) + g(\\omega))$</span>",
+      "<span class=\"math-container\">$S_X(\\omega) = \\pi a^2 g(\\omega)$</span>",
+      "תשובות 2 + 4 נכונות.",
+      "<span class=\"math-container\">$S_X(\\omega) = \\dfrac{\\pi a^2}{2}(g(-\\omega) + g(\\omega))$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = a\\cos(Yt + \\phi)$</span> כאשר:<br><span class=\"math-container\">$$f_\\phi(\\phi) = \\begin{cases} \\dfrac{1}{2\\pi} & -\\pi \\le \\phi \\le \\pi \\\\ 0 & \\text{otherwise} \\end{cases}$$</span><br><span class=\"math-container\">$Y$</span> הינו משתנה אקראי עם פונקצית צפיפות פילוג (PDF) <span class=\"math-container\">$f_Y(y) = g(y)$</span>. <span class=\"math-container\">$\\phi, Y$</span> — משתנים אקראיים בת\"ס.",
+    "question_text": "חשב את המומנט השני של המשתנה האקראי <span class=\"math-container\">$Y$</span> כאשר נתון <span class=\"math-container\">$g(y) = \\dfrac{\\sigma}{\\pi} \\cdot \\dfrac{y^2}{y^2 + \\sigma^2}$</span>:",
+    "options": [
+      "<span class=\"math-container\">$\\infty$</span>",
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$2\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\sigma^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = a\\cos(Yt + \\phi)$</span> כאשר:<br><span class=\"math-container\">$$f_\\phi(\\phi) = \\begin{cases} \\dfrac{1}{2\\pi} & -\\pi \\le \\phi \\le \\pi \\\\ 0 & \\text{otherwise} \\end{cases}$$</span><br>נתון כי <span class=\"math-container\">$n(t)$</span> הוא תהליך אקראי עם תוחלת אפס ואוטוקורלציה <span class=\"math-container\">$R_{NN}(\\tau) = q\\delta(\\tau)$</span>. מעבירים את <span class=\"math-container\">$W(t) = X(t) + n(t)$</span> דרך מסנן מעביר נמוכים אידיאלי עם <span class=\"math-container\">$H(\\omega) = \\begin{cases} 1 & |\\omega| \\le \\omega_0 \\\\ 0 & \\text{otherwise} \\end{cases}$</span>.<br>בהפעם: <span class=\"math-container\">$f_Y(y) = \\begin{cases} \\dfrac{1}{B} & 0 \\le y \\le B \\\\ 0 & \\text{otherwise} \\end{cases}$</span>, <span class=\"math-container\">$B \\ll \\omega_0$</span>.",
+    "question_text": "חשב את יחס הספקי האות והרעש עבור מוצא המסנן <span class=\"math-container\">$Z(t)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$SNR = \\dfrac{\\pi a^2}{q\\omega_0}$</span>",
+      "<span class=\"math-container\">$SNR = \\dfrac{a^2}{2q\\omega_0}$</span>",
+      "<span class=\"math-container\">$SNR = \\dfrac{\\pi a}{2q\\omega_0}$</span>",
+      "<span class=\"math-container\">$SNR = \\dfrac{\\pi a^2}{2q\\omega_0}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונים ת\"א גאוסי <span class=\"math-container\">$X(t)$</span> עם תוחלת אפס ו-<span class=\"math-container\">$R_{XX}(\\tau)$</span>. נגדיר: <span class=\"math-container\">$$Y(t) = \\frac{1}{2T}\\int_{-T}^{T} x(\\lambda)x(t+\\lambda)\\,d\\lambda$$</span>.",
+    "question_text": "<span class=\"math-container\">$Y(t)$</span> הוא תהליך אקראי:",
+    "options": [
+      "לא סטציונרי תמיד.",
+      "סטציונרי תמיד.",
+      "סטציונרי אם <span class=\"math-container\">$T \\to \\infty$</span>.",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונים ת\"א גאוסי <span class=\"math-container\">$X(t)$</span> עם תוחלת אפס ו-<span class=\"math-container\">$R_{XX}(\\tau)$</span>. נגדיר: <span class=\"math-container\">$$Y(t) = \\frac{1}{2T}\\int_{-T}^{T} x(\\lambda)x(t+\\lambda)\\,d\\lambda$$</span>.",
+    "question_text": "<span class=\"math-container\">$Y(t)$</span> הוא תהליך אקראי (הכוונה לתהליך גאוסי עם מקדמים קבועים):",
+    "options": [
+      "גאוסי.",
+      "לא גאוסי.",
+      "גאוסי בתנאי ש: <span class=\"math-container\">$T \\to \\infty$</span>.",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון רעש לבן <span class=\"math-container\">$S_n(\\omega) = \\dfrac{N_0}{2}$</span> בכניסה למערכת ליניארית בעלת תגובה להלם מהצורה: <span class=\"math-container\">$h(t) = u(t)\\dfrac{1}{t+w}$</span>, <span class=\"math-container\">$w > 0$</span> (<span class=\"math-container\">$u(t)$</span> היא פונקצית מדרגה).",
+    "question_text": "חשב את הקרוס-קורלציה בין האות בכניסה לאות במוצא.",
+    "options": [
+      "<span class=\"math-container\">$R_{xy}(\\tau) = N_0 \\dfrac{w}{\\tau + w^2}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{2} \\dfrac{1}{\\tau + w^2}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{2} \\dfrac{1}{\\tau + w}$</span>",
+      "<span class=\"math-container\">$R_{xy}(\\tau) = \\dfrac{N_0}{2} \\dfrac{1}{(\\tau + w)^2}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון תהליך אקראי סטציונרי, ארגודי וחיובי. לתהליך פונקצית אוטו-קורלאציה: <span class=\"math-container\">$R_{xx}(\\tau) = A^4 + e^{-|\\tau|}$</span> (<span class=\"math-container\">$A > 0$</span>). התהליך האקראי עובר דרך פילטר עם פונקצית תגובה להלם: <span class=\"math-container\">$h(t) = u(t)e^{-wt}$</span>, <span class=\"math-container\">$w > 0$</span>.",
+    "question_text": "חשב את ממוצע האות במוצא הפילטר.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{A}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^4}{w}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A}{w^2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{w}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  }
+]

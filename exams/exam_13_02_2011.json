@@ -1,0 +1,236 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון המשתנה האקראי <span class=\"math-container\">$z=|x|$</span>, כאשר <span class=\"math-container\">$F_X(x)$</span> היא פונקצית ה-CDF של <span class=\"math-container\">$x$</span>.",
+    "question_text": "מהי פונקצית ה-CDF של המשתנה האקראי <span class=\"math-container\">$z$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_Z(z)=\\bigl[F_X(z)-F_X(-z)\\bigr]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=\\bigl[F_X(z)\\cdot F_X(-z)\\bigr]\\,u(z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=F_X(z)-F_X(-z)$</span>",
+      "<span class=\"math-container\">$F_Z(z)=F_X(z)+F_X(-z)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון <span class=\"math-container\">$y=\\bigl||x|+n\\bigr|$</span>, כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונויות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$y$</span> גאוסי?",
+    "options": [
+      "לא",
+      "כן, בהנחות מסוימות",
+      "כן",
+      "היה גאוסי אם התוחלת של <span class=\"math-container\">$x$</span> הייתה שונה מאפס"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון <span class=\"math-container\">$y=\\bigl||x|+n\\bigr|$</span>, כאשר <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$n$</span> הינם משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית בעלי תוחלת אפס ושונויות <span class=\"math-container\">$\\sigma_x^2$</span> ו-<span class=\"math-container\">$\\sigma_n^2$</span> בהתאמה.",
+    "question_text": "האם <span class=\"math-container\">$x$</span> ו-<span class=\"math-container\">$y$</span> אורתוגונאליים? האם הם חסרי קורלציה?",
+    "options": [
+      "אורתוגונאליים, חסרי קורלציה",
+      "לא אורתוגונאליים, לא חסרי קורלציה",
+      "אורתוגונאליים, לא חסרי קורלציה",
+      "לא אורתוגונאליים, חסרי קורלציה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים, <span class=\"math-container\">$\\Theta$</span> היא פאזה אקראית המתפלגת באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span>, ו-<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי המתאר את האינפורמציה המשודרת (בלתי תלוי ב-<span class=\"math-container\">$\\Theta$</span>), כאשר <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "מגדירים את התדר הזוויתי הרגעי של המערכת בצורה <span class=\"math-container\">$\\omega(t)=\\frac{d\\Phi}{dt}$</span>. מהו התדר המקסימלי (המינימלי) של האות <span class=\"math-container\">$S_{FM}(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm 2K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\omega_0\\pm X(t)K_{FM}M$</span>",
+      "<span class=\"math-container\">$\\omega_{\\max(\\min)}=\\pm K_{FM}M$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_13_02_2011/q4.png"
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים, <span class=\"math-container\">$\\Theta$</span> היא פאזה אקראית המתפלגת באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span>, ו-<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי המתאר את האינפורמציה המשודרת (בלתי תלוי ב-<span class=\"math-container\">$\\Theta$</span>), כאשר <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "נתון מקדם \"השיא\" של האות <span class=\"math-container\">$X(t)$</span>: <span class=\"math-container\">$K_{CR}=\\frac{M}{\\sqrt{E[X(t)^2]}}$</span>. מה יהיה רוחב הפילטר מעביר הפס <span class=\"math-container\">$W_{FM}$</span> במערכת הקולט?",
+    "options": [
+      "<span class=\"math-container\">$W_{FM}=2K_{FM}K_{CR}\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=2K_{FM}K_{CR}X(t)\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=2K_{CR}X(t)\\sqrt{E[X(t)^2]}$</span>",
+      "<span class=\"math-container\">$W_{FM}=4K_{FM}K_{CR}\\sqrt{E[X(t)^2]}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים, <span class=\"math-container\">$\\Theta$</span> היא פאזה אקראית המתפלגת באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span>, ו-<span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי המתאר את האינפורמציה המשודרת (בלתי תלוי ב-<span class=\"math-container\">$\\Theta$</span>), כאשר <span class=\"math-container\">$|X(t)|\\leq M$</span>.",
+    "question_text": "מהו ההספק הממוצע של האות <span class=\"math-container\">$S_{FM}(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}M^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}X(t)^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_{FM}}=\\dfrac{1}{2}A^4$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים. הערוץ בין המשדר למקלט מתואר על ידי פונקציית תגובה להלם <span class=\"math-container\">$h(t-t')=G_{ch}\\delta(t-t')$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הוא מקדם ההגברה (הנחתה) של הערוץ.",
+    "question_text": "מה יהיה הספק האות <span class=\"math-container\">$S_i(t)$</span> בכניסה למקלט?",
+    "options": [
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2M^2A^2$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2A^4$</span>",
+      "<span class=\"math-container\">$P_{S_i}=\\dfrac{1}{2}G_{ch}^2X(t)^2A^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')\\,dt'$$</span> בביטוי זה <span class=\"math-container\">$A,\\omega_0,K_{FM}&gt;0$</span> הם קבועים. הפילטר מעביר הפס שבמקלט הוא פילטר אידאלי עם רוחב <span class=\"math-container\">$W_{FM}$</span> ותדר מרכזי <span class=\"math-container\">$\\omega_0$</span>. הסטייה המקסימלית מהתדר המרכזי היא <span class=\"math-container\">$\\Delta\\omega=W_{FM}/2$</span>. לפילטר נכנס רעש לבן עם ספקטרום הספק <span class=\"math-container\">$\\Xi(\\omega)=N_0/2$</span>.",
+    "question_text": "מהו הספק הרעש <span class=\"math-container\">$P_{N_i}$</span> במוצא הפילטר?",
+    "options": [
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{1}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{\\omega_0}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{2}{\\pi}N_0\\Delta\\omega$</span>",
+      "<span class=\"math-container\">$P_{N_i}=\\dfrac{1}{2\\pi}N_0\\Delta\\omega$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. במקלט FM ישנם בשרשרת הקליטה שני רכיבים נוספים: \"מגביל\" (Limiter) שתפקידו להסיר כל שינוי באמפליטודה של האות, ו\"מבחין\" (Discriminator) המגיב בצורה לינארית לשינויים בתדר הכניסה ביחס לתדר המרכזי: <span class=\"math-container\">$S_d(t)=K_D(\\omega(t)-\\omega_0)$</span>. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> כאשר <span class=\"math-container\">$\\Phi(t)=\\omega_0 t+\\Theta+K_{FM}\\int_0^t X(t')dt'$</span>.",
+    "question_text": "מה היחס בין המתח <span class=\"math-container\">$S_d(t)$</span> לאות <span class=\"math-container\">$X(t)$</span> המכיל את האינפורמציה?",
+    "options": [
+      "<span class=\"math-container\">$S_d(t)=K_D K_{FM}X(t)$</span>",
+      "<span class=\"math-container\">$S_d(t)=K_D X(t)$</span>",
+      "<span class=\"math-container\">$S_d(t)=K_D K_{FM}\\dfrac{dX(t)}{dt}$</span>",
+      "<span class=\"math-container\">$S_d(t)=X(t)^2\\dfrac{d\\Phi}{dt}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונה מערכת תקשורת FM כמתואר באיור. הפילטר מעביר הפס הוא פילטר אידאלי עם רוחב <span class=\"math-container\">$W_{FM}$</span>, סטייה מקסימלית <span class=\"math-container\">$\\Delta\\omega=W_{FM}/2$</span> ו-PSD רעש <span class=\"math-container\">$N_0/2$</span>. הערוץ בעל מקדם הגברה <span class=\"math-container\">$G_{ch}$</span>. האות <span class=\"math-container\">$S_{FM}(t)=A\\cos\\Phi(t)$</span> עם הספק <span class=\"math-container\">$P_{S_{FM}}=\\frac{1}{2}A^2$</span>.",
+    "question_text": "חשב את יחס הספק האות להספק הרעש <span class=\"math-container\">$P_{S_i}/P_{N_i}$</span> בכניסה למגביל.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2 A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi X(t)^2 A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2 M^2 A^2}{2N_0\\Delta\\omega}$</span>",
+      "<span class=\"math-container\">$\\dfrac{P_{S_i}}{P_{N_i}}=\\dfrac{\\pi G_{ch}^2 K_{FM} A^2}{2N_0\\Delta\\omega}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום קבוע: <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "כתוב משוואת דיפרנציאלית למשתנה האקראי <span class=\"math-container\">$X(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$m\\dfrac{d^2X}{dt^2}+f\\dfrac{dX}{dt}+cX=F$</span>",
+      "<span class=\"math-container\">$m\\dfrac{d^2X}{dt^2}=F$</span>",
+      "<span class=\"math-container\">$m\\dfrac{d^2X}{dt^2}+cX=F$</span>",
+      "<span class=\"math-container\">$f\\dfrac{dX}{dt}+cX=F$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום קבוע: <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$X(t)$</span> הוא האות בכניסה למערכת לינארית ו-<span class=\"math-container\">$F(t)$</span> האות במוצא, מהו האופרטור <span class=\"math-container\">$L$</span> המאפיין את פעולת המערכת הלינארית?",
+    "options": [
+      "<span class=\"math-container\">$L=m\\dfrac{d^2}{dt^2}+f\\dfrac{d}{dt}+c$</span>",
+      "<span class=\"math-container\">$L=m\\dfrac{d^2}{dt^2}$</span>",
+      "<span class=\"math-container\">$L=m\\dfrac{d^2}{dt^2}+c$</span>",
+      "<span class=\"math-container\">$L=f\\dfrac{d}{dt}+c$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום קבוע: <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "כתוב את פונקציית התמסורת <span class=\"math-container\">$H(\\omega)$</span> של המערכת.",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega)=-m\\omega^2+jf\\omega+c$</span>",
+      "<span class=\"math-container\">$H(\\omega)=-m\\omega^2$</span>",
+      "<span class=\"math-container\">$H(\\omega)=-m\\omega^2+c$</span>",
+      "<span class=\"math-container\">$H(\\omega)=jf\\omega+c$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום קבוע: <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "מה יהיה הספקטרום <span class=\"math-container\">$S_X(\\omega)$</span> של המשתנה האקראי <span class=\"math-container\">$X(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{2kTf}{(c-m\\omega^2)^2+f^2\\omega^2}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{2kTf}{(m\\omega^2)^2}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{2kTf}{(c-m\\omega^2)^2}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=\\dfrac{2kTf}{c^2+f^2\\omega^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום קבוע: <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>. ניתן להשתמש במשפט הרזידיוס ולסגור חצי מעגל בחצי העליון של המישור המרוכב.",
+    "question_text": "מה תהיה האוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span> של המשתנה האקראי <span class=\"math-container\">$X(t)$</span>? הנח <span class=\"math-container\">$\\alpha=\\frac{2f}{m}&gt;0$</span>, <span class=\"math-container\">$\\beta=\\sqrt{\\alpha^2-\\frac{c}{m}}&gt;0$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_X(\\tau)=\\dfrac{kT}{c}\\,e^{-\\alpha|\\tau|}\\!\\left(\\cos(\\beta\\tau)+\\dfrac{\\alpha}{\\beta}\\sin(\\beta|\\tau|)\\right)$</span>",
+      "<span class=\"math-container\">$R_X(\\tau)=\\dfrac{kT}{c}\\,e^{-\\alpha|\\tau|}\\!\\left(\\cos(\\beta\\tau)+\\sin(\\beta|\\tau|)\\right)$</span>",
+      "<span class=\"math-container\">$R_X(\\tau)=e^{-\\alpha|\\tau|}\\!\\left(\\cos(\\beta\\tau)+\\dfrac{\\alpha}{\\beta}\\sin(\\beta|\\tau|)\\right)$</span>",
+      "<span class=\"math-container\">$R_X(\\tau)=\\dfrac{kT}{c}\\,e^{-\\alpha|\\tau|}\\!\\left(\\cos(\\beta\\tau)+\\dfrac{\\alpha}{\\beta}\\sin(\\alpha|\\tau|)\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "הנח כי התהליך <span class=\"math-container\">$X(t)$</span> ארגודי וסטציונרי. מה יהיה הערך הממוצע <span class=\"math-container\">$E[X(t)]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[X(t)]=0$</span>",
+      "<span class=\"math-container\">$E[X(t)]=c$</span>",
+      "<span class=\"math-container\">$E[X(t)]=kT$</span>",
+      "<span class=\"math-container\">$E[X(t)]=m$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>.",
+    "question_text": "הנח כי התהליך <span class=\"math-container\">$X(t)$</span> ארגודי וסטציונרי. מה תהיה השונות <span class=\"math-container\">$\\sigma_X^2$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{kT}{c}$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{m}{c}$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{f}{c}$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{mf}{c}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q18",
+    "preamble": "חלקיק בעל מסה <span class=\"math-container\">$m$</span> נע בתנועה בראונית חד-מימדית המתוארת על ידי משתנה אקראי <span class=\"math-container\">$X(t)$</span>. תנועת החלקיק היא אקראית מאחר שפועל עליו כוח אקראי <span class=\"math-container\">$F(t)$</span>, כוח חיכוך <span class=\"math-container\">$f\\frac{dX}{dt}$</span>, וכוח מחזיר <span class=\"math-container\">$-cX$</span>. הכוח <span class=\"math-container\">$F(t)$</span> הוא רעש לבן גאוסי עם ממוצע אפס וספקטרום <span class=\"math-container\">$S_F(\\omega)=2kTf$</span>. ידוע כי <span class=\"math-container\">$E[X(t)]=0$</span> ו-<span class=\"math-container\">$\\sigma_X^2=kT/c$</span>.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$X(t)$</span> הוא תהליך גאוסי (סטציונרי וארגודי), כתוב פונקצית ה-PDF לתהליך.",
+    "options": [
+      "<span class=\"math-container\">$f_X(x)=\\sqrt{\\dfrac{c}{2\\pi kT}}\\,e^{-\\frac{cx^2}{2kT}}$</span>",
+      "<span class=\"math-container\">$f_X(x)=\\sqrt{\\dfrac{c}{2\\pi}}\\,e^{-\\frac{cx^2}{2kT}}$</span>",
+      "<span class=\"math-container\">$f_X(x)=\\sqrt{\\dfrac{c}{2\\pi kT}}\\,e^{-\\frac{cx^2}{2}}$</span>",
+      "<span class=\"math-container\">$f_X(x)=e^{-\\frac{cx^2}{2kT}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

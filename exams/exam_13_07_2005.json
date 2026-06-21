@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון אות אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\overline{X(t)} = \\mu$</span> ופונקצית אוטוקורלציה סטטיסטית <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>. האות מאפנן אות נושא סינוסואידלי בתדר <span class=\"math-container\">$f_c$</span> (אפנון AM): <span class=\"math-container\">$$Y(t) = A_c[1 + mX(t)]\\sin(\\omega_c t + \\theta)$$</span> כאשר: <span class=\"math-container\">$A_c$</span> — משרעת גל הנושא, <span class=\"math-container\">$\\omega_c = 2\\pi f_c$</span>, <span class=\"math-container\">$\\theta \\sim U[-\\pi, +\\pi]$</span> — מופע גל הנושא, <span class=\"math-container\">$0 < m < 1$</span> — מקדם האפנון.",
+    "question_text": "מהו ממוצע האות המאופנן <span class=\"math-container\">$\\overline{Y(t)}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y(t)} = A_c(1 + m\\cdot\\mu)$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = 0$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = m\\cdot A_c\\cdot\\mu$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = A_c\\sin(\\omega_c t)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון אות אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\mu$</span> ואוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. האות מאפנן אות נושא (AM): <span class=\"math-container\">$Y(t) = A_c[1 + mX(t)]\\sin(\\omega_c t + \\theta)$</span>, <span class=\"math-container\">$\\theta \\sim U[-\\pi,+\\pi]$</span>, <span class=\"math-container\">$0 < m < 1$</span>.",
+    "question_text": "כתוב ביטוי לפונקצית האוטוקורלציה הסטטיסטית <span class=\"math-container\">$R_{YY}(\\tau)$</span> של האות המאופנן (כפונקציה של הפרמטרים <span class=\"math-container\">$A_c, R_{XX}(\\tau), m, \\omega_c$</span>):",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{1}{2}A_c^2(1 + 2\\mu + m^2R_{XX}(\\tau))\\cos(\\omega_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{1}{2}A_c^2(1 + m^2\\mu^2 R_{XX}(\\tau))\\sin(\\omega_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{1}{2}A_c^2(1 + 2m\\mu + m^2R_{XX}(\\tau))\\cos(\\omega_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\dfrac{1}{2}A_c^2(1 + m^2\\mu^2 R_{XX}(\\tau))\\sin(\\omega_c\\tau)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון אות אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\mu$</span> ואוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. האות מאפנן אות נושא (AM): <span class=\"math-container\">$Y(t) = A_c[1 + mX(t)]\\sin(\\omega_c t + \\theta)$</span>, <span class=\"math-container\">$\\theta \\sim U[-\\pi,+\\pi]$</span>, <span class=\"math-container\">$0 < m < 1$</span>.",
+    "question_text": "כתוב ביטוי להספק הממוצע המתפתח על נגד בערך <span class=\"math-container\">$R$</span> כאשר המתח על הנגד הוא <span class=\"math-container\">$Y(t)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$P = \\dfrac{1}{2R}A_c^2(1 + 2m\\mu + m^2R_{XX}(0))$</span>",
+      "<span class=\"math-container\">$P = \\dfrac{A_c^2}{2R}(1 + m^2\\mu^2 R_{XX}(0))$</span>",
+      "<span class=\"math-container\">$P = \\dfrac{1}{2R}A_c^2(1 + R_{XX}(0))$</span>",
+      "<span class=\"math-container\">$P = 0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון אות אקראי <span class=\"math-container\">$X(t)$</span> סטציונרי במובן הרחב בעל ממוצע <span class=\"math-container\">$\\mu$</span> ואוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)$</span>. האות מאפנן אות נושא (AM): <span class=\"math-container\">$Y(t) = A_c[1 + mX(t)]\\sin(\\omega_c t + \\theta)$</span>, <span class=\"math-container\">$\\theta \\sim U[-\\pi,+\\pi]$</span>, <span class=\"math-container\">$0 < m < 1$</span>.",
+    "question_text": "חשב את פונקצית צפיפות ההספק הספקטרלי <span class=\"math-container\">$S_Y(f)$</span> במונחים של פונקצית צפיפות ההספק הספקטרלי <span class=\"math-container\">$S_X(f)$</span>:",
+    "options": [
+      "<span class=\"math-container\">$S_Y(f) = \\dfrac{A_c^2}{4}\\left[(1+2\\mu)\\left[\\delta(f-f_c)+\\delta(f+f_c)\\right] + m^2\\mu^2 S_X(f-f_c) + m^2\\mu^2 S_X(f+f_c)\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(f) = \\dfrac{A_c^2}{4j}\\left[\\delta(f) + m^2\\mu^2 S_X(f-f_c) + m^2\\mu^2 S_X(f+f_c)\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(f) = \\dfrac{A_c^2}{4}\\left[(1+2m\\mu)\\left[\\delta(f+f_c)+\\delta(f-f_c)\\right] + m^2 S_X(f+f_c) + m^2 S_X(f-f_c)\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(f) = \\dfrac{A_c^2}{4j}\\left[\\delta(f-f_c)-\\delta(f+f_c) + m^2\\mu^2 S_X(f-f_c) - m^2\\mu^2 S_X(f+f_c)\\right]$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונים 2 משתנים אקראיים גאוסיים בלתי תלויים <span class=\"math-container\">$T$</span> ו-<span class=\"math-container\">$W$</span> בעלי תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. נגדיר משתנה חדש <span class=\"math-container\">$X = \\min(T, W)$</span>.<br>נתונה הפונקציה: <span class=\"math-container\">$Q(x) = \\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_x^{+\\infty} e^{-z^2/2}\\,dz$</span>",
+    "question_text": "מצא את <span class=\"math-container\">$F_X(x)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\left[Q\\!\\left(\\dfrac{\\min(t,w)^2}{\\sigma}\\right)\\right]^2$</span>",
+      "<span class=\"math-container\">$1 - \\dfrac{2}{\\sqrt{2\\pi}}\\displaystyle\\int_{x/\\sigma}^{\\infty} e^{-z^2/2}\\,dz$</span>",
+      "<span class=\"math-container\">$1 - Q\\!\\left(\\dfrac{x}{\\sigma}\\right)^2$</span>",
+      "<span class=\"math-container\">$\\left[1 - Q\\!\\left(\\dfrac{x}{\\sigma}\\right)\\right]^2$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונים 2 משתנים אקראיים גאוסיים בלתי תלויים <span class=\"math-container\">$T$</span> ו-<span class=\"math-container\">$W$</span> בעלי תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. נתון כי <span class=\"math-container\">$Y = \\max(T, W)$</span>.",
+    "question_text": "מצא את <span class=\"math-container\">$f_Y(y)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{\\sqrt{2\\pi}\\sigma}\\exp\\!\\left(-\\dfrac{y^2}{2\\sigma^2}\\right)\\left[1 - Q\\!\\left(\\dfrac{y}{\\sigma}\\right)\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{\\sqrt{2\\pi}\\sigma}\\exp\\!\\left(-\\dfrac{y^2}{2\\sigma^2}\\right)\\left[1 - Q\\!\\left(\\dfrac{y}{\\sigma}\\right)\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{\\sqrt{2\\pi}\\sigma}\\exp\\!\\left(-\\dfrac{y^2}{2\\sigma^2}\\right)Q\\!\\left(\\dfrac{y}{\\sigma}\\right)$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{\\sqrt{2\\pi}\\sigma}\\exp\\!\\left(-\\dfrac{y}{2\\sigma^2}\\right)\\left[1 - Q\\!\\left(\\dfrac{y}{\\sigma}\\right)\\right]$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נגדיר כעת 2 תהליכים אקראיים גאוסיים בלתי תלויים <span class=\"math-container\">$T(t)$</span> ו-<span class=\"math-container\">$W(t)$</span> בעלי תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>, המהווים כניסה אל 2 מגבלים קשיחים (Hard Limiters), כבשרטוט.<br>מגבל קשיח הוא התקן שמוצאו <span class=\"math-container\">$H(t)$</span> המקיים: <span class=\"math-container\">$H(t) = \\begin{cases} 1 & Z(t) \\ge 0 \\\\ 0 & Z(t) < 0 \\end{cases}$</span> אם <span class=\"math-container\">$Z$</span> מהווה את הכניסה אליו.",
+    "question_text": "חשבו את ההסתברות: <span class=\"math-container\">$\\Pr(H_1(t)\\cdot H_2(t) = 1 \\mid H_1(t) = 1)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$Q\\!\\left(\\dfrac{0}{\\sigma}\\right)$</span>",
+      "<span class=\"math-container\">$0$</span>",
+      "<span class=\"math-container\">$0.25$</span>",
+      "<span class=\"math-container\">$Q\\!\\left(\\dfrac{p^2}{\\sigma}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_13_07_2005/q7.png"
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית (בת\"ס) <span class=\"math-container\">$x_1, x_2$</span> בעלי התפלגות גאוסית, תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. נגדיר משתנה אקראי חדש: <span class=\"math-container\">$m_X = \\dfrac{1}{2}\\displaystyle\\sum_{i=1}^2 x_i$</span>, ומתוכו סדרת משתנים אקראיים: <span class=\"math-container\">$z_i = x_i - m_X$</span>.",
+    "question_text": "האם <span class=\"math-container\">$z_i = x_i - m_X$</span> בלתי תלויים סטטיסטית (בת\"ס) ב-<span class=\"math-container\">$m_X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$z_1$</span> בת\"ס ב-<span class=\"math-container\">$m_X$</span> וכן <span class=\"math-container\">$z_2$</span> בת\"ס ב-<span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> אינו בת\"ס ב-<span class=\"math-container\">$m_X$</span> וכן <span class=\"math-container\">$z_2$</span> אינו בת\"ס ב-<span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> בת\"ס ב-<span class=\"math-container\">$m_X$</span> אך <span class=\"math-container\">$z_2$</span> אינו בת\"ס ב-<span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> אינו בת\"ס ב-<span class=\"math-container\">$m_X$</span> אך <span class=\"math-container\">$z_2$</span> בת\"ס ב-<span class=\"math-container\">$m_X$</span>."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית (בת\"ס) <span class=\"math-container\">$x_1, x_2$</span> בעלי התפלגות גאוסית, תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. נגדיר: <span class=\"math-container\">$m_X = \\dfrac{1}{2}\\displaystyle\\sum_{i=1}^2 x_i$</span>, <span class=\"math-container\">$z_i = x_i - m_X$</span>.",
+    "question_text": "האם <span class=\"math-container\">$z_i = x_i - m_X$</span> ח\"ק עם <span class=\"math-container\">$m_X$</span>? האם המשתנים אורתוגונלים?",
+    "options": [
+      "<span class=\"math-container\">$z_1$</span> לא אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_1$</span> לא ח\"ק עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> ח\"ק עם <span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> לא אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_1$</span> ח\"ק עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> לא ח\"ק עם <span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_1$</span> ח\"ק עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> ח\"ק עם <span class=\"math-container\">$m_X$</span>.",
+      "<span class=\"math-container\">$z_1$</span> לא אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> לא אורתוגונלי עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_1$</span> לא ח\"ק עם <span class=\"math-container\">$m_X$</span>, <span class=\"math-container\">$z_2$</span> לא ח\"ק עם <span class=\"math-container\">$m_X$</span>."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי תלויים סטטיסטית (בת\"ס) <span class=\"math-container\">$x_1, x_2$</span> בעלי התפלגות גאוסית, תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. נגדיר: <span class=\"math-container\">$m_X = \\dfrac{1}{2}\\displaystyle\\sum_{i=1}^2 x_i$</span>, <span class=\"math-container\">$z_i = x_i - m_X$</span>.",
+    "question_text": "מצאו את התוחלת ואת השונות עבור סדרת המשתנים <span class=\"math-container\">$z_i = x_i - m_X$</span>.",
+    "options": [
+      "תוחלת 0, <span class=\"math-container\">$\\text{var}\\{z_1\\} = \\sigma^2$</span>; <span class=\"math-container\">$\\text{var}\\{z_2\\} = \\sigma^2$</span>.",
+      "תוחלת 0, <span class=\"math-container\">$\\text{var}\\{z_1\\} = \\sigma^2$</span>; <span class=\"math-container\">$\\text{var}\\{z_2\\} = 0$</span>.",
+      "תוחלת 0, <span class=\"math-container\">$\\text{var}\\{z_1\\} = \\dfrac{1}{2}\\sigma^2$</span>; <span class=\"math-container\">$\\text{var}\\{z_2\\} = \\dfrac{1}{2}\\sigma^2$</span>.",
+      "תוחלת 0, <span class=\"math-container\">$\\text{var}\\{z_1\\} = 0$</span>; <span class=\"math-container\">$\\text{var}\\{z_2\\} = \\sigma^2$</span>."
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  }
+]

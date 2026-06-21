@@ -1,0 +1,158 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בהתפלגות Arcsine עם פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f_X(x)=\\frac{1}{\\pi\\sqrt{a^2-x^2}}\\cdot\\text{rect}\\!\\left(\\frac{x}{2a}\\right),\\quad a>0$$</span><br>כאשר <span class=\"math-container\">$\\text{rect}(z)=\\begin{cases}1 & |z|&lt;\\tfrac{1}{2}\\\\0 & |z|>\\tfrac{1}{2}\\end{cases}$</span>.",
+    "question_text": "מהי ה-CDF של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\\\dfrac{1}{2}+\\dfrac{1}{\\pi}\\arcsin\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\\\dfrac{1}{\\pi}\\arctan\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\\\dfrac{1}{\\pi}\\arccos\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\\\dfrac{1}{\\pi}\\arcsin\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\1 & x\\geq a\\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בהתפלגות Arcsine עם פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f_X(x)=\\frac{1}{\\pi\\sqrt{a^2-x^2}}\\cdot\\text{rect}\\!\\left(\\frac{x}{2a}\\right),\\quad a>0$$</span>",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$E[X]$</span>.",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\dfrac{1}{2a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{3a}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4a}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בהתפלגות Arcsine עם פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f_X(x)=\\frac{1}{\\pi\\sqrt{a^2-x^2}}\\cdot\\text{rect}\\!\\left(\\frac{x}{2a}\\right),\\quad a>0$$</span>",
+    "question_text": "חשב את השונות <span class=\"math-container\">$\\text{Var}[X]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{a^2}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{a^2}{3}$</span>",
+      "<span class=\"math-container\">$\\dfrac{a^2}{4}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2a^2}{3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בהתפלגות Arcsine עם פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f_X(x)=\\frac{1}{\\pi\\sqrt{a^2-x^2}}\\cdot\\text{rect}\\!\\left(\\frac{x}{2a}\\right),\\quad a>0$$</span>",
+    "question_text": "עבור <span class=\"math-container\">$a=1$</span>, חשב את ההסתברות <span class=\"math-container\">$P\\!\\left\\{-\\tfrac{1}{2}\\leq X\\leq\\tfrac{1}{2}\\right\\}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{3}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}$</span>",
+      "<span class=\"math-container\">$\\dfrac{2}{3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון מסנן LPF המממש על ידי מעגל R1-L-R2 (כמתואר באיור) עם <span class=\"math-container\">$\\tau_c=\\dfrac{L}{R_1+R_2}$</span>.",
+    "question_text": "מהי <span class=\"math-container\">$|H(\\omega)|^2$</span> של המסנן?",
+    "options": [
+      "<span class=\"math-container\">$|H(\\omega)|^2=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^4\\cdot\\dfrac{1}{1+\\omega^2\\tau_c^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2=\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\cdot\\dfrac{\\omega^2\\tau_c^2}{1}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2=\\left(\\dfrac{R_2}{R_1}\\right)^2\\cdot\\omega^2\\tau_c^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_27_10_2009/q5.png"
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון האות האקראי:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\psi$</span> הם משתנים אקראיים בלתי-תלויים המתפלגים אחידות על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (ממוצע אפס, <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) בלתי-תלוי ב-<span class=\"math-container\">$X(t)$</span>.",
+    "question_text": "חשב את <span class=\"math-container\">$E[X(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E[X(t)]=1$</span>",
+      "<span class=\"math-container\">$E[X(t)]=\\cos(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$E[X(t)]=\\sin(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$E[X(t)]=\\sin(3\\omega_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון האות האקראי:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\psi$</span> בלתי-תלויים ואחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span> בלתי-תלוי.",
+    "question_text": "חשב את פונקציית האוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)=E[X(t)X(t+\\tau)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\sin(\\omega_0\\tau)+\\dfrac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{2}\\sin(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=1+\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון האות האקראי:<br><span class=\"math-container\">$$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\psi$</span> בלתי-תלויים ואחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. <span class=\"math-container\">$R_{XX}(\\tau)=1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{2}\\cos(3\\omega_0\\tau)$</span>.",
+    "question_text": "כתוב את ספקטרום ההספק <span class=\"math-container\">$S_X(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\,\\delta(\\omega)+\\dfrac{\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\,\\delta(\\omega)+\\dfrac{\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\,\\delta(\\omega)+\\dfrac{\\pi}{2}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)-\\delta(\\omega+3\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(\\omega)=2\\pi\\bigl[\\delta(\\omega)+\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון האות האקראי <span class=\"math-container\">$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$</span> ורעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. האות והרעש מוזנים למסנן LPF מסוג R1-L-R2 עם <span class=\"math-container\">$|H(\\omega)|^2=(R_2/(R_1+R_2))^2/(1+\\omega^2\\tau_c^2)$</span>. <span class=\"math-container\">$Y(t)$</span> הוא מוצא ה-LPF.",
+    "question_text": "חשב את <span class=\"math-container\">$E[Y(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E[Y(t)]=\\dfrac{R_2}{R_1+R_2}$</span>",
+      "<span class=\"math-container\">$E[Y(t)]=\\dfrac{R_2}{R_1}$</span>",
+      "<span class=\"math-container\">$E[Y(t)]=\\dfrac{L}{R_1+R_2}$</span>",
+      "<span class=\"math-container\">$E[Y(t)]=\\dfrac{L}{R_1}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון האות האקראי <span class=\"math-container\">$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$</span> ורעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. מסנן LPF מסוג R1-L-R2 עם <span class=\"math-container\">$\\tau_c=L/(R_1+R_2)$</span>. תנאי: <span class=\"math-container\">$\\omega_0=\\dfrac{1}{\\tau_c}$</span>.",
+    "question_text": "כתוב את ספקטרום ההספק <span class=\"math-container\">$S_Y(\\omega)$</span> במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\!\\left[2\\pi\\,\\delta(\\omega)+\\dfrac{\\pi}{4}[\\delta(\\omega\\!\\pm\\!\\omega_0)]+\\dfrac{\\pi}{20}[\\delta(\\omega\\!\\pm\\!3\\omega_0)]+\\dfrac{N_0/2}{1+\\omega^2\\tau_c^2}\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=\\!\\left(\\dfrac{R_2}{R_1}\\right)^2\\!\\left[2\\pi\\,\\delta(\\omega)+\\dfrac{1}{1+\\omega^2\\tau_c^2}\\left(\\dfrac{\\pi}{2}[\\delta(\\omega\\!\\pm\\!\\omega_0)-\\delta(\\omega\\!\\pm\\!3\\omega_0)]\\right)+\\dfrac{N_0}{4}\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\!\\left[2\\pi\\,\\delta(\\omega)+\\dfrac{\\pi}{4}[\\delta(\\omega\\!\\pm\\!\\omega_0)]+\\dfrac{\\pi}{10}[\\delta(\\omega\\!\\pm\\!3\\omega_0)]+\\dfrac{N_0/2}{1+\\omega^2\\tau_c^2}\\right]$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)\\!\\left[2\\pi\\,\\delta(\\omega)+\\dfrac{1}{2}[\\delta(\\omega\\!\\pm\\!\\omega_0)]+\\dfrac{1}{2}[\\delta(\\omega\\!\\pm\\!3\\omega_0)]+\\dfrac{N_0}{1+\\omega^2\\tau_c^2}\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון האות האקראי <span class=\"math-container\">$X(t)=1+\\cos(\\omega_0 t+\\varphi)+\\cos(3\\omega_0 t+\\psi)$</span> ורעש לבן עם <span class=\"math-container\">$R_{nn}=\\dfrac{N_0}{2}\\delta(\\tau)$</span>. מסנן LPF מסוג R1-L-R2 עם <span class=\"math-container\">$\\tau_c=L/(R_1+R_2)$</span> ו-<span class=\"math-container\">$\\omega_0=1/\\tau_c$</span>.",
+    "question_text": "חשב את פונקציית האוטוקורלציה <span class=\"math-container\">$R_{YY}(\\tau)$</span> של מוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\!\\left[1+\\dfrac{1}{4}\\cos(\\omega_0\\tau)+\\dfrac{1}{20}\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{5}\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\!\\left(\\dfrac{R_2}{R_1+R_2}\\right)^2\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)+\\dfrac{N_0}{4\\tau_c}e^{-|\\tau|/\\tau_c}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau)=\\!\\left(\\dfrac{R_1}{R_1+R_2}\\right)^2\\!\\left[1+\\dfrac{1}{2}\\cos(\\omega_0\\tau)+\\dfrac{1}{10}\\cos(3\\omega_0\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון האות <span class=\"math-container\">$X(t)=1+\\cos(\\omega_0 t)+\\cos(3\\omega_0 t)$</span> (ללא אקראיות) ורעש לבן עם <span class=\"math-container\">$R_{nn}=\\dfrac{N_0}{2}\\delta(\\tau)$</span>.",
+    "question_text": "מהי פונקציית התמסורת האופטימלית (מסננת מתואמת) <span class=\"math-container\">$H_{opt}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)+\\alpha\\bigl(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr)+\\alpha\\bigl(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr)\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)+\\alpha\\bigl(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr)+\\alpha\\bigl(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr)\\bigr]$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\delta(\\omega)-\\alpha\\bigl(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr)-\\alpha\\bigl(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr)\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega)=K\\bigl[\\alpha\\bigl(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr)+\\alpha\\bigl(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\bigr)\\bigr]e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]
