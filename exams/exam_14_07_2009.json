@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty<a<\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$E[X]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$a+\\dfrac{\\sqrt{\\pi b}}{2}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\sqrt{b}}{2}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\sqrt{\\pi b}}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\sqrt{b}}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty<a<\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "question_text": "חשב את השונות <span class=\"math-container\">$\\text{Var}[X]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$b\\!\\left(1-\\dfrac{\\pi}{4}\\right)$</span>",
+      "<span class=\"math-container\">$b$</span>",
+      "<span class=\"math-container\">$b\\!\\left(1+\\dfrac{\\pi}{2}\\right)$</span>",
+      "<span class=\"math-container\">$a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span>",
+    "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span>, מה ההסתברות <span class=\"math-container\">$P\\{X\\geq 1\\}$</span>?",
+    "options": [
+      "0.61",
+      "0.4",
+      "0.95",
+      "0.89"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי-תלויים <span class=\"math-container\">$X$</span> ו-<span class=\"math-container\">$Y$</span> עם ממוצע 1 ושונויות <span class=\"math-container\">$\\sigma_X^2$</span> ו-<span class=\"math-container\">$\\sigma_Y^2$</span> בהתאמה. מוגדרים: <span class=\"math-container\">$V=X+aY$</span>, <span class=\"math-container\">$W=XY$</span> (כאשר <span class=\"math-container\">$a$</span> קבוע).",
+    "question_text": "חשב את <span class=\"math-container\">$R_{VW}=E[VW]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{VW}=1+\\sigma_X^2+a(1+\\sigma_Y^2)$</span>",
+      "<span class=\"math-container\">$R_{VW}=\\sigma_X^2-a\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$R_{VW}=1+\\sigma_X^2+(a+1)\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$R_{VW}=a\\sigma_X^2\\sigma_Y^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי-תלויים <span class=\"math-container\">$X$</span> ו-<span class=\"math-container\">$Y$</span> עם ממוצע 1 ושונויות <span class=\"math-container\">$\\sigma_X^2$</span> ו-<span class=\"math-container\">$\\sigma_Y^2$</span> בהתאמה. מוגדרים: <span class=\"math-container\">$V=X+aY$</span>, <span class=\"math-container\">$W=XY$</span>.",
+    "question_text": "מהו ערך <span class=\"math-container\">$a$</span> שעבורו <span class=\"math-container\">$V$</span> ו-<span class=\"math-container\">$W$</span> חסרי קורלציה?",
+    "options": [
+      "<span class=\"math-container\">$a=-\\dfrac{1+\\sigma_X^2}{1+\\sigma_Y^2}$</span>",
+      "<span class=\"math-container\">$a=\\pm\\dfrac{\\sigma_X}{\\sigma_Y}$</span>",
+      "<span class=\"math-container\">$a=\\dfrac{\\sigma_X^2}{\\sigma_Y^2}$</span>",
+      "לא ניתן לקבוע ערך <span class=\"math-container\">$a$</span> כזה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונים שני משתנים אקראיים גאוסיים בלתי-תלויים <span class=\"math-container\">$X$</span> ו-<span class=\"math-container\">$Y$</span> עם ממוצע 1 ושונויות <span class=\"math-container\">$\\sigma_X^2$</span> ו-<span class=\"math-container\">$\\sigma_Y^2$</span> בהתאמה. מוגדרים: <span class=\"math-container\">$V=X+aY$</span>, <span class=\"math-container\">$W=XY$</span>.",
+    "question_text": "עבור <span class=\"math-container\">$\\sigma_X=\\sigma_Y$</span>, מהו ערך <span class=\"math-container\">$a$</span> שמאפס את הקורלציה בין <span class=\"math-container\">$V$</span> ל-<span class=\"math-container\">$W$</span>?",
+    "options": [
+      "<span class=\"math-container\">$a=-1$</span>",
+      "<span class=\"math-container\">$a=1$</span>",
+      "<span class=\"math-container\">$a=0$</span>",
+      "לא ניתן לקבוע"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון האות המאופנן AM:<br><span class=\"math-container\">$$X(t)=A_c\\left[1+\\frac{m}{2}\\sin(2\\pi f_m t+\\varphi)\\right]\\cos(2\\pi f_c t+\\theta)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\theta$</span> הם משתנים אקראיים בלתי-תלויים, אחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>.",
+    "question_text": "חשב את <span class=\"math-container\">$\\sigma_X^2=E[X^2(t)]$</span> ואת <span class=\"math-container\">$\\mu_X=E[X(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_X^2=\\left(1+\\dfrac{m^2}{8}\\right)\\dfrac{A_c^2}{2},\\quad \\mu_X=0$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{A_c^2}{2},\\quad \\mu_X=A_c$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\left(1+m^2\\right)\\dfrac{A_c^2}{8},\\quad \\mu_X=A_c$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2=\\dfrac{m^2 A_c^2}{2},\\quad \\mu_X=0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון האות המאופנן AM:<br><span class=\"math-container\">$$X(t)=A_c\\left[1+\\frac{m}{2}\\sin(2\\pi f_m t+\\varphi)\\right]\\cos(2\\pi f_c t+\\theta)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\theta$</span> הם משתנים אקראיים בלתי-תלויים, אחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>.",
+    "question_text": "חשב את פונקציית האוטוקורלציה <span class=\"math-container\">$R_{XX}(\\tau)=E[X(t)X(t+\\tau)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_m\\tau)\\right]\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\sin(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{2}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון האות המאופנן AM:<br><span class=\"math-container\">$$X(t)=A_c\\left[1+\\frac{m}{2}\\sin(2\\pi f_m t+\\varphi)\\right]\\cos(2\\pi f_c t+\\theta)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\theta$</span> אחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. <span class=\"math-container\">$R_{XX}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>.",
+    "question_text": "כתוב את ספקטרום ההספק <span class=\"math-container\">$S_X(f)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_X(f)=\\dfrac{A_c^2}{4}\\left\\{\\delta(f)+\\dfrac{m^2}{16}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(f)=\\dfrac{A_c^2}{4}\\left\\{\\delta(f)+\\dfrac{m^2}{4}\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(f)=\\dfrac{A_c^2}{4j}\\left\\{\\delta(f)+\\dfrac{m^2}{16}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)+\\delta(f+f_c)\\bigr]$</span>",
+      "<span class=\"math-container\">$S_X(f)=\\dfrac{A_c^2}{4j}\\left\\{\\delta(f)+\\dfrac{m^2}{16}\\bigl[\\delta(f-f_m)+\\delta(f+f_m)\\bigr]\\right\\}*\\bigl[\\delta(f-f_c)-\\delta(f+f_c)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון האות המאופנן AM:<br><span class=\"math-container\">$$X(t)=A_c\\left[1+\\frac{m}{2}\\sin(2\\pi f_m t+\\varphi)\\right]\\cos(2\\pi f_c t+\\theta)$$</span><br>כאשר <span class=\"math-container\">$\\varphi$</span> ו-<span class=\"math-container\">$\\theta$</span> אחידים על <span class=\"math-container\">$[-\\pi,+\\pi]$</span>. ה-Hilbert transform של <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$\\hat{X}(t)$</span>.",
+    "question_text": "מהי פונקציית האוטוקורלציה <span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\sin(2\\pi f_m\\tau)\\right]\\cos(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\cos(2\\pi f_m\\tau)\\right]\\sin(2\\pi f_c\\tau)$</span>",
+      "<span class=\"math-container\">$R_{\\hat{X}\\hat{X}}(\\tau)=\\dfrac{A_c^2}{2}\\left[1+\\dfrac{m^2}{8}\\cos(2\\pi f_c\\tau)\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]
