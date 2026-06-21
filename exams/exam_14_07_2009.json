@@ -1,7 +1,7 @@
 [
   {
     "id": "q1",
-    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty<a<\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty&lt;a&lt;\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
     "question_text": "חשב את הממוצע <span class=\"math-container\">$E[X]$</span>.",
     "options": [
       "<span class=\"math-container\">$a+\\dfrac{\\sqrt{\\pi b}}{2}$</span>",
@@ -14,7 +14,7 @@
   },
   {
     "id": "q2",
-    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty<a<\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty&lt;a&lt;\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
     "question_text": "חשב את השונות <span class=\"math-container\">$\\text{Var}[X]$</span>.",
     "options": [
       "<span class=\"math-container\">$b\\!\\left(1-\\dfrac{\\pi}{4}\\right)$</span>",
@@ -27,7 +27,7 @@
   },
   {
     "id": "q3",
-    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x<a\\end{cases}$$</span>",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span>",
     "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span>, מה ההסתברות <span class=\"math-container\">$P\\{X\\geq 1\\}$</span>?",
     "options": [
       "0.61",

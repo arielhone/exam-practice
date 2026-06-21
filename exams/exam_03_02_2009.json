@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=\\dfrac{N_0}{2}$</span>) לפילטר RC נמוך-תדר עם פונקציית תמסורת:<br><span class=\"math-container\">$$H(\\omega)=\\frac{1}{1+j\\tau\\omega}$$</span>",
+    "question_text": "מהו ספקטרום ההספק של הרעש במוצא הפילטר <span class=\"math-container\">$S_{n_o}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_{n_o}(\\omega)=\\dfrac{N_0/2}{1+\\tau^2\\omega^2}$</span>",
+      "<span class=\"math-container\">$S_{n_o}(\\omega)=\\dfrac{N_0/2}{1+\\tau^4\\omega^4}$</span>",
+      "<span class=\"math-container\">$S_{n_o}(\\omega)=\\dfrac{N_0/2}{(1+\\tau^2\\omega^2)^2}$</span>",
+      "<span class=\"math-container\">$S_{n_o}(\\omega)=\\dfrac{N_0/2}{1+\\tau^4\\omega^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=\\dfrac{N_0}{2}$</span>) לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>.",
+    "question_text": "חשב את הספק הרעש הכולל <span class=\"math-container\">$P_{n_o}$</span> במוצא הפילטר.",
+    "options": [
+      "<span class=\"math-container\">$P_{n_o}=\\dfrac{N_0}{4\\tau}$</span>",
+      "<span class=\"math-container\">$P_{n_o}=\\dfrac{N_0}{2\\tau}$</span>",
+      "<span class=\"math-container\">$P_{n_o}=\\dfrac{N_0}{8\\tau}$</span>",
+      "<span class=\"math-container\">$P_{n_o}=\\dfrac{N_0}{2\\tau^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=\\dfrac{N_0}{2}$</span>) לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>.",
+    "question_text": "מהו ספקטרום האות במוצא הפילטר <span class=\"math-container\">$X_0(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$X_0(\\omega)=\\dfrac{jA\\pi}{1+j\\tau\\omega}\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$X_0(\\omega)=\\dfrac{jA\\pi}{1+j\\tau\\omega}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$X_0(\\omega)=\\dfrac{A\\pi}{1+j\\tau\\omega}\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)\\bigr]$</span>",
+      "<span class=\"math-container\">$X_0(\\omega)=\\dfrac{A\\pi}{1+j\\tau\\omega}\\bigl[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\bigr]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>.",
+    "question_text": "כתוב את האות במוצא הפילטר בצורה <span class=\"math-container\">$X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\tan(\\varphi)=-\\omega_0\\tau,\\quad A_0=\\dfrac{A}{\\sqrt{1+\\omega_0^2\\tau^2}},\\quad X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$\\tan(\\varphi)=-2\\omega_0\\tau,\\quad A_0=\\dfrac{A}{\\sqrt{1+\\omega_0^2\\tau^2}},\\quad X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$\\tan(\\varphi)=-\\omega_0^2\\tau,\\quad A_0=\\dfrac{A}{\\sqrt{1+\\omega_0^2\\tau^4}},\\quad X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$\\tan(\\varphi)=-\\omega_0^2\\tau,\\quad A_0=\\dfrac{A}{\\sqrt{1+3\\omega_0^2\\tau^2}},\\quad X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>. מוצא הפילטר: <span class=\"math-container\">$X_0(t)=A_0\\sin(\\omega_0 t+\\varphi)$</span> כאשר <span class=\"math-container\">$A_0=\\dfrac{A}{\\sqrt{1+\\omega_0^2\\tau^2}}$</span>.",
+    "question_text": "מהו הספק האות המיידי <span class=\"math-container\">$P_S$</span> במוצא?",
+    "options": [
+      "<span class=\"math-container\">$P_S=A_0^2\\sin^2(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$P_S=A_0^4\\sin^2(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$P_S=A_0^2\\sin(\\omega_0 t+\\varphi)$</span>",
+      "<span class=\"math-container\">$P_S=A^2\\sin^2(\\omega_0 t+\\varphi)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>. מוצא הפילטר: <span class=\"math-container\">$A_0=\\dfrac{A}{\\sqrt{1+\\omega_0^2\\tau^2}}$</span>.",
+    "question_text": "חשב את הספק האות הממוצע <span class=\"math-container\">$\\langle P_S\\rangle$</span> כתלות ב-<span class=\"math-container\">$A,\\tau,\\omega_0$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\langle P_S\\rangle=\\dfrac{A^2}{2(1+\\omega_0^2\\tau^2)}$</span>",
+      "<span class=\"math-container\">$\\langle P_S\\rangle=\\dfrac{A^2}{2(1+\\omega_0^4\\tau^4)}$</span>",
+      "<span class=\"math-container\">$\\langle P_S\\rangle=\\dfrac{2A^2}{1+\\omega_0^2\\tau^2}$</span>",
+      "<span class=\"math-container\">$\\langle P_S\\rangle=\\dfrac{A^4}{2(1+\\omega_0^4\\tau^2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=N_0/2$</span>) לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>. הספק האות הממוצע: <span class=\"math-container\">$A^2/(2(1+\\omega_0^2\\tau^2))$</span>. הספק הרעש: <span class=\"math-container\">$N_0/(4\\tau)$</span>.",
+    "question_text": "חשב את יחס אות-רעש (SNR) במוצא הפילטר.",
+    "options": [
+      "<span class=\"math-container\">$\\text{SNR}=\\dfrac{2A^2\\tau}{N_0(1+\\omega_0^2\\tau^2)}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}=\\dfrac{2A^2}{N_0}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}=\\dfrac{2A^2}{N_0(1+\\omega_0^2\\tau^2)^2}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}=\\dfrac{4A^2\\tau}{N_0(1+\\omega_0^2\\tau^2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=N_0/2$</span>) לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>. <span class=\"math-container\">$\\text{SNR}=\\dfrac{2A^2\\tau}{N_0(1+\\omega_0^2\\tau^2)}$</span>.",
+    "question_text": "מהו ערך <span class=\"math-container\">$\\tau$</span> המקסם את ה-SNR?",
+    "options": [
+      "<span class=\"math-container\">$\\tau=\\dfrac{1}{\\omega_0}$</span>",
+      "<span class=\"math-container\">$\\tau=\\dfrac{2}{\\omega_0}$</span>",
+      "<span class=\"math-container\">$\\tau=\\dfrac{1}{4\\omega_0}$</span>",
+      "<span class=\"math-container\">$\\tau=\\dfrac{5}{\\omega_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> המוזן (יחד עם רעש לבן <span class=\"math-container\">$S_n(\\omega)=N_0/2$</span>) לפילטר עם פונקציית תמסורת <span class=\"math-container\">$H(\\omega)=\\dfrac{1}{1+j\\tau\\omega}$</span>. ה-SNR המקסימלי מתקבל בעבור <span class=\"math-container\">$\\tau=1/\\omega_0$</span>.",
+    "question_text": "מהו ה-<span class=\"math-container\">$\\text{SNR}_{\\max}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\text{SNR}_{\\max}=\\dfrac{A^2}{\\omega_0 N_0}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{\\max}=\\dfrac{4A^2\\omega_0}{N_0}$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{\\max}=\\left(\\dfrac{A^2\\omega_0}{N_0}\\right)^2$</span>",
+      "<span class=\"math-container\">$\\text{SNR}_{\\max}=\\dfrac{\\omega_0 A^2}{N_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> ורעש לבן <span class=\"math-container\">$S_n(\\omega)=N_0/2$</span>. יש לעצב מסננת מתואמת (Matched Filter) לאות זה.",
+    "question_text": "מהי פונקציית התמסורת של המסננת המתואמת <span class=\"math-container\">$H_{opt}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$(K)\\;H_{opt}(\\omega)=KjA\\bigl[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$(K)\\;H_{opt}(\\omega)=KjA\\bigl[\\sin(\\omega-\\omega_0)-\\sin(\\omega+\\omega_0)\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$(K)\\;H_{opt}(\\omega)=KjA\\bigl[\\delta(\\omega-2\\omega_0)-\\delta(\\omega)\\bigr]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$(K)\\;H_{opt}(\\omega)=KA\\tan(\\omega)e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> ורעש לבן. <span class=\"math-container\">$\\text{SNR}_{\\max}$</span> של פילטר ה-RC האופטימלי (מהשאלות הקודמות) שווה ל-<span class=\"math-container\">$A^2/(\\omega_0 N_0)$</span>.",
+    "question_text": "האם ה-SNR של המסננת המתואמת שווה, גבוה, או נמוך מה-SNR של פילטר RC האופטימלי?",
+    "options": [
+      "שווה",
+      "גבוה יותר",
+      "גבוה פי 10",
+      "גבוה פי 100"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> ורעש לבן. יש לממש את המסננת המתואמת בעזרת מעגל RL (מסדר ראשון) עם <span class=\"math-container\">$\\omega_0=1$</span>.",
+    "question_text": "מהם ערכי <span class=\"math-container\">$R$</span> ו-<span class=\"math-container\">$L$</span> הנדרשים?",
+    "options": [
+      "<span class=\"math-container\">$R=1,\\quad L=\\dfrac{1}{\\omega_0}$</span>",
+      "<span class=\"math-container\">$R=1,\\quad L=\\dfrac{2}{\\omega_0}$</span>",
+      "<span class=\"math-container\">$R=2,\\quad L=\\dfrac{1}{\\omega_0}$</span>",
+      "<span class=\"math-container\">$R=1,\\quad L=\\dfrac{3}{\\omega_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות:<br><span class=\"math-container\">$$R(X,Y)=\\sqrt{(A_0\\cos\\theta_0+X)^2+(A_0\\sin\\theta_0+Y)^2}$$</span><br><span class=\"math-container\">$$\\Theta(X,Y)=\\arctan\\frac{A_0\\sin\\theta_0+Y}{A_0\\cos\\theta_0+X}$$</span>",
+    "question_text": "מהם <span class=\"math-container\">$X(R,\\Theta)$</span> ו-<span class=\"math-container\">$Y(R,\\Theta)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$X=R\\cos\\Theta-A_0\\cos\\theta_0,\\quad Y=R\\sin\\Theta-A_0\\sin\\theta_0$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta-A_0,\\quad Y=R\\sin\\Theta-A_0\\sin\\theta_0$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta,\\quad Y=R\\sin\\Theta$</span>",
+      "<span class=\"math-container\">$X=R\\cos\\Theta-2A_0\\cos\\theta_0,\\quad Y=R\\sin\\Theta-3A_0\\sin\\theta_0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות).",
+    "question_text": "חשב את היעקוביאן <span class=\"math-container\">$J$</span> של ההמרה.",
+    "options": [
+      "<span class=\"math-container\">$J=R$</span>",
+      "<span class=\"math-container\">$J=R^2$</span>",
+      "<span class=\"math-container\">$J=2R$</span>",
+      "<span class=\"math-container\">$J=R\\cos\\Theta$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות). <span class=\"math-container\">$J=R$</span>.",
+    "question_text": "מהי פונקציית הצפיפות המשותפת <span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\cos(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\sin(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_{R,\\Theta}(r,\\theta)=\\dfrac{u(r)\\,r^2}{2\\pi\\sigma^2}\\exp\\!\\left(-\\dfrac{r^2-2rA_0\\cos(\\theta-\\theta_0)+A_0^2}{2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתונה זוג משתנים אקראיים גאוסיים דו-ממדי <span class=\"math-container\">$(X,Y)$</span> עם:<br><span class=\"math-container\">$$f_{X,Y}(x,y)=\\frac{1}{2\\pi\\sigma^2}\\exp\\!\\left(-\\frac{x^2+y^2}{2\\sigma^2}\\right)$$</span><br>נגדיר את ההמרה לקואורדינטות קוטביות (כמוגדר בשאלות הקודמות). רמז: <span class=\"math-container\">$I_0(u)=\\dfrac{1}{2\\pi}\\displaystyle\\int_0^{2\\pi}e^{u\\cos\\varphi}d\\varphi$</span>.",
+    "question_text": "מהי פונקציית הצפיפות השולית <span class=\"math-container\">$f_R(r)$</span> (התפלגות Rice)?",
+    "options": [
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{1}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{r}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$f_R(r)=u(r)\\cdot\\dfrac{r^2}{\\sigma^2}\\,I_0\\!\\left(\\dfrac{rA_0}{\\sigma^2}\\right)\\exp\\!\\left(-\\dfrac{r^2+A_0^2}{2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

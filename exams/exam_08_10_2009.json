@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q1",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (ממוצע אפס, <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח ל-<span class=\"math-container\">$X(t)$</span>. השניים מוזנים למסנן LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span>, שמוצאו <span class=\"math-container\">$Y(t)$</span>, אשר מוזן לגלאי בעל אופיין ריבועי (Square Law Detector) עם מוצא <span class=\"math-container\">$Z(t)=Y^2(t)$</span>. כמתואר באיור.",
+    "question_text": "כתוב ביטוי לרוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF כך שיחס הספק האות להספק הרעש ב-<span class=\"math-container\">$Y(t)$</span> יהיה <span class=\"math-container\">$3\\,\\text{dB}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{2N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{2\\sigma_X^2}{N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{4N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{3N_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q2",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span>. גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהו ממוצע <span class=\"math-container\">$Y(t)$</span>?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "3",
+      "<span class=\"math-container\">$-1$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span>. גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהי שונות <span class=\"math-container\">$Y(t)$</span>? (<span class=\"math-container\">$\\sigma_Y^2$</span>)",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2+\\dfrac{N_0 B}{\\pi}$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2=\\dfrac{\\sigma_X^2}{2}$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2=2\\sigma_X^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2+N_0 B/\\pi$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהי פונקציית ה-PDF של <span class=\"math-container\">$Y(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_X}\\,e^{-y^2/(3\\sigma_X^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_Y}\\,e^{-y^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_Y}\\,e^{-(y+1)^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_X}\\,e^{-y^2/(2\\sigma_X^2)}$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "מהי פונקציית ה-PDF של <span class=\"math-container\">$Z(t)=Y^2(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\sigma_Y^2 z}}\\,e^{-z/(2\\sigma_Y^2)},\\quad z>0$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\sigma_Y^2 z^2}}\\,e^{-z^2/(2\\sigma_Y^2)},\\quad z>0$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\sigma_X^2 z}}\\,e^{-z/(2\\sigma_X^2)},\\quad z>0$</span>",
+      "<span class=\"math-container\">$f_Z(z)=\\dfrac{1}{\\sqrt{2\\pi\\sigma_X^2}}\\,e^{-z/(2\\sigma_X^2)},\\quad z>0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "חשב את תוחלת <span class=\"math-container\">$Z(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E[Z]=\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$E[Z]=\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$E[Z]=\\sigma_Z^2$</span>",
+      "0"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "question_text": "חשב את שונות <span class=\"math-container\">$Z(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\text{Var}[Z]=2\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\text{Var}[Z]=\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\text{Var}[Z]=2\\sigma_X^4$</span>",
+      "<span class=\"math-container\">$\\text{Var}[Z]=4\\sigma_Y^4$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתון התהליך האקראי:<br><span class=\"math-container\">$$X(t)=A\\cos\\bigl[2\\pi f_0 t+\\Theta(t)\\bigr]$$</span><br>כאשר <span class=\"math-container\">$\\Theta(t)$</span> הוא תהליך גאוסי, רחב-מובן, עם תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>.<br>רמז: <span class=\"math-container\">$\\displaystyle\\int_{-\\infty}^{+\\infty}e^{-(ax)^2}\\cos(bx)\\,dx=\\dfrac{\\sqrt{\\pi}}{a}e^{-b^2/(4a^2)}$</span>.",
+    "question_text": "חשב את תוחלת התהליך <span class=\"math-container\">$E[X(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$A\\,e^{-\\sigma^2/2}\\cos(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\,e^{-\\sigma^2/2}\\sin(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\,e^{-\\sigma^2}\\cos(2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\,e^{-3\\sigma^2}\\cos(2\\pi f_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתון התהליך האקראי:<br><span class=\"math-container\">$$X(t)=A\\cos\\bigl[2\\pi f_0 t+\\Theta(t)\\bigr]$$</span><br>כאשר <span class=\"math-container\">$\\Theta(t)$</span> הוא תהליך גאוסי, רחב-מובן, עם תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>.<br>רמז: <span class=\"math-container\">$\\displaystyle\\int_{-\\infty}^{+\\infty}e^{-(ax)^2}\\cos(bx)\\,dx=\\dfrac{\\sqrt{\\pi}}{a}e^{-b^2/(4a^2)}$</span>.",
+    "question_text": "חשב את <span class=\"math-container\">$E[X^2(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\cos(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\sin(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\,e^{-2\\sigma^2}\\cos(4\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A^2\\,e^{-\\sigma^2}\\cos(4\\pi f_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. <span class=\"math-container\">$X(t)$</span> מוכפל ב-<span class=\"math-container\">$\\cos(2\\pi f_0 t)$</span> ועובר דרך LPF (רוחב <span class=\"math-container\">$B=f_0$</span>). מוצא ה-LPF הוא <span class=\"math-container\">$Y_S(t)$</span>.",
+    "question_text": "מהו מוצא המכפיל לפני ה-LPF?",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\cos(\\Theta(t))$</span>",
+      "<span class=\"math-container\">$A\\cos(\\Theta(t))$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\cos(\\Theta(t)+2\\pi f_0 t)$</span>",
+      "<span class=\"math-container\">$A\\cos(\\Theta(t)+2\\pi f_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. <span class=\"math-container\">$X(t)$</span> מוכפל ב-<span class=\"math-container\">$\\cos(2\\pi f_0 t)$</span> ועובר דרך LPF. מוצא ה-LPF: <span class=\"math-container\">$Y_S(t)=\\dfrac{1}{2}A\\cos(\\Theta(t))$</span>.",
+    "question_text": "חשב את <span class=\"math-container\">$E[Y_S(t)]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{4}A\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}A\\,e^{-\\sigma^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. <span class=\"math-container\">$X(t)$</span> מוכפל ב-<span class=\"math-container\">$\\cos(2\\pi f_0 t)$</span> ועובר דרך LPF. <span class=\"math-container\">$Y_S(t)=\\dfrac{1}{2}A\\cos(\\Theta(t))$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span> מסתפח לאות לפני המכפיל.",
+    "question_text": "חשב את <span class=\"math-container\">$E[Y^2(t)]$</span> (הספק כולל במוצא ה-LPF, כולל רעש ואות).",
+    "options": [
+      "<span class=\"math-container\">$\\dfrac{1}{2}\\left[\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)+N_0 B\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{1}{2}\\left[\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)+2N_0 B\\right]$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{4}\\left(1+e^{-2\\sigma^2}\\right)$</span>",
+      "<span class=\"math-container\">$\\dfrac{A^2}{8}\\left(1+e^{-2\\sigma^2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$X(t)=A\\cos[2\\pi f_0 t+\\Theta(t)]$</span> כאשר <span class=\"math-container\">$\\Theta(t)$</span> גאוסי עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>. <span class=\"math-container\">$X(t)$</span> מוכפל ב-<span class=\"math-container\">$\\cos(2\\pi f_0 t)$</span> ועובר דרך LPF ברוחב <span class=\"math-container\">$B$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span> מסתפח.",
+    "question_text": "מהו רוחב הסרט <span class=\"math-container\">$B$</span> הנדרש כדי שיחס האות-רעש יהיה לפחות <span class=\"math-container\">$10\\,\\text{dB}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$B=\\dfrac{A^2(1+e^{-2\\sigma^2})}{40N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2(1+e^{-2\\sigma^2})}{20N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2(1+e^{-\\sigma^2})}{40N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{A^2(1+e^{-4\\sigma^2})}{40N_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty&lt;a&lt;\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "question_text": "חשב את הממוצע <span class=\"math-container\">$E[X]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$a+\\dfrac{\\sqrt{\\pi b}}{2}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\sqrt{b}}{2}$</span>",
+      "<span class=\"math-container\">$a-\\dfrac{\\sqrt{\\pi b}}{2}$</span>",
+      "<span class=\"math-container\">$\\dfrac{\\sqrt{b}}{2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span><br>כאשר <span class=\"math-container\">$-\\infty&lt;a&lt;\\infty$</span>, <span class=\"math-container\">$b>0$</span>.",
+    "question_text": "חשב את השונות <span class=\"math-container\">$\\text{Var}[X]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$b\\!\\left(1-\\dfrac{\\pi}{4}\\right)$</span>",
+      "<span class=\"math-container\">$b$</span>",
+      "<span class=\"math-container\">$b\\!\\left(1+\\dfrac{\\pi}{2}\\right)$</span>",
+      "<span class=\"math-container\">$a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות ריילי (Rayleigh):<br><span class=\"math-container\">$$f_x(x)=\\begin{cases}\\sqrt{\\dfrac{2}{b}}\\,(x-a)\\,e^{-(x-a)^2/b} & x\\geq a\\\\0 & x&lt;a\\end{cases}$$</span>",
+    "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span>, מה ההסתברות <span class=\"math-container\">$P\\{X\\geq 1\\}$</span>?",
+    "options": [
+      "0.61",
+      "0.4",
+      "0.95",
+      "0.89"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

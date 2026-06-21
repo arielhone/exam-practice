@@ -65,6 +65,11 @@
     "file_path": "exams/exam_27_10_2009.json"
   },
   {
+    "id": "exam_08_10_2009",
+    "title": "מועד 08.10.2009",
+    "file_path": "exams/exam_08_10_2009.json"
+  },
+  {
     "id": "exam_14_07_2009",
     "title": "מועד 14.07.2009",
     "file_path": "exams/exam_14_07_2009.json"
@@ -78,6 +83,11 @@
     "id": "exam_22_02_2009",
     "title": "מועד 22.02.2009",
     "file_path": "exams/exam_22_02_2009.json"
+  },
+  {
+    "id": "exam_03_02_2009",
+    "title": "מועד 03.02.2009",
+    "file_path": "exams/exam_03_02_2009.json"
   },
   {
     "id": "exam_09_07_2008",
