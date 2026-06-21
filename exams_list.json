@@ -178,5 +178,15 @@
     "id": "exam_20_07_2004",
     "title": "מועד 20.07.2004",
     "file_path": "exams/exam_20_07_2004.json"
+  },
+  {
+    "id": "exam_20_02_2004",
+    "title": "מועד 20.02.2004",
+    "file_path": "exams/exam_20_02_2004.json"
+  },
+  {
+    "id": "exam_02_02_2004",
+    "title": "מועד 02.02.2004",
+    "file_path": "exams/exam_02_02_2004.json"
   }
 ]

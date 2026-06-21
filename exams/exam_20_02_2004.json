@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q1",
+    "preamble": "רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$S_n(f) = \\frac{N_0}{2}$</span> (תוחלת 0). מוגדרים:<br><span class=\"math-container\">$$N_1 = \\int_0^2 n(t)\\,dt, \\quad N_2 = \\int_1^3 n(t)\\,dt, \\quad N_3 = \\int_3^4 n(t)\\,dt$$</span><br>(ח\"ק = חסרי קורלציה, בת\"ס = בלתי תלויים סטטיסטית)",
+    "question_text": "עבור הזוג <span class=\"math-container\">$(N_1, N_2)$</span> — ציין האם הם:",
+    "options": [
+      "לא בת\"ס, לא ח\"ק.",
+      "לא בת\"ס, ח\"ק.",
+      "בת\"ס, לא ח\"ק.",
+      "בת\"ס, ח\"ק."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$S_n(f) = \\frac{N_0}{2}$</span> (תוחלת 0). מוגדרים:<br><span class=\"math-container\">$$N_1 = \\int_0^2 n(t)\\,dt, \\quad N_2 = \\int_1^3 n(t)\\,dt, \\quad N_3 = \\int_3^4 n(t)\\,dt$$</span>",
+    "question_text": "עבור הזוג <span class=\"math-container\">$(N_2, N_3)$</span> — ציין האם הם:",
+    "options": [
+      "אורתוגונליים, לא בת\"ס.",
+      "לא אורתוגונליים, לא בת\"ס.",
+      "ח\"ק, אורתוגונליים, לא בת\"ס.",
+      "ח\"ק, אורתוגונליים, בת\"ס."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$S_n(f) = \\frac{N_0}{2}$</span> (תוחלת 0). מוגדרים:<br><span class=\"math-container\">$$N_1 = \\int_0^2 n(t)\\,dt, \\quad N_2 = \\int_1^3 n(t)\\,dt, \\quad N_3 = \\int_3^4 n(t)\\,dt$$</span>",
+    "question_text": "עבור הזוג <span class=\"math-container\">$(N_1, N_3)$</span> — ציין האם הם:",
+    "options": [
+      "אורתוגונליים, לא בת\"ס.",
+      "לא אורתוגונליים, לא בת\"ס.",
+      "ח\"ק, אורתוגונליים, לא בת\"ס.",
+      "ח\"ק, אורתוגונליים, בת\"ס."
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "תהליך גאוסי <span class=\"math-container\">$X(t)$</span> עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. האות <span class=\"math-container\">$X(t)+n(t)$</span> מוזן דרך LPF אידאלי ברוחב <span class=\"math-container\">$B$</span> (Hz), ולאחר מכן גלאי ריבועי (Square Law Detector) <span class=\"math-container\">$Z = Y^2$</span>, כאשר <span class=\"math-container\">$Y$</span> הוא יציאת ה-LPF.",
+    "question_text": "מה רוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF הנדרש עבור SNR של 3dB?",
+    "options": [
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{3N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{2N_0}$</span>",
+      "<span class=\"math-container\">$B = \\dfrac{\\sigma_X^2}{4N_0}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "תהליך גאוסי <span class=\"math-container\">$X(t)$</span> עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. האות <span class=\"math-container\">$X(t)+n(t)$</span> מוזן דרך LPF אידאלי ברוחב <span class=\"math-container\">$B$</span> (Hz), ולאחר מכן גלאי ריבועי (Square Law Detector) <span class=\"math-container\">$Z = Y^2$</span>, כאשר <span class=\"math-container\">$Y$</span> הוא יציאת ה-LPF.",
+    "question_text": "מה שונות הרעש <span class=\"math-container\">$\\sigma_n^2$</span> ביציאת ה-LPF, עבור ה-<span class=\"math-container\">$B$</span> שנמצא בסעיף הקודם (3dB)?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{2}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{3}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{4}$</span>",
+      "<span class=\"math-container\">$\\sigma_n^2 = \\dfrac{\\sigma_X^2}{8}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_20_02_2004/q5.png"
+  },
+  {
+    "id": "q6",
+    "preamble": "תהליך גאוסי <span class=\"math-container\">$X(t)$</span> עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. האות <span class=\"math-container\">$X(t)+n(t)$</span> מוזן דרך LPF אידאלי ברוחב <span class=\"math-container\">$B$</span> (Hz), ולאחר מכן גלאי ריבועי (Square Law Detector) <span class=\"math-container\">$Z = Y^2$</span>, כאשר <span class=\"math-container\">$Y$</span> הוא יציאת ה-LPF.",
+    "question_text": "קבע את הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y} = \\sigma_X$</span>",
+      "<span class=\"math-container\">$\\overline{Y} = 0$</span>",
+      "<span class=\"math-container\">$\\overline{Y} = \\dfrac{\\sigma_X}{2}$</span>",
+      "<span class=\"math-container\">$\\overline{Y} = \\dfrac{\\sigma_X}{4}$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "תהליך גאוסי <span class=\"math-container\">$X(t)$</span> עם ממוצע אפס ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> עם <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. האות <span class=\"math-container\">$X(t)+n(t)$</span> מוזן דרך LPF אידאלי ברוחב <span class=\"math-container\">$B$</span> (Hz), ולאחר מכן גלאי ריבועי (Square Law Detector) <span class=\"math-container\">$Z = Y^2$</span>, כאשר <span class=\"math-container\">$Y$</span> הוא יציאת ה-LPF.",
+    "question_text": "חשב את השונות <span class=\"math-container\">$\\sigma_Y^2$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF.",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\sigma_X^2 + N_0 B$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{2}\\sigma_X^2 + N_0 B$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{2}\\sigma_X^2 + \\dfrac{1}{2}N_0 B$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2 = \\dfrac{1}{2}\\sigma_X^2 + \\dfrac{1}{4}N_0 B$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "בהנחה שלגלאי הריבועי נכנס תהליך גאוסי עם ממוצע 0 ושונות <span class=\"math-container\">$\\sigma_Y^2$</span>.",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Z(z)$</span> של התהליך <span class=\"math-container\">$Z(t)$</span> המתקבל במוצא הגלאי הריבועי.",
+    "options": [
+      "<span class=\"math-container\">$f_Z(z) = \\dfrac{1}{2\\sqrt{2\\pi z}\\,\\sigma_Y}\\,e^{\\frac{-z}{2\\sigma_Y^2}}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\dfrac{1}{2\\sqrt{2\\pi z}\\,\\sigma_Y}\\,e^{\\frac{-z^2}{2\\sigma_Y^2}}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\dfrac{1}{2\\sqrt{2\\pi z\\,\\sigma_Y}}\\,e^{\\frac{-z^2}{2\\sigma_Y^2}}\\,u(z)$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\dfrac{1}{2\\sqrt{2\\pi}\\,\\sigma_Y}\\,e^{\\frac{-z}{2\\sigma_Y^2}}\\,u(z)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$Y(t) = A\\cos(2\\pi f_0 t + \\Theta)$</span> כאשר <span class=\"math-container\">$\\Theta \\sim \\mathcal{N}(0, \\sigma^2)$</span> ו-<span class=\"math-container\">$\\mu_X = A$</span> הוא אמפליטודת האות. פונקציית האוטוקורלציה של התהליך היא <span class=\"math-container\">$R_{XX}(\\tau)$</span>.",
+    "question_text": "מה הממוצע <span class=\"math-container\">$E[Y(t)]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[Y] = \\mu_X\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$E[Y] = \\mu_X\\sin(\\omega_0 t)\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$E[Y] = \\mu_X\\cos(\\omega_0 t)\\,e^{-\\sigma^2/2}$</span>",
+      "<span class=\"math-container\">$E[Y] = \\mu_X\\cos(2\\omega_0 t)\\,e^{-\\sigma^2/2}$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": "exams/images/exam_20_02_2004/q9.png"
+  },
+  {
+    "id": "q10",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$Y(t) = A\\cos(2\\pi f_0 t + \\Theta)$</span> כאשר <span class=\"math-container\">$\\Theta \\sim \\mathcal{N}(0, \\sigma^2)$</span> ו-<span class=\"math-container\">$\\mu_X = A$</span> הוא אמפליטודת האות. פונקציית האוטוקורלציה של התהליך היא <span class=\"math-container\">$R_{XX}(\\tau)$</span>.",
+    "question_text": "חשב את האוטו-קורלאציה הסטטיסטית של האות <span class=\"math-container\">$R_{YY}(t,\\tau) = \\overline{Y(t)\\cdot Y(t+\\tau)}$</span> (כפונקציה של <span class=\"math-container\">$t$</span> ו-<span class=\"math-container\">$\\tau$</span>).",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(t,\\tau) = \\dfrac{1}{2}R_{XX}(\\tau)\\left[\\cos(\\omega_0\\tau) + \\cos(\\omega_0(2t+\\tau))\\,e^{-2\\sigma^2}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(t,\\tau) = \\dfrac{1}{2}R_{XX}(\\tau)\\left[\\cos(\\omega_0\\tau) + \\dfrac{1}{4}\\cos(\\omega_0(2t+\\tau))\\,e^{-2\\sigma^2}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(t,\\tau) = \\dfrac{1}{2}R_{XX}(\\tau)\\left[\\cos(\\omega_0\\tau) + \\dfrac{1}{2}\\cos(\\omega_0(2t+\\tau))\\,e^{-2\\sigma^2}\\right]$</span>",
+      "<span class=\"math-container\">$R_{YY}(t,\\tau) = \\dfrac{1}{4}R_{XX}(\\tau)\\left[\\cos(\\omega_0\\tau) + \\cos(\\omega_0(2t+\\tau))\\,e^{-2\\sigma^2}\\right]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]
