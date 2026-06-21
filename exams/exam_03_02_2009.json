@@ -131,15 +131,15 @@
   },
   {
     "id": "q11",
-    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> ורעש לבן. <span class=\"math-container\">$\\text{SNR}_{\\max}$</span> של פילטר ה-RC האופטימלי (מהשאלות הקודמות) שווה ל-<span class=\"math-container\">$A^2/(\\omega_0 N_0)$</span>.",
-    "question_text": "האם ה-SNR של המסננת המתואמת שווה, גבוה, או נמוך מה-SNR של פילטר RC האופטימלי?",
+    "preamble": "נתון אות גישוש <span class=\"math-container\">$A\\sin(\\omega_0 t)$</span> ורעש לבן. <span class=\"math-container\">$\\text{SNR}_{\\max}$</span> של פילטר ה-RC האופטימלי שווה ל-<span class=\"math-container\">$A^2/(\\omega_0 N_0)$</span>.",
+    "question_text": "אם נבצע את ההחלפה המוצעת בשאלה 10, מה יהיה השיפור ב-SNR של המערכת ביחס ל-SNR שניתן לקבל במערכת המתוארת בשאלה 1?",
     "options": [
-      "שווה",
-      "גבוה יותר",
-      "גבוה פי 10",
-      "גבוה פי 100"
+      "השיפור הוא אינסופי.",
+      "לא יהיה שיפור כלל.",
+      "השיפור הוא פי 10.",
+      "השיפור הוא פי 100."
     ],
-    "correct_option_index": 0,
+    "correct_option_index": null,
     "image_url": null
   },
   {
