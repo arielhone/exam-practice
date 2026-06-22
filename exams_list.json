@@ -1,5 +1,10 @@
 [
   {
+    "id": "exam_moed_a_2015",
+    "title": "מועד א 2015",
+    "file_path": "exams/exam_moed_a_2015.json"
+  },
+  {
     "id": "exam_22_03_2012",
     "title": "מועד 22.03.2012",
     "file_path": "exams/exam_22_03_2012.json"
