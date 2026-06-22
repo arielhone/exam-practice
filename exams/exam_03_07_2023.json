@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את תמסורת הספק <span class=\"math-container\">$|H(\\omega)|^2$</span> של המערכת (סמן <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{L/C}}$</span>).",
+    "options": [
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot \\frac{1}{1+Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot \\frac{1}{1-Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot \\frac{1}{1-Q^2\\left(\\frac{\\omega}{\\omega_0}+\\frac{\\omega_0}{\\omega}\\right)^2}$</span>",
+      "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S+R_P}\\right)^3 \\cdot \\frac{1}{1-Q^2\\left(\\frac{\\omega}{\\omega_0}+\\frac{\\omega_0}{\\omega}\\right)^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q2",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "אפיין את המערכת.",
+    "options": [
+      "זהו מסנן מעביר פס.",
+      "זהו מסנן מעביר תדרים נמוכים.",
+      "זהו מסנן מעביר תדרים גבוהים.",
+      "לא ניתן לשייך את המערכת הליניארית לאחת הקטגוריות המקובלות."
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q3",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "כתוב ביטוי מתמטי לממוצע <span class=\"math-container\">$\\overline{X(t)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{X(t)} = 1$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)} = \\cos(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)} = \\sin(\\omega_0 t)$</span>",
+      "<span class=\"math-container\">$\\overline{X(t)} = \\sin(3\\omega_0 t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "כתוב ביטוי מתמטי לקורלציה <span class=\"math-container\">$R_{XX}(\\tau) = \\overline{X(t)X(t+\\tau)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\frac{1}{2}\\cos(\\omega_0\\tau) + \\frac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\frac{1}{2}\\sin(\\omega_0\\tau) + \\frac{1}{2}\\cos(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\frac{1}{2}\\cos(\\omega_0\\tau) + \\frac{1}{2}\\sin(3\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\cos(\\omega_0\\tau) + \\cos(3\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את צפיפות ההספק ליחידת תדר <span class=\"math-container\">$S_X(\\omega)$</span> של התהליך האקראי במבוא.",
+    "options": [
+      "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega) + \\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega) + \\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega) + \\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)-\\delta(\\omega+3\\omega_0)\\right]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega)+\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right\\}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "קבע את ממוצע האות <span class=\"math-container\">$\\overline{Y(t)}$</span> במוצא.",
+    "options": [
+      "<span class=\"math-container\">$\\overline{Y(t)} = 0$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{R_S}{R_P}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{R_P}{R_S+R_P}$</span>",
+      "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{L}{R_P}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את צפיפות ההספק ליחידת תדר <span class=\"math-container\">$S_Y(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\frac{9}{9+64Q^2}\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]+\\frac{N_0}{4\\pi}\\cdot\\frac{1}{1+Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\frac{9}{9+104Q^2}\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]+\\frac{N_0}{4\\pi}\\cdot\\frac{1}{1+Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+65\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]+\\frac{N_0}{4\\pi}\\cdot\\frac{1}{1+Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\frac{9}{9+64Q^2}\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]+\\frac{N_0}{4\\pi}\\right\\}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "מה תהיה צפיפות ההספק <span class=\"math-container\">$S_Y(\\omega)$</span> בגבול <span class=\"math-container\">$Q \\to \\infty$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot\\pi\\left\\{\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)-\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right]+\\frac{N_0}{4\\pi}\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+65\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]\\right\\}$</span>",
+      "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right]+\\frac{N_0}{4\\pi}\\right\\}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "מצא את פונקציית הקורלציה <span class=\"math-container\">$R_{YY}(\\tau)$</span> של האות במוצא בהנחה ש-<span class=\"math-container\">$Q \\to \\infty$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\left(\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)\\right)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\left(\\cos(\\omega_0\\tau)+\\cos(3\\omega_0\\tau)+\\frac{N_0}{2}\\right)$</span>",
+      "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\sin(\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונה מסננת כמתואר באיור הבא:<br><br>כאשר <span class=\"math-container\">$\\omega_0 = \\frac{1}{\\sqrt{LC}}$</span>, <span class=\"math-container\">$Q = \\frac{R_S \\| R_P}{\\sqrt{\\frac{L}{C}}}$</span><br><br>האות במבוא <span class=\"math-container\">$X(t)$</span> נתון ע\"י סכום שני תהליכים אקראיים סינוסואידלים:<br><span class=\"math-container\">$$X(t) = 1 + \\cos(\\omega_0 t + \\theta) + \\cos(3\\omega_0 t + \\phi)$$</span><br>המופעים <span class=\"math-container\">$\\theta$</span> ו-<span class=\"math-container\">$\\phi$</span> הם משתנים מקריים בלתי תלויים סטטיסטית, המפולגים כל אחד באופן אחיד בתחום <span class=\"math-container\">$[-\\pi, +\\pi)$</span>. אל <span class=\"math-container\">$X(t)$</span> מצטרף רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)} = 0$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>, כך שבמוצא המערכת מתקבל האות <span class=\"math-container\">$Y(t)$</span>.",
+    "question_text": "חשב את פונקציית התמסורת של מסננת המתואמת לאות <span class=\"math-container\">$X(t) = 1+\\cos(\\omega_0 t)+\\cos(3\\omega_0 t)$</span> בהנחה שהרעש לבן.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\delta(\\omega)+\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right)+\\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\delta(\\omega)+\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right)+\\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\delta(\\omega)-\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right)-\\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right)+\\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q11",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "בהנחה שרוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> הוא <span class=\"math-container\">$B$</span>, כתוב ביטוי לרוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF כך שיחס הספק האות להספק הרעש המתקבל במוצאו יהיה 3dB.",
+    "options": [
+      "<span class=\"math-container\">$B = \\frac{\\sigma_X^2}{2N_0}$</span>",
+      "<span class=\"math-container\">$B = \\frac{2\\sigma_X^2}{N_0}$</span>",
+      "<span class=\"math-container\">$B = \\frac{\\sigma_X^2}{4N_0}$</span>",
+      "<span class=\"math-container\">$B = \\frac{\\sigma_X^2}{3N_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q12",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "קבע את הממוצע <span class=\"math-container\">$\\overline{Y(t)}$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF (בהנחה ש-<span class=\"math-container\">$B$</span> מקיים את תנאי השאלה הקודמת).",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "-1"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q13",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "קבע את השונות <span class=\"math-container\">$\\sigma_Y^2$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF (בהנחה ש-<span class=\"math-container\">$B$</span> מקיים את אותם תנאים).",
+    "options": [
+      "<span class=\"math-container\">$\\frac{3}{2}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\frac{1}{2}\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$2\\sigma_X^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q14",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Y(y)$</span> של התהליך <span class=\"math-container\">$Y(t)$</span> המתקבל במוצא ה-LPF (בהנחה שהתהליכים במוצא המסננת הם גאוסיים על פי משפט הגבול המרכזי).",
+    "options": [
+      "<span class=\"math-container\">$f_Y(y) = \\frac{1}{\\sqrt{3\\pi}\\sigma_X}e^{-\\frac{y^2}{3\\sigma_X^2}}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\frac{1}{\\sqrt{3\\pi}\\sigma_Y}e^{-\\frac{y^2}{3\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\frac{1}{\\sqrt{3\\pi}\\sigma_Y}e^{-\\frac{(y+1)^2}{3\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Y(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_X}e^{-\\frac{y^2}{2\\sigma_X^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q15",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Z(z)$</span> של התהליך <span class=\"math-container\">$Z(t)$</span> המתקבל במוצא הגלאי הריבועי.",
+    "options": [
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_Y}e^{-\\frac{z}{2\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_Y}e^{-\\frac{z^2}{2\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q16",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "מהו הממוצע <span class=\"math-container\">$\\overline{Z(t)}$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_Y^2$</span>",
+      "<span class=\"math-container\">$\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_Z^2$</span>",
+      "0"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q17",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
+    "question_text": "מהי השונות <span class=\"math-container\">$\\sigma_Z^2$</span> של התהליך <span class=\"math-container\">$Z(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$2\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^4$</span>",
+      "<span class=\"math-container\">$2\\sigma_X^4$</span>",
+      "<span class=\"math-container\">$4\\sigma_Y^4$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q18",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם: <span class=\"math-container\">$S_Y(\\omega) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורלציה: <span class=\"math-container\">$R_N(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר נתונה ע\"י:<br><span class=\"math-container\">$$B \\ll f_0, \\quad H(f) = \\begin{cases} 0.5 & f_0-B/2 < |f| < f_0+B/2 \\\\ 0 & O.W. \\end{cases}$$</span>",
+    "question_text": "מה יהיה ממוצע התהליך במוצא הפילטר?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q19",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם: <span class=\"math-container\">$S_Y(\\omega) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורלציה: <span class=\"math-container\">$R_N(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר נתונה ע\"י:<br><span class=\"math-container\">$$B \\ll f_0, \\quad H(f) = \\begin{cases} 0.5 & f_0-B/2 < |f| < f_0+B/2 \\\\ 0 & O.W. \\end{cases}$$</span>",
+    "question_text": "נתון כי במוצא הפילטר נתקבל יחס אות לרעש הגדול מ-100. מה יהיה התנאי לכך?",
+    "options": [
+      "<span class=\"math-container\">$\\frac{H_1}{N_0} > 50$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{H_1}{N_0}\\right)^2 > 100$</span>",
+      "<span class=\"math-container\">$\\frac{H_1}{N_0} > \\sqrt{50}$</span>",
+      "אף תשובה לא נכונה."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q20",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$Y(t)$</span> עם: <span class=\"math-container\">$S_Y(\\omega) = H_1$</span> שתוחלתו הינה אפס. נתון כי תהליך אקראי זה מופיע ככניסה אל פילטר המעביר תדרי ביניים כשאליו מסתפח אדיטיבית רעש לבן עם פונקציית אוטוקורלציה: <span class=\"math-container\">$R_N(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span> ועם ממוצע אפס. פונקציית התמסורת של הפילטר נתונה ע\"י:<br><span class=\"math-container\">$$B \\ll f_0, \\quad H(f) = \\begin{cases} 0.5 & f_0-B/2 < |f| < f_0+B/2 \\\\ 0 & O.W. \\end{cases}$$</span>",
+    "question_text": "מה יהיה ממוצע הרעש במוצא הפילטר הנתון?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1}$</span>",
+      "<span class=\"math-container\">$\\sqrt{H_1+(N_0/2)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

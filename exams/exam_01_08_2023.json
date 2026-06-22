@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי אחר <span class=\"math-container\">$X(t)$</span>:<br><span class=\"math-container\">$$Y(t) = \\int_0^T X(t-\\sigma)\\,d\\sigma$$</span>ידוע ש: <span class=\"math-container\">$X(t)$</span> ת\"א סטציונרי בעל תוחלת <span class=\"math-container\">$\\beta$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "מה תהיה תוחלת התהליך <span class=\"math-container\">$Y(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\beta T$</span>",
+      "<span class=\"math-container\">$\\beta$</span>",
+      "<span class=\"math-container\">$\\beta / T$</span>",
+      "לא ניתן לדעת."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "נתון התהליך האקראי <span class=\"math-container\">$Y(t)$</span> המוגדר מתוך תהליך אקראי אחר <span class=\"math-container\">$X(t)$</span>:<br><span class=\"math-container\">$$Y(t) = \\int_0^T X(t-\\sigma)\\,d\\sigma$$</span>ידוע ש: <span class=\"math-container\">$X(t)$</span> ת\"א סטציונרי בעל תוחלת <span class=\"math-container\">$\\beta$</span> ופונקציית אוטוקורלציה <span class=\"math-container\">$R_X(\\tau)$</span>.",
+    "question_text": "האם התהליך <span class=\"math-container\">$Y(t)$</span> מהווה תהליך אקראי סטציונרי?",
+    "options": [
+      "כן.",
+      "לא.",
+      "א\"א כרגע לתת תשובה חד משמעית, חסר נתון בשאלה.",
+      "סטציונרי רק אם: <span class=\"math-container\">$\\beta = 0$</span>."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתון כי <span class=\"math-container\">$Z(t)$</span> מהווה תהליך אקראי גאוסי עם תוחלת 6 ושונות <span class=\"math-container\">$\\sigma^2$</span>, נעביר אותו דרך מעגל חשמלי שבמוצאו נקבל תהליך אקראי חדש אשר מקיים:<br><span class=\"math-container\">$$W(t) = \\begin{cases} 1 & Z(t) \\geq 0 \\\\ -1 & Z(t) < 0 \\end{cases}$$</span>השתמש בפונקציה: <span class=\"math-container\">$Q(x) = \\frac{1}{\\sqrt{2\\pi}}\\int_x^{+\\infty}e^{-\\frac{z^2}{2}}dz$</span>",
+    "question_text": "חשב את ההסתברות: <span class=\"math-container\">$P\\{W(t)=1\\}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$1-Q\\left(\\frac{6}{\\sigma}\\right)$</span>",
+      "<span class=\"math-container\">$0.5$</span>",
+      "<span class=\"math-container\">$Q\\left(\\frac{6}{\\sigma}\\right)$</span>",
+      "אף תשובה לא נכונה"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בפילוג ארקסינוס עם פרמטר <span class=\"math-container\">$a > 0$</span>:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{1}{\\pi\\sqrt{a^2-x^2}} & -a < x < a \\\\ 0 & \\text{otherwise} \\end{cases}$$</span>",
+    "question_text": "מה ה-CDF של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & x < -a \\\\ \\frac{1}{2}+\\frac{1}{\\pi}\\sin^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & x \\geq a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & x < -a \\\\ \\frac{1}{\\pi}\\tan^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & x \\geq a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & x < -a \\\\ \\frac{1}{\\pi}\\cos^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & x \\geq a \\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & x < -a \\\\ \\frac{1}{\\pi}\\sin^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & x \\geq a \\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בפילוג ארקסינוס עם פרמטר <span class=\"math-container\">$a > 0$</span>:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{1}{\\pi\\sqrt{a^2-x^2}} & -a < x < a \\\\ 0 & \\text{otherwise} \\end{cases}$$</span>",
+    "question_text": "מה הממוצע של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "0",
+      "<span class=\"math-container\">$\\frac{1}{2}a$</span>",
+      "<span class=\"math-container\">$\\frac{1}{3}a$</span>",
+      "<span class=\"math-container\">$\\frac{1}{4}a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בפילוג ארקסינוס עם פרמטר <span class=\"math-container\">$a > 0$</span>:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{1}{\\pi\\sqrt{a^2-x^2}} & -a < x < a \\\\ 0 & \\text{otherwise} \\end{cases}$$</span>",
+    "question_text": "מה השונות של <span class=\"math-container\">$X$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\frac{1}{2}a^2$</span>",
+      "<span class=\"math-container\">$\\frac{1}{3}a^2$</span>",
+      "<span class=\"math-container\">$\\frac{1}{4}a^2$</span>",
+      "<span class=\"math-container\">$\\frac{2}{3}a^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג בפילוג ארקסינוס עם פרמטר <span class=\"math-container\">$a > 0$</span>:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{1}{\\pi\\sqrt{a^2-x^2}} & -a < x < a \\\\ 0 & \\text{otherwise} \\end{cases}$$</span>",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$a=1$</span> מה ההסתברות למצוא את המשתנה האקראי <span class=\"math-container\">$X$</span> בקטע <span class=\"math-container\">$[-\\frac{1}{2}, \\frac{1}{2}]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\frac{1}{3}$</span>",
+      "<span class=\"math-container\">$\\frac{1}{2}$</span>",
+      "<span class=\"math-container\">$\\frac{1}{4}$</span>",
+      "<span class=\"math-container\">$\\frac{2}{3}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$Z$</span>.",
+    "options": [
+      "<span class=\"math-container\">$Z = 4\\pi\\int_0^\\infty e^{-\\beta H(\\vec{p})}p^2\\,dp$</span>",
+      "<span class=\"math-container\">$Z = \\int_0^\\infty e^{-\\beta H(\\vec{p})}p\\,dp$</span>",
+      "<span class=\"math-container\">$Z = 1$</span>",
+      "<span class=\"math-container\">$Z = 4\\pi$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "הנח כי <span class=\"math-container\">$p \\ll mc$</span>, כתוב ביטוי מקורב ל-<span class=\"math-container\">$H$</span> (בסדר ראשון ב-<span class=\"math-container\">$\\frac{p^2}{(mc)^2}$</span>):",
+    "options": [
+      "<span class=\"math-container\">$H \\cong mc^2 + \\frac{p^2}{2m}$</span>",
+      "<span class=\"math-container\">$H \\cong mc^2$</span>",
+      "<span class=\"math-container\">$H \\cong \\frac{p^2}{2m}$</span>",
+      "<span class=\"math-container\">$H \\cong mc^2 + \\frac{p}{m}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "מה משמעות הביטוי המקורב ל-<span class=\"math-container\">$H$</span>?",
+    "options": [
+      "זהו סכום של אנרגיה קינטית ואנרגיית המנוחה של חלקיק נקודתי.",
+      "זוהי אנרגיית המנוחה של חלקיק נקודתי.",
+      "זוהי האנרגיה הקינטית של חלקיק נקודתי.",
+      "אין לביטוי משמעות פיזיקלית."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$Z$</span> בהנחה שאפשר להשתמש בביטוי המקורב של <span class=\"math-container\">$H$</span>.",
+    "options": [
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{3}{2}}e^{-\\beta mc^2}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{1}{\\beta}\\right)^{\\frac{3}{2}}e^{-\\beta c^2}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}e^{-mc^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "הצב את <span class=\"math-container\">$Z$</span> בביטוי של פונקציית הצפיפות והנח שאפשר להשתמש בביטוי המקורב של <span class=\"math-container\">$H$</span>. מה יהיה הביטוי ל-<span class=\"math-container\">$f(\\vec{p})$</span> (התפלגות מקסוול-בולצמן)?",
+    "options": [
+      "<span class=\"math-container\">$f(\\vec{p}) = (2\\pi m k_BT)^{-3/2}e^{-\\frac{p^2}{2mk_BT}}$</span>",
+      "<span class=\"math-container\">$f(\\vec{p}) = (mk_BT)^{-1/2}e^{-\\frac{p^2}{2mk_BT}}$</span>",
+      "<span class=\"math-container\">$f(\\vec{p}) = e^{-\\frac{p^2}{2mk_BT}}$</span>",
+      "<span class=\"math-container\">$f(\\vec{p}) = (2\\pi m k_BT)^2 e^{-\\frac{p^2}{2mk_BT}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כיצד מתפלג המשתנה האקראי <span class=\"math-container\">$\\vec{P}$</span>?",
+    "options": [
+      "מתפלג באופן גאוסיאני תלת ממדי.",
+      "מתפלג באופן אקספוננציאלי תלת ממדי.",
+      "מתפלג בהתאם להתפלגות ריילי תלת ממדית.",
+      "מתפלג באופן אחיד."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 + \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "מה התוחלת של המשתנה האקראי <span class=\"math-container\">$\\vec{P}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[\\vec{P}] = 0$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = T$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = k_BT$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = k_BT^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "כתוב ביטוי למשרעת <span class=\"math-container\">$A(t)$</span> ולמופע (פאזה) <span class=\"math-container\">$\\theta(t)$</span> של התהליך האקראי <span class=\"math-container\">$X(t)$</span> המתקבל במוצא.",
+    "options": [
+      "<span class=\"math-container\">$A(t) = \\sqrt{I^2(t)+Q^2(t)}$</span>, <span class=\"math-container\">$\\theta(t) = \\arctan\\frac{Q(t)}{I(t)}$</span>",
+      "<span class=\"math-container\">$A(t) = \\frac{1}{2}\\sqrt{I^2(t)+Q^2(t)}$</span>, <span class=\"math-container\">$\\theta(t) = \\arctan\\frac{Q(t)}{I(t)}$</span>",
+      "<span class=\"math-container\">$A(t) = \\sqrt{I^2(t)+Q^2(t)}$</span>, <span class=\"math-container\">$\\theta(t) = \\arctan\\frac{I(t)}{Q(t)}$</span>",
+      "<span class=\"math-container\">$A(t) = \\sqrt{I^2(t)+Q^2(t)}$</span>, <span class=\"math-container\">$\\theta(t) = \\sin\\frac{Q(t)}{I(t)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q16",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "כתוב ביטוי לפונקציית צפיפות הפילוג המשותפת <span class=\"math-container\">$f_{I(t),Q(t)}(I,Q)$</span> של התהליכים האקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q) = \\frac{1}{2\\pi\\sigma^2}e^{-\\frac{I^2+Q^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q) = \\frac{1}{2\\pi\\sigma^2}e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q) = \\frac{1}{\\pi\\sigma^2}e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{I(t),Q(t)}(I,Q) = \\frac{\\pi}{\\sigma^2}e^{-\\frac{I^2+Q^2}{\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q17",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "מהו מקדם הקורלציה <span class=\"math-container\">$\\rho(t)$</span> של האותות <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\rho(t) = 0$</span>",
+      "<span class=\"math-container\">$\\rho(t) = 1/\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\rho(t) = -1/\\sigma^2$</span>",
+      "<span class=\"math-container\">$\\rho(t) = \\mu^2/\\sigma^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q18",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "כתוב את פונקציית הצפיפות המשותפת <span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta)$</span> של המעטפת והמופע.",
+    "options": [
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta) = \\frac{A}{2\\pi\\sigma^2}e^{-\\frac{A^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta) = \\frac{A}{2\\pi\\sigma^2}e^{-\\frac{A^2}{\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta) = \\frac{A}{2\\pi\\sigma^2}e^{-\\frac{A^2+\\theta^2}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t),\\theta(t)}(A,\\theta) = \\frac{A}{2\\pi\\sigma^2}e^{-\\frac{A^2+2\\theta^2}{2\\sigma^2}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q19",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "חשב את צפיפות הפילוג השולית <span class=\"math-container\">$f_{A(t)}(A)$</span> של המשרעת.",
+    "options": [
+      "<span class=\"math-container\">$f_{A(t)}(A) = \\begin{cases} \\frac{A}{\\sigma^2}e^{-\\frac{A^2}{2\\sigma^2}} & A \\geq 0 \\\\ 0 & A < 0 \\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A) = \\begin{cases} \\frac{1}{2\\pi\\sigma^2}e^{-\\frac{A^2}{2\\sigma^2}} & A \\geq 0 \\\\ 0 & A < 0 \\end{cases}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A) = \\frac{A}{\\sigma^2}e^{-\\frac{A^4}{2\\sigma^2}}$</span>",
+      "<span class=\"math-container\">$f_{A(t)}(A) = \\begin{cases} \\frac{2A}{\\sigma}e^{-\\frac{A^2}{2\\sigma^2}} & A \\geq 0 \\\\ 0 & A < 0 \\end{cases}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  },
+  {
+    "id": "q20",
+    "preamble": "נתונים שני תהליכים אקראיים <span class=\"math-container\">$I(t)$</span> ו-<span class=\"math-container\">$Q(t)$</span> בלתי תלויים סטטיסטית המתפלגים כל אחד בפילוג גאוסי בעל ממוצע <span class=\"math-container\">$\\mu=0$</span> וסטיית תקן <span class=\"math-container\">$\\sigma$</span>. האותות מאפננים גל נושא בתדר <span class=\"math-container\">$f_0$</span> באמצעות מאפנן I/Q (מאפנן ריבועי). האות במוצא הוא:<br><span class=\"math-container\">$$X(t) = I(t)\\cos(2\\pi f_0 t) - Q(t)\\sin(2\\pi f_0 t)$$</span>",
+    "question_text": "עבור איזה ערך <span class=\"math-container\">$A$</span> מקבלת פונקציית צפיפות הפילוג השולית את המקסימום?",
+    "options": [
+      "<span class=\"math-container\">$A = \\sigma$</span>",
+      "<span class=\"math-container\">$A = \\frac{1}{2}\\sigma$</span>",
+      "<span class=\"math-container\">$A = 2\\sigma$</span>",
+      "<span class=\"math-container\">$A = 0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "NEEDS_IMAGE"
+  }
+]

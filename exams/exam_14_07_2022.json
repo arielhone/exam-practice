@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$Z$</span>",
+    "options": [
+      "<span class=\"math-container\">$Z = 4\\pi\\int_0^\\infty e^{-\\beta H(\\vec{p})}p^2\\,dp$</span>",
+      "<span class=\"math-container\">$Z = \\int_0^\\infty e^{-\\beta H(\\vec{p})}p\\,dp$</span>",
+      "<span class=\"math-container\">$Z = 1$</span>",
+      "<span class=\"math-container\">$Z = 4\\pi$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q2",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "הנח כי <span class=\"math-container\">$p \\ll mc$</span>, כתוב ביטוי מקורב ל-<span class=\"math-container\">$H$</span> (בסדר ראשון ב-<span class=\"math-container\">$\\frac{p^2}{(mc)^2}$</span>):",
+    "options": [
+      "<span class=\"math-container\">$H \\cong mc^2 - \\frac{p^2}{2m}$</span>",
+      "<span class=\"math-container\">$H \\cong mc^2$</span>",
+      "<span class=\"math-container\">$H \\cong \\frac{p^2}{2m}$</span>",
+      "<span class=\"math-container\">$H \\cong mc^2 - \\frac{p}{m}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "מה משמעות הביטוי המקורב ל-<span class=\"math-container\">$H$</span>?",
+    "options": [
+      "זהו ההפרש של אנרגיית המנוחה והאנרגיה הקינטית של חלקיק נקודתי.",
+      "זוהי אנרגיית המנוחה של חלקיק נקודתי.",
+      "זוהי האנרגיה הקינטית של חלקיק נקודתי.",
+      "אין לביטוי משמעות פיזיקלית."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$Z$</span> בהנחה ש-<span class=\"math-container\">$\\beta mc^2 \\ll 1$</span>.",
+    "options": [
+      "<span class=\"math-container\">$Z = \\left(\\frac{4\\pi}{3}\\right)(mc)^3$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{1}{\\beta}\\right)^{\\frac{3}{2}}e^{-\\beta c^2}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}e^{-mc^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$Z$</span> בהנחה ש-<span class=\"math-container\">$\\beta mc^2 \\gg 1$</span>.",
+    "options": [
+      "<span class=\"math-container\">$Z = 0$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{1}{\\beta}\\right)^{\\frac{3}{2}}e^{-\\beta c^2}$</span>",
+      "<span class=\"math-container\">$Z = \\left(\\frac{2\\pi m}{\\beta}\\right)^{\\frac{1}{2}}e^{-mc^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "כיצד מתפלג המשתנה האקראי <span class=\"math-container\">$\\vec{P}$</span>?",
+    "options": [
+      "אף תשובה אינה נכונה.",
+      "מתפלג באופן אקספוננציאלי תלת ממדי.",
+      "מתפלג בהתאם להתפלגות ריילי תלת ממדית.",
+      "מתפלג באופן אחיד."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "יהי <span class=\"math-container\">$\\vec{P}$</span> משתנה אקראי תלת ממדי, שלו פונקציית צפיפות הסתברות:<br><span class=\"math-container\">$$f(\\vec{p}) = \\frac{e^{-\\beta H(\\vec{p})}}{Z}, \\quad \\beta = \\frac{1}{k_B T}$$</span>בביטוי לעיל T היא הטמפרטורה במעלות קלווין, ו-<span class=\"math-container\">$k_B$</span> הוא קבוע בולצמן. ההמילטוניאן החופשי הוא <span class=\"math-container\">$H(\\vec{p}) = mc^2\\sqrt{1 - \\frac{p^2}{(mc)^2}}$</span> כאשר <span class=\"math-container\">$m$</span> היא המסה, ו-<span class=\"math-container\">$c$</span> מהירות האור בוואקום. <span class=\"math-container\">$(p = |\\vec{p}|)$</span>",
+    "question_text": "מה התוחלת של המשתנה האקראי <span class=\"math-container\">$\\vec{P}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[\\vec{P}] = 0$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = T$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = k_BT$</span>",
+      "<span class=\"math-container\">$E[\\vec{P}] = k_BT^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.<br>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t + \\Theta_0) - N_S(t)\\sin(\\omega_0 t + \\Theta_0)$$</span>כאשר מתקיים: <span class=\"math-container\">$E[N^2(t)] = E[N_C^2(t)] = E[N_S^2(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t) + N(t) = A(t)\\cos(\\omega_0 t + \\Theta_0 + \\psi(t))$</span>",
+    "question_text": "חשב את פונקציית האוטוקורלציה של <span class=\"math-container\">$Y_{AM}(t)$</span> בהנחה ש-<span class=\"math-container\">$X(t)$</span> תהליך סטציונרי בעל ממוצע 0.",
+    "options": [
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\frac{1}{2}\\left(A_0^2 + R_X(\\tau)\\right)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\left(A_0^2 + R_X(\\tau)\\right)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\left(2A_0^2 + R_X(\\tau)\\right)\\cos(\\omega_0\\tau)$</span>",
+      "<span class=\"math-container\">$R_{AM}(\\tau) = \\frac{1}{2}\\left(A_0^2 - R_X(\\tau)\\right)\\cos(\\omega_0\\tau)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.<br>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t + \\Theta_0) - N_S(t)\\sin(\\omega_0 t + \\Theta_0)$$</span>כאשר מתקיים: <span class=\"math-container\">$E[N^2(t)] = E[N_C^2(t)] = E[N_S^2(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t) + N(t) = A(t)\\cos(\\omega_0 t + \\Theta_0 + \\psi(t))$</span>",
+    "question_text": "חשב את הספקטרום של <span class=\"math-container\">$Y_{AM}(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)] + \\frac{1}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)] + \\frac{1}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)] + 2[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>",
+      "<span class=\"math-container\">$S_{AM}(\\omega) = \\frac{A_0^2\\pi}{2}[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)] + \\frac{A_0^2}{4}[S_X(\\omega-\\omega_0)+S_X(\\omega+\\omega_0)]$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.<br>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t + \\Theta_0) - N_S(t)\\sin(\\omega_0 t + \\Theta_0)$$</span>כאשר מתקיים: <span class=\"math-container\">$E[N^2(t)] = E[N_C^2(t)] = E[N_S^2(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t) + N(t) = A(t)\\cos(\\omega_0 t + \\Theta_0 + \\psi(t))$</span>",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$\\psi(t)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}(A_0+X(t))+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}A_0+N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{N_C(t)}\\right)$</span>",
+      "<span class=\"math-container\">$\\psi(t) = \\arctan\\left(\\frac{N_S(t)}{G_{ch}X(t)+N_C(t)}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.<br>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t + \\Theta_0) - N_S(t)\\sin(\\omega_0 t + \\Theta_0)$$</span>כאשר מתקיים: <span class=\"math-container\">$E[N^2(t)] = E[N_C^2(t)] = E[N_S^2(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t) + N(t) = A(t)\\cos(\\omega_0 t + \\Theta_0 + \\psi(t))$</span>",
+    "question_text": "מהי הפונקציה <span class=\"math-container\">$A(t)$</span>? הנח כי הרעש קטן ביחס לאות וכתוב ביטוי המדויק עד לסדר ראשון ברעש.",
+    "options": [
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[A_0+X(t)]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx [A_0+X(t)]+N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[A_0+X(t)]+2N_C(t)$</span>",
+      "<span class=\"math-container\">$A(t) \\approx G_{ch}[2X(t)]+4N_C(t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתונה מערכת מסוג AM המייצרת את המתח האקראי:<br><span class=\"math-container\">$$Y_{AM}(t) = [A_0 + X(t)]\\cos(\\omega_0 t + \\Theta_0)$$</span>כאשר האמפליטודה <span class=\"math-container\">$A_0$</span> והתדר <span class=\"math-container\">$\\omega_0$</span> קבועים, האות המשודר <span class=\"math-container\">$X(t)$</span> הוא תהליך אקראי, והפאזה <span class=\"math-container\">$\\Theta_0$</span> היא משתנה אקראי המתפלג באחידות בקטע <span class=\"math-container\">$[0,2\\pi]$</span> שאינו תלוי ב-<span class=\"math-container\">$X(t)$</span>.<br>במקלט מתקבל האות <span class=\"math-container\">$Y_R(t) = G_{ch}Y_{AM}(t)$</span> כאשר <span class=\"math-container\">$G_{ch}$</span> הגבר הערוץ, אליו מצטרף רעש מהצורה:<br><span class=\"math-container\">$$N(t) = N_C(t)\\cos(\\omega_0 t + \\Theta_0) - N_S(t)\\sin(\\omega_0 t + \\Theta_0)$$</span>כאשר מתקיים: <span class=\"math-container\">$E[N^2(t)] = E[N_C^2(t)] = E[N_S^2(t)]$</span><br>סה\"כ הסיגנל במקלט הוא: <span class=\"math-container\">$Y_R(t) + N(t) = A(t)\\cos(\\omega_0 t + \\Theta_0 + \\psi(t))$</span>",
+    "question_text": "חשב את יחס הספק האות היעיל להספק הרעש במקלט. (הרעש <span class=\"math-container\">$N(t)$</span> הוא רעש לבן מוגבל פס הממורכז בתדר <span class=\"math-container\">$\\omega_0$</span> בעל ספקטרום קבוע <span class=\"math-container\">$\\frac{N_0}{2}$</span> ורוחב זוויתי <span class=\"math-container\">$W_{rec}$</span>.)",
+    "options": [
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AN} = \\frac{2\\pi G_{ch}^2 E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AN} = \\frac{2\\pi E[X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AN} = \\frac{2\\pi G_{ch}^2 E[A_0^2+X^2(t)]}{N_0 W_{rec}}$</span>",
+      "<span class=\"math-container\">$\\left(\\frac{S_0}{N_0}\\right)_{AN} = \\frac{2\\pi G_{ch}^2 E[X^4(t)]}{N_0 W_{rec}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "חשב את הממוצע.",
+    "options": [
+      "<span class=\"math-container\">$a + \\frac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$\\frac{\\pi}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a - \\frac{\\sqrt{\\pi}}{2}\\sqrt{b}$</span>",
+      "<span class=\"math-container\">$a - \\frac{\\pi}{2}\\sqrt{b}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "חשב את השונות.",
+    "options": [
+      "<span class=\"math-container\">$b\\left(1-\\frac{\\pi}{4}\\right)$</span>",
+      "<span class=\"math-container\">$b\\left(1+\\frac{\\pi}{2}\\right)$</span>",
+      "<span class=\"math-container\">$b$</span>",
+      "<span class=\"math-container\">$a$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "עבור <span class=\"math-container\">$a=0$</span> ו-<span class=\"math-container\">$b=2$</span> מה ההסתברות שהמתח יהיה גדול מ-1 וולט?",
+    "options": [
+      "0.61",
+      "0.89",
+      "0.95",
+      "0.4"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתון מתח כניסה המשתנה אקראית ומתפלג עפ\"י התפלגות ריילי:<br><span class=\"math-container\">$$f_X(x) = \\begin{cases} \\frac{2}{b}(x-a)e^{-\\frac{(x-a)^2}{b}} & x \\geq a \\\\ 0 & x < a \\end{cases}$$</span>כאשר <span class=\"math-container\">$b>0$</span> ו-<span class=\"math-container\">$-\\infty < a < \\infty$</span>.",
+    "question_text": "עבור <span class=\"math-container\">$a=1$</span> ו-<span class=\"math-container\">$b=3$</span> מה ההסתברות שהמתח יהיה קטן בערכו המוחלט מ-2 וולט?",
+    "options": [
+      "0.28",
+      "0.79",
+      "0.15",
+      "0.4"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q17",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = q(t+\\varepsilon)$</span>, כאשר <span class=\"math-container\">$\\varepsilon$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,T]$</span>. <span class=\"math-container\">$q(t)$</span> היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.<br>כעת נתון תהליך אקראי נוסף <span class=\"math-container\">$Y(t) = r(t+\\varepsilon)$</span>, <span class=\"math-container\">$r(t)$</span> גם היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.",
+    "question_text": "חשב את האוטוקורלציה של התהליך <span class=\"math-container\">$X(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_X(\\tau) = \\frac{1}{T}\\int_0^T q(z)q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\frac{2}{T}\\int_0^T q(z)q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\frac{1}{T}\\int_0^{2T} q(z)q(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_X(\\tau) = \\frac{1}{T}\\int_0^T q(z+T)q(z+\\tau)\\,dz$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q18",
+    "preamble": "נתון תהליך אקראי <span class=\"math-container\">$X(t) = q(t+\\varepsilon)$</span>, כאשר <span class=\"math-container\">$\\varepsilon$</span> משתנה אקראי רציף המפולג באחידות בקטע <span class=\"math-container\">$[0,T]$</span>. <span class=\"math-container\">$q(t)$</span> היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.<br>כעת נתון תהליך אקראי נוסף <span class=\"math-container\">$Y(t) = r(t+\\varepsilon)$</span>, <span class=\"math-container\">$r(t)$</span> גם היא פונקציה מחזורית עם מחזור <span class=\"math-container\">$T$</span>.",
+    "question_text": "חשב את הקרוס-קורלציה של התהליכים <span class=\"math-container\">$X(t)$</span> ו-<span class=\"math-container\">$Y(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\frac{1}{T}\\int_0^T q(z)r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\frac{1}{T}\\int_0^{3T} q(z)r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\int_0^{2T} q(z)r(z+\\tau)\\,dz$</span>",
+      "<span class=\"math-container\">$R_{XY}(\\tau) = \\frac{1}{T}\\int_0^T q(z)r^2(z+\\tau)\\,dz$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q19",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau & 0 < t < \\tau \\\\ 0 & \\text{else} \\end{cases}$$</span>נתון כי לאות זה מוסיפים רעש בעל צפיפות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\frac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "חשב את התמרת פורייה של האות.",
+    "options": [
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\left(\\frac{\\sin(\\omega\\tau/2)}{\\omega\\tau/2}\\right)^2$</span>",
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\left(\\frac{\\sin(\\omega\\tau/2)}{\\omega\\tau}\\right)^2$</span>",
+      "<span class=\"math-container\">$X(\\omega) = \\left(\\frac{\\sin(\\omega\\tau/2)}{\\omega\\tau/2}\\right)^2$</span>",
+      "<span class=\"math-container\">$X(\\omega) = A\\tau\\left(\\frac{\\sin(\\omega\\tau/2)}{\\omega\\tau/2}\\right)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q20",
+    "preamble": "נתון האות הבא:<br><span class=\"math-container\">$$x(t) = \\begin{cases} A(\\tau+t)/\\tau & -\\tau < t < 0 \\\\ A(\\tau-t)/\\tau & 0 < t < \\tau \\\\ 0 & \\text{else} \\end{cases}$$</span>נתון כי לאות זה מוסיפים רעש בעל צפיפות הספק ספקטראלית <span class=\"math-container\">$S_N(\\omega) = \\frac{W}{W^2+\\omega^2}$</span>.",
+    "question_text": "מצא את פונקציית התמסורת של המסננת המתואמת לאות <span class=\"math-container\">$x(t)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau\\frac{W^2+\\omega^2}{W}\\,\\mathrm{Sinc}^2\\!\\left(\\frac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = \\frac{\\omega^2}{W}\\,\\mathrm{Sinc}^2\\!\\left(\\frac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau\\frac{W^2+\\omega^2}{W}\\,\\mathrm{Sinc}^2\\!\\left(\\frac{\\omega\\tau}{2}\\right)$</span>",
+      "<span class=\"math-container\">$H_{opt}(\\omega) = K\\tau W\\,\\mathrm{Sinc}^2\\!\\left(\\frac{\\omega\\tau}{2}\\right)e^{-j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  }
+]

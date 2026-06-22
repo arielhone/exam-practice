@@ -1,5 +1,20 @@
 [
   {
+    "id": "exam_01_08_2023",
+    "title": "מועד 01.08.2023",
+    "file_path": "exams/exam_01_08_2023.json"
+  },
+  {
+    "id": "exam_03_07_2023",
+    "title": "מועד 03.07.2023",
+    "file_path": "exams/exam_03_07_2023.json"
+  },
+  {
+    "id": "exam_14_07_2022",
+    "title": "מועד 14.07.2022",
+    "file_path": "exams/exam_14_07_2022.json"
+  },
+  {
     "id": "exam_16_02_2015",
     "title": "מועד 16.02.2015",
     "file_path": "exams/exam_16_02_2015.json"
