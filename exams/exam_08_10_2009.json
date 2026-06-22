@@ -46,9 +46,9 @@
       "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_X}\\,e^{-y^2/(3\\sigma_X^2)}$</span>",
       "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-y^2/(3\\sigma_Y^2)}$</span>",
       "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-(y+1)^2/(3\\sigma_Y^2)}$</span>",
-      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_Y}\\,e^{-y^2/(2\\sigma_Y^2)}$</span>"
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_X}\\,e^{-y^2/(2\\sigma_X^2)}$</span>"
     ],
-    "correct_option_index": 3,
+    "correct_option_index": 0,
     "image_url": null
   },
   {
