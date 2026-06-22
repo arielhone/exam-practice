@@ -10,7 +10,7 @@
       "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S+R_P}\\right)^3 \\cdot \\frac{1}{1-Q^2\\left(\\frac{\\omega}{\\omega_0}+\\frac{\\omega_0}{\\omega}\\right)^2}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": "exams/images/exam_03_07_2023/q1.png"
   },
   {
     "id": "q2",
@@ -23,7 +23,7 @@
       "לא ניתן לשייך את המערכת הליניארית לאחת הקטגוריות המקובלות."
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q3",
@@ -36,7 +36,7 @@
       "<span class=\"math-container\">$\\overline{X(t)} = \\sin(3\\omega_0 t)$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q4",
@@ -49,7 +49,7 @@
       "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\cos(\\omega_0\\tau) + \\cos(3\\omega_0\\tau)$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q5",
@@ -62,7 +62,7 @@
       "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega)+\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right\\}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q6",
@@ -75,7 +75,7 @@
       "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{L}{R_P}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q7",
@@ -88,7 +88,7 @@
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)+\\frac{9}{9+64Q^2}\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]+\\frac{N_0}{4\\pi}\\right\\}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q8",
@@ -101,7 +101,7 @@
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\!\\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right]+\\frac{N_0}{4\\pi}\\right\\}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q9",
@@ -114,7 +114,7 @@
       "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2\\sin(\\omega_0\\tau)$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q10",
@@ -127,7 +127,7 @@
       "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right)+\\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q11",
@@ -140,7 +140,7 @@
       "<span class=\"math-container\">$B = \\frac{\\sigma_X^2}{3N_0}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": "exams/images/exam_03_07_2023/q11.png"
   },
   {
     "id": "q12",
@@ -153,7 +153,7 @@
       "-1"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q13",
@@ -166,7 +166,7 @@
       "<span class=\"math-container\">$2\\sigma_X^2$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q14",
@@ -179,7 +179,7 @@
       "<span class=\"math-container\">$f_Y(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_X}e^{-\\frac{y^2}{2\\sigma_X^2}}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q15",
@@ -192,7 +192,7 @@
       "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q16",
@@ -205,7 +205,7 @@
       "0"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q17",
@@ -218,7 +218,7 @@
       "<span class=\"math-container\">$4\\sigma_Y^4$</span>"
     ],
     "correct_option_index": 0,
-    "image_url": "NEEDS_IMAGE"
+    "image_url": null
   },
   {
     "id": "q18",
