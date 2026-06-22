@@ -1,5 +1,10 @@
 [
   {
+    "id": "exam_01_01_2026",
+    "title": "מועד 01.01.2026",
+    "file_path": "exams/exam_01_01_2026.json"
+  },
+  {
     "id": "exam_01_08_2023",
     "title": "מועד 01.08.2023",
     "file_path": "exams/exam_01_08_2023.json"

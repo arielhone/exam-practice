@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q1",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.",
+    "question_text": "כתוב ביטוי ל-<span class=\"math-container\">$R(\\omega)$</span> בפונקציה של <span class=\"math-container\">$C(\\omega)$</span>, <span class=\"math-container\">$H_1(\\omega)$</span>, <span class=\"math-container\">$H_2(\\omega)$</span>.",
+    "options": [
+      "<span class=\"math-container\">$R(\\omega) = H_1(\\omega)\\left[C(\\omega) - H_2(\\omega)R(\\omega)\\right]$</span>",
+      "<span class=\"math-container\">$R(\\omega) = H_1(\\omega)\\left[C(\\omega) + H_2(\\omega)R(\\omega)\\right]$</span>",
+      "<span class=\"math-container\">$R(\\omega) = H_2(\\omega)\\left[C(\\omega) - H_1(\\omega)R(\\omega)\\right]$</span>",
+      "<span class=\"math-container\">$R(\\omega) = H_1(\\omega)C(\\omega) - H_2(\\omega)R(\\omega)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_01_01_2026/q1.png"
+  },
+  {
+    "id": "q2",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.",
+    "question_text": "חשב את פונקציית התמסורת הכוללת של המערכת <span class=\"math-container\">$H(\\omega) = \\frac{R(\\omega)}{C(\\omega)}$</span>.",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{H_1(\\omega)}{1 + H_1(\\omega)H_2(\\omega)}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{H_1(\\omega)}{1 - H_1(\\omega)H_2(\\omega)}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{H_2(\\omega)}{1 + H_1(\\omega)H_2(\\omega)}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{1}{1 + H_1(\\omega)H_2(\\omega)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q3",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.",
+    "question_text": "בהנחה שספקטרום הרעש בכניסה הוא <span class=\"math-container\">$S_{cc}(\\omega)$</span>, מה יהיה ספקטרום הרעש במוצא <span class=\"math-container\">$S_{rr}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_{rr}(\\omega) = S_{cc}(\\omega)\\left|\\dfrac{H_1(\\omega)}{1+H_1(\\omega)H_2(\\omega)}\\right|^2$</span>",
+      "<span class=\"math-container\">$S_{rr}(\\omega) = S_{cc}(\\omega)\\left|H_1(\\omega)\\right|^2$</span>",
+      "<span class=\"math-container\">$S_{rr}(\\omega) = S_{cc}(\\omega)\\left|\\dfrac{H_2(\\omega)}{1+H_1(\\omega)H_2(\\omega)}\\right|^2$</span>",
+      "<span class=\"math-container\">$S_{rr}(\\omega) = S_{cc}(\\omega)\\left|H_1(\\omega)H_2(\\omega)\\right|^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q4",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$H_1(\\omega) = \\dfrac{K_1 W_1}{W_1 + j\\omega}$</span> ו-<span class=\"math-container\">$H_2(\\omega) = 1$</span>, מה יהיה <span class=\"math-container\">$H(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{(1+K_1)W_1 + j\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{W_1 + j\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{W_1 + j\\omega}{(1+K_1)W_1 + j\\omega}$</span>",
+      "<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{(1-K_1)W_1 + j\\omega}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q5",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{(1+K_1)W_1 + j\\omega}$</span>.",
+    "question_text": "מה תהיה פונקציית התגובה לדחף <span class=\"math-container\">$h(t)$</span> המתאימה ל-<span class=\"math-container\">$H(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$h(t) = K_1 W_1\\, u(t)\\, e^{-(1+K_1)W_1 t}$</span>",
+      "<span class=\"math-container\">$h(t) = K_1 W_1\\, u(t)\\, e^{-W_1 t}$</span>",
+      "<span class=\"math-container\">$h(t) = W_1\\, u(t)\\, e^{-(1+K_1)W_1 t}$</span>",
+      "<span class=\"math-container\">$h(t) = K_1 W_1\\, \\delta(t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q6",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{(1+K_1)W_1 + j\\omega}$</span>.",
+    "question_text": "למערכת מוזן האות <span class=\"math-container\">$C(t) = A\\,u(t)\\,e^{-Wt}$</span>. מה יהיה האות <span class=\"math-container\">$R(t)$</span> במוצא?",
+    "options": [
+      "<span class=\"math-container\">$R(t) = \\dfrac{K_1 W_1}{(1+K_1)W_1 - W}\\left(1 - e^{-[(1+K_1)W_1 - W]t}\\right)C(t)$</span>",
+      "<span class=\"math-container\">$R(t) = \\dfrac{K_1 W_1}{(1+K_1)W_1 + W}\\left(1 - e^{-[(1+K_1)W_1 + W]t}\\right)C(t)$</span>",
+      "<span class=\"math-container\">$R(t) = \\dfrac{W_1}{(1+K_1)W_1 - W}\\left(1 - e^{-[(1+K_1)W_1 - W]t}\\right)C(t)$</span>",
+      "<span class=\"math-container\">$R(t) = \\dfrac{K_1 W_1}{(1+K_1)W_1 - W}\\,e^{-[(1+K_1)W_1 - W]t}\\,C(t)$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q7",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H(\\omega) = \\dfrac{K_1 W_1}{(1+K_1)W_1 + j\\omega}$</span>.",
+    "question_text": "בהנחה ש-<span class=\"math-container\">$K_1 \\gg 1$</span> ו-<span class=\"math-container\">$(1+K_1)W_1 \\gg W$</span>, כתוב ביטוי מקורב ל-<span class=\"math-container\">$R(t)$</span> עבור <span class=\"math-container\">$t$</span> גדול.",
+    "options": [
+      "<span class=\"math-container\">$R(t) \\cong C(t)$</span>",
+      "<span class=\"math-container\">$R(t) \\cong K_1 C(t)$</span>",
+      "<span class=\"math-container\">$R(t) \\cong C(t)/K_1$</span>",
+      "<span class=\"math-container\">$R(t) \\cong 0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q8",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H_1(\\omega) = \\dfrac{K_1 W_1}{W_1 + j\\omega}$</span> ו-<span class=\"math-container\">$H_2(\\omega) = 1$</span>, ולמערכת נכנס רעש לבן עם ספקטרום <span class=\"math-container\">$\\dfrac{N_0}{2}$</span>.",
+    "question_text": "מה יהיה ספקטרום הרעש ביציאה <span class=\"math-container\">$S_{nR}(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$S_{nR}(\\omega) = \\dfrac{N_0\\,(K_1 W_1)^2}{2\\left\\{\\left[(1+K_1)W_1\\right]^2 + \\omega^2\\right\\}}$</span>",
+      "<span class=\"math-container\">$S_{nR}(\\omega) = \\dfrac{N_0\\,K_1 W_1}{2\\left\\{\\left[(1+K_1)W_1\\right]^2 + \\omega^2\\right\\}}$</span>",
+      "<span class=\"math-container\">$S_{nR}(\\omega) = \\dfrac{N_0\\,(K_1 W_1)^2}{\\left[(1+K_1)W_1\\right]^2 + \\omega^2}$</span>",
+      "<span class=\"math-container\">$S_{nR}(\\omega) = \\dfrac{N_0\\,W_1^2}{2\\left\\{\\left[(1+K_1)W_1\\right]^2 + \\omega^2\\right\\}}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q9",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H_1(\\omega) = \\dfrac{K_1 W_1}{W_1 + j\\omega}$</span> ו-<span class=\"math-container\">$H_2(\\omega) = 1$</span>, ולמערכת נכנס רעש לבן עם ספקטרום <span class=\"math-container\">$\\dfrac{N_0}{2}$</span>.",
+    "question_text": "מה יהיה הספק הרעש ביציאה <span class=\"math-container\">$P_{ar}$</span>?",
+    "options": [
+      "<span class=\"math-container\">$P_{ar} = \\dfrac{N_0 K_1^2 W_1}{4(1+K_1)}$</span>",
+      "<span class=\"math-container\">$P_{ar} = \\dfrac{N_0 K_1 W_1}{4(1+K_1)}$</span>",
+      "<span class=\"math-container\">$P_{ar} = \\dfrac{N_0 K_1^2 W_1}{2(1+K_1)}$</span>",
+      "<span class=\"math-container\">$P_{ar} = \\dfrac{N_0 K_1^2 W_1^2}{4(1+K_1)}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q10",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.<br>בהנחה ש-<span class=\"math-container\">$H_1(\\omega) = \\dfrac{K_1 W_1}{W_1 + j\\omega}$</span> ו-<span class=\"math-container\">$H_2(\\omega) = 1$</span>, <span class=\"math-container\">$K_1 \\gg 1$</span>.",
+    "question_text": "לאור התוצאות שקיבלת, מה המשמעות של חיבור הפילטר <span class=\"math-container\">$H_1(\\omega)$</span> בתצורת המשוב בהנחה ש-<span class=\"math-container\">$K_1 \\gg 1$</span>?",
+    "options": [
+      "המשמעות היא שבעזרת החיבור עם משוב, המרנו מגבר צר סרט בעל רוחב אופייני <span class=\"math-container\">$W_1$</span> והגבר גדול <span class=\"math-container\">$K_1$</span>, בפילטר רחב סרט בעל רוחב <span class=\"math-container\">$K_1 W_1$</span> והגבר יחידה.",
+      "המשמעות היא שהחיבור הופך את הפילטר לממסר כוח קבוע לכל התדרים.",
+      "המשמעות היא שהחיבור מקטין את רוחב הסרט מ-<span class=\"math-container\">$K_1 W_1$</span> ל-<span class=\"math-container\">$W_1$</span>.",
+      "המשמעות היא שהחיבור אינו משנה את פונקציית התמסורת של <span class=\"math-container\">$H_1(\\omega)$</span>."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q11",
+    "preamble": "נתונה מערכת משוב כמתואר באיור:<br>כניסת המערכת <span class=\"math-container\">$C(\\omega)$</span> (Command) מוזנת לחיבור (Σ) אשר מייצר את אות השגיאה (Error). אות השגיאה מוזן לבלוק <span class=\"math-container\">$H_1(\\omega)$</span> המייצר את תגובת המערכת <span class=\"math-container\">$R(\\omega)$</span> (Response). אות המשוב <span class=\"math-container\">$F(\\omega)$</span> מתקבל על ידי העברת <span class=\"math-container\">$R(\\omega)$</span> דרך <span class=\"math-container\">$H_2(\\omega)$</span> וחזרה לחיבור.",
+    "question_text": "ממש בעזרת המעגל לעיל מסננת וינר. הנח כי הרעש <span class=\"math-container\">$n$</span> והאות <span class=\"math-container\">$X$</span> הם חסרי קורלציה. מהם <span class=\"math-container\">$H_1(\\omega)$</span> ו-<span class=\"math-container\">$H_2(\\omega)$</span>?",
+    "options": [
+      "<span class=\"math-container\">$H_1(\\omega) = e^{j\\omega t_0},\\quad H_2(\\omega) = \\dfrac{S_n(\\omega)}{S_X(\\omega)}\\,e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_1(\\omega) = 1,\\quad H_2(\\omega) = \\dfrac{S_n(\\omega)}{S_X(\\omega)}$</span>",
+      "<span class=\"math-container\">$H_1(\\omega) = e^{j\\omega t_0},\\quad H_2(\\omega) = \\dfrac{S_X(\\omega)}{S_n(\\omega)}\\,e^{-j\\omega t_0}$</span>",
+      "<span class=\"math-container\">$H_1(\\omega) = e^{-j\\omega t_0},\\quad H_2(\\omega) = \\dfrac{S_n(\\omega)}{S_X(\\omega)}\\,e^{j\\omega t_0}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q12",
+    "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> עם שונות <span class=\"math-container\">$\\sigma_X^2$</span>. מגדירים את ממוצע המדגם:<br><span class=\"math-container\">$$X_a = \\frac{1}{n}\\sum_{i=1}^{n} X(t_i)$$</span>",
+    "question_text": "הנח שהדגימות בנקודות <span class=\"math-container\">$t_i$</span> חסרות קורלציה. לכמה יהיה שווה <span class=\"math-container\">$\\sigma_{X_a}^2$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\dfrac{\\sigma_X^2}{n}$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = n\\,\\sigma_X^2$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\dfrac{\\sigma_X^2}{n^2}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> עם שונות <span class=\"math-container\">$\\sigma_X^2$</span>. מגדירים את ממוצע המדגם:<br><span class=\"math-container\">$$X_a = \\frac{1}{n}\\sum_{i=1}^{n} X(t_i)$$</span>",
+    "question_text": "מה יהיה <span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta = 0$</span>",
+      "<span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta = \\sigma_X$</span>",
+      "<span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta = \\infty$</span>",
+      "<span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta = 1/\\sigma_X$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "בהינתן מצלמה דיגיטלית המסוגלת לדגום בקצב של עד אלף תמונות בשנייה ולממוצע אותן.",
+    "question_text": "כמה מספר התמונות הדרושות לדגום (בהנחה שהאות האקראי סטציונרי) כדי לקבל תמונה מייצגת?",
+    "options": [
+      "יש לדגום אלף פעמים.",
+      "יש לדגום פעם אחת.",
+      "מספר הדגימות לא משנה באותה איכות.",
+      "יש לדגום מאה פעמים."
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
+    "preamble": "נתון כי מהירות הרוח מתפלגת לפי התפלגות Weibull:<br><span class=\"math-container\">$$f(v) = \\begin{cases} \\dfrac{k}{c}\\left(\\dfrac{v}{c}\\right)^{k-1}e^{-(v/c)^k} & v \\geq 0 \\\\ 0 & v < 0 \\end{cases}$$</span>פונקציית גמא מוגדרת על ידי: <span class=\"math-container\">$\\Gamma(x) = \\int_0^{\\infty} t^{x-1}e^{-t}\\,dt$</span>",
+    "question_text": "חשב את המומנט בסדר <span class=\"math-container\">$n$</span> של ההתפלגות, <span class=\"math-container\">$E[v^n]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E[v^n] = c^n\\,\\Gamma\\!\\left(1+2\\dfrac{n}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v^n] = c^n\\,\\Gamma\\!\\left(1+\\dfrac{n}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v^n] = 4c^n\\,\\Gamma\\!\\left(1+2\\dfrac{n}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v^n] = c^n\\,\\Gamma\\!\\left(1-\\dfrac{n}{k}\\right)$</span>"
+    ],
+    "correct_option_index": 1,
+    "image_url": null
+  },
+  {
+    "id": "q16",
+    "preamble": "נתון כי מהירות הרוח מתפלגת לפי התפלגות Weibull:<br><span class=\"math-container\">$$f(v) = \\begin{cases} \\dfrac{k}{c}\\left(\\dfrac{v}{c}\\right)^{k-1}e^{-(v/c)^k} & v \\geq 0 \\\\ 0 & v < 0 \\end{cases}$$</span>פונקציית גמא מוגדרת על ידי: <span class=\"math-container\">$\\Gamma(x) = \\int_0^{\\infty} t^{x-1}e^{-t}\\,dt$</span>",
+    "question_text": "מה יהיה הממוצע <span class=\"math-container\">$E[v]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[v] = c\\,\\Gamma\\!\\left(1+\\dfrac{2}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v] = 3c\\,\\Gamma\\!\\left(1+\\dfrac{1}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v] = c\\,\\Gamma\\!\\left(1+\\dfrac{1}{k}\\right)$</span>",
+      "<span class=\"math-container\">$E[v] = c\\,\\Gamma\\!\\left(1-\\dfrac{1}{k}\\right)$</span>"
+    ],
+    "correct_option_index": 2,
+    "image_url": null
+  }
+]
