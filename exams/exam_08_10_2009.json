@@ -108,10 +108,10 @@
     "preamble": "נתון התהליך האקראי:<br><span class=\"math-container\">$$X(t)=A\\cos\\bigl[2\\pi f_0 t+\\Theta(t)\\bigr]$$</span><br>כאשר <span class=\"math-container\">$\\Theta(t)$</span> הוא תהליך גאוסי, רחב-מובן, עם תוחלת אפס ושונות <span class=\"math-container\">$\\sigma^2$</span>.<br>רמז: <span class=\"math-container\">$\\displaystyle\\int_{-\\infty}^{+\\infty}e^{-(ax)^2}\\cos(bx)\\,dx=\\dfrac{\\sqrt{\\pi}}{a}e^{-b^2/(4a^2)}$</span>.",
     "question_text": "חשב את <span class=\"math-container\">$E[X^2(t)]$</span>.",
     "options": [
-      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\cos(4\\pi f_0 t)\\right]$</span>",
-      "<span class=\"math-container\">$\\dfrac{A^2}{2}\\left[1+e^{-2\\sigma^2}\\sin(4\\pi f_0 t)\\right]$</span>",
-      "<span class=\"math-container\">$A^2\\,e^{-2\\sigma^2}\\cos(4\\pi f_0 t)$</span>",
-      "<span class=\"math-container\">$A^2\\,e^{-\\sigma^2}\\cos(4\\pi f_0 t)$</span>"
+      "<span class=\"math-container\">$A^2\\left[\\dfrac{1}{2}+e^{-\\sigma^2/2}\\cos(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\left[\\dfrac{1}{2}+e^{-\\sigma^2/2}\\sin(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\left[e^{-\\sigma^2/2}\\cos(4\\pi f_0 t)\\right]$</span>",
+      "<span class=\"math-container\">$A^2\\left[e^{-\\sigma^2}\\cos(4\\pi f_0 t)\\right]$</span>"
     ],
     "correct_option_index": 0,
     "image_url": null
