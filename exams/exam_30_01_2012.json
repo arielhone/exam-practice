@@ -173,10 +173,10 @@
     "preamble": "נתון משתנה אקראי <span class=\"math-container\">$X$</span> המתפלג על פי התפלגות Arcsine בעלת PDF מהצורה:<br><span class=\"math-container\">$$f_X(x) = \\frac{\\operatorname{rect}\\!\\left(\\frac{x}{2a}\\right)}{\\pi\\sqrt{a^2-x^2}}$$</span>כאשר <span class=\"math-container\">$a>0$</span> וכך ש-<span class=\"math-container\">$\\operatorname{rect}(z)=\\begin{cases}1 & |z|\\leq\\frac{1}{2}\\\\0 & |z|>\\frac{1}{2}\\end{cases}$</span>.",
     "question_text": "מה ה-CDF של <span class=\"math-container\">$X$</span>?",
     "options": [
-      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{2}+\\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
-      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\tan^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
-      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\cos^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>",
-      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x<-a\\\\ \\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x<a\\\\ 1 & x\\geq a\\end{cases}$</span>"
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\ \\dfrac{1}{2}+\\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\ \\dfrac{1}{\\pi}\\tan^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\ \\dfrac{1}{\\pi}\\cos^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\ 1 & x\\geq a\\end{cases}$</span>",
+      "<span class=\"math-container\">$F_X(x)=\\begin{cases}0 & x&lt;-a\\\\ \\dfrac{1}{\\pi}\\sin^{-1}\\!\\left(\\dfrac{x}{a}\\right) & -a\\leq x&lt;a\\\\ 1 & x\\geq a\\end{cases}$</span>"
     ],
     "correct_option_index": 0,
     "image_url": null
