@@ -9,8 +9,8 @@
       "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S + R_P}\\right)^2 \\cdot \\frac{1}{1 - Q^2\\left(\\frac{\\omega}{\\omega_0} + \\frac{\\omega_0}{\\omega}\\right)^2}$</span>",
       "<span class=\"math-container\">$|H(\\omega)|^2 = \\left(\\frac{R_P}{R_S + R_P}\\right)^3 \\cdot \\frac{1}{1 - Q^2\\left(\\frac{\\omega}{\\omega_0} + \\frac{\\omega_0}{\\omega}\\right)^2}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": "exams/images/exam_16_02_2015/q1.png"
   },
   {
     "id": "q2",
@@ -22,8 +22,8 @@
       "זהו מסנן מעביר תדרים גבוהים.",
       "לא ניתן לשייך את המערכת הליניארית לאחת הקטגוריות המקובלות."
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q3",
@@ -35,8 +35,8 @@
       "<span class=\"math-container\">$\\overline{X(t)} = \\sin(\\omega_0 t)$</span>",
       "<span class=\"math-container\">$\\overline{X(t)} = \\sin(3\\omega_0 t)$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q4",
@@ -48,8 +48,8 @@
       "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\frac{1}{2}\\cos(\\omega_0\\tau) + \\frac{1}{2}\\sin(3\\omega_0\\tau)$</span>",
       "<span class=\"math-container\">$R_{XX}(\\tau) = 1 + \\cos(\\omega_0\\tau) + \\cos(3\\omega_0\\tau)$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q5",
@@ -61,8 +61,8 @@
       "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega) + \\frac{1}{2}\\left[\\delta(\\omega-\\omega_0) + \\delta(\\omega+\\omega_0) + \\delta(\\omega-3\\omega_0) - \\delta(\\omega+3\\omega_0)\\right]\\right\\}$</span>",
       "<span class=\"math-container\">$S_X(\\omega) = 2\\pi\\left\\{\\delta(\\omega) + \\delta(\\omega-\\omega_0) + \\delta(\\omega+\\omega_0) + \\delta(\\omega-3\\omega_0) + \\delta(\\omega+3\\omega_0)\\right\\}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q6",
@@ -74,8 +74,8 @@
       "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{R_P}{R_S + R_P}$</span>",
       "<span class=\"math-container\">$\\overline{Y(t)} = \\frac{L}{R_P}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q7",
@@ -87,8 +87,8 @@
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0) + 65\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right] + \\frac{N_0}{4\\pi} \\cdot \\frac{1}{1+Q^2\\left(\\frac{\\omega}{\\omega_0}-\\frac{\\omega_0}{\\omega}\\right)^2}\\right\\}$</span>",
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0) + \\frac{9}{9+64Q^2}\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right] + \\frac{N_0}{4\\pi}\\right\\}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q8",
@@ -100,8 +100,8 @@
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0) + 65\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]\\right\\}$</span>",
       "<span class=\"math-container\">$S_Y(\\omega) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\cdot 2\\pi\\left\\{\\frac{1}{2}\\left[\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right] + \\frac{N_0}{4\\pi}\\right\\}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q9",
@@ -113,8 +113,8 @@
       "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\left(\\cos(\\omega_0\\tau) + \\cos(3\\omega_0\\tau) + \\frac{N_0}{2}\\right)$</span>",
       "<span class=\"math-container\">$R_{YY}(\\tau) = \\left(\\frac{R_P}{R_S+R_P}\\right)^2 \\sin(\\omega_0\\tau)$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q10",
@@ -126,8 +126,8 @@
       "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\delta(\\omega) - \\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right) - \\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>",
       "<span class=\"math-container\">$H_{opt}(\\omega) = K\\left[\\pi\\left(\\delta(\\omega-\\omega_0)+\\delta(\\omega+\\omega_0)\\right) + \\pi\\left(\\delta(\\omega-3\\omega_0)+\\delta(\\omega+3\\omega_0)\\right)\\right]e^{-j\\omega t_0}$</span>"
     ],
-    "correct_option_index": null,
-    "image_url": "NEEDS_IMAGE"
+    "correct_option_index": 0,
+    "image_url": null
   },
   {
     "id": "q11",
@@ -139,7 +139,7 @@
       "<span class=\"math-container\">$E[v^n] = c^n \\,\\Gamma\\!\\left(1 + 2\\frac{n}{k}\\right)$</span>",
       "<span class=\"math-container\">$E[v^n] = 4c^n \\,\\Gamma\\!\\left(1 + 2\\frac{n}{k}\\right)$</span>"
     ],
-    "correct_option_index": null,
+    "correct_option_index": 0,
     "image_url": null
   },
   {
@@ -152,7 +152,7 @@
       "<span class=\"math-container\">$E[v] = c\\,\\Gamma\\!\\left(1 + \\frac{2}{k}\\right)$</span>",
       "<span class=\"math-container\">$E[v] = 3c\\,\\Gamma\\!\\left(1 + \\frac{1}{k}\\right)$</span>"
     ],
-    "correct_option_index": null,
+    "correct_option_index": 0,
     "image_url": null
   },
   {
@@ -165,7 +165,7 @@
       "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & -\\infty < x < -a \\\\ \\frac{1}{\\pi}\\cos^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & a \\leq x < \\infty \\end{cases}$</span>",
       "<span class=\"math-container\">$F_X(x) = \\begin{cases} 0 & -\\infty < x < -a \\\\ \\frac{1}{\\pi}\\sin^{-1}\\!\\left(\\frac{x}{a}\\right) & -a \\leq x < a \\\\ 1 & a \\leq x < \\infty \\end{cases}$</span>"
     ],
-    "correct_option_index": null,
+    "correct_option_index": 0,
     "image_url": null
   },
   {
@@ -178,7 +178,7 @@
       "<span class=\"math-container\">$\\frac{1}{3}a$</span>",
       "<span class=\"math-container\">$\\frac{1}{4}a$</span>"
     ],
-    "correct_option_index": null,
+    "correct_option_index": 0,
     "image_url": null
   },
   {
@@ -191,7 +191,7 @@
       "<span class=\"math-container\">$\\frac{1}{4}a^2$</span>",
       "<span class=\"math-container\">$\\frac{2}{3}a^2$</span>"
     ],
-    "correct_option_index": null,
+    "correct_option_index": 0,
     "image_url": null
   }
 ]
