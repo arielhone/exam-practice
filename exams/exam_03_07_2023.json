@@ -186,9 +186,9 @@
     "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> מתפלג בהתפלגות גאוסית (נורמאלית) בעלת ממוצע <span class=\"math-container\">$\\overline{X(t)}=0$</span> ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רוחב סרט התהליך <span class=\"math-container\">$X(t)$</span> בפס בסיס הוא <span class=\"math-container\">$B$</span> (שים לב <span class=\"math-container\">$B$</span> הוא תדר רגיל ולא זוויתי!!!). לתהליך מתחבר רעש לבן <span class=\"math-container\">$n(t)$</span> עם ממוצע <span class=\"math-container\">$\\overline{n(t)}=0$</span> ואוטו-קורלציה סטטיסטית <span class=\"math-container\">$R_{nn}(\\tau) = \\frac{N_0}{2}\\delta(\\tau)$</span>. שני התהליכים מוזנים למסננת מעבירת פס בגובה 1 המזין גלאי בעל אופיין ריבועי (Square law detector), כמתואר באיור, כאשר <span class=\"math-container\">$Z(t) = Y^2(t)$</span>.",
     "question_text": "כתוב ביטוי לפונקציית צפיפות ההסתברות <span class=\"math-container\">$f_Z(z)$</span> של התהליך <span class=\"math-container\">$Z(t)$</span> המתקבל במוצא הגלאי הריבועי.",
     "options": [
-      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_Y}e^{-\\frac{z}{2\\sigma_Y^2}}$</span>",
-      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_Y}e^{-\\frac{z^2}{2\\sigma_Y^2}}$</span>",
-      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\cdot z\\cdot\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi \\cdot z}\\cdot\\sigma_Y}e^{-\\frac{z}{2\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi \\cdot z}\\cdot\\sigma_Y}e^{-\\frac{z^2}{2\\sigma_Y^2}}$</span>",
+      "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi \\cdot z}\\cdot\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>",
       "<span class=\"math-container\">$f_Z(z) = \\frac{1}{\\sqrt{2\\pi}\\sigma_X}e^{-\\frac{z}{2\\sigma_X^2}}$</span>"
     ],
     "correct_option_index": 0,
