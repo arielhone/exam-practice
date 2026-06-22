@@ -4,10 +4,10 @@
     "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (ממוצע אפס, <span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח ל-<span class=\"math-container\">$X(t)$</span>. השניים מוזנים למסנן LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span>, שמוצאו <span class=\"math-container\">$Y(t)$</span>, אשר מוזן לגלאי בעל אופיין ריבועי (Square Law Detector) עם מוצא <span class=\"math-container\">$Z(t)=Y^2(t)$</span>. כמתואר באיור.",
     "question_text": "כתוב ביטוי לרוחב הסרט <span class=\"math-container\">$B$</span> של ה-LPF כך שיחס הספק האות להספק הרעש ב-<span class=\"math-container\">$Y(t)$</span> יהיה <span class=\"math-container\">$3\\,\\text{dB}$</span>.",
     "options": [
-      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{2N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{2N_0}$</span>",
       "<span class=\"math-container\">$B=\\dfrac{2\\sigma_X^2}{N_0}$</span>",
-      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{4N_0}$</span>",
-      "<span class=\"math-container\">$B=\\dfrac{\\pi\\sigma_X^2}{3N_0}$</span>"
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{4N_0}$</span>",
+      "<span class=\"math-container\">$B=\\dfrac{\\sigma_X^2}{3N_0}$</span>"
     ],
     "correct_option_index": 0,
     "image_url": "exams/images/exam_08_10_2009/q1.png"
@@ -18,7 +18,7 @@
     "question_text": "מהו ממוצע <span class=\"math-container\">$Y(t)$</span>?",
     "options": [
       "0",
-      "<span class=\"math-container\">$\\sqrt{N_0/2}$</span>",
+      "2",
       "3",
       "<span class=\"math-container\">$-1$</span>"
     ],
@@ -30,7 +30,7 @@
     "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span>. גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
     "question_text": "מהי שונות <span class=\"math-container\">$Y(t)$</span>? (<span class=\"math-container\">$\\sigma_Y^2$</span>)",
     "options": [
-      "<span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2+\\dfrac{N_0 B}{\\pi}$</span>",
+      "<span class=\"math-container\">$\\sigma_Y^2=\\dfrac{3}{2}\\sigma_X^2$</span>",
       "<span class=\"math-container\">$\\sigma_Y^2=\\dfrac{\\sigma_X^2}{2}$</span>",
       "<span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2$</span>",
       "<span class=\"math-container\">$\\sigma_Y^2=2\\sigma_X^2$</span>"
@@ -40,13 +40,13 @@
   },
   {
     "id": "q4",
-    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2=\\sigma_X^2+N_0 B/\\pi$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
+    "preamble": "תהליך אקראי <span class=\"math-container\">$X(t)$</span> גאוסי, ממוצע אפס, ושונות <span class=\"math-container\">$\\sigma_X^2$</span>. רעש לבן <span class=\"math-container\">$n(t)$</span> (<span class=\"math-container\">$R_{nn}(\\tau)=\\dfrac{N_0}{2}\\delta(\\tau)$</span>) מסתפח. LPF בגובה 1 ורוחב <span class=\"math-container\">$B$</span> מייצר <span class=\"math-container\">$Y(t)$</span> (גאוסי, ממוצע 0, שונות <span class=\"math-container\">$\\sigma_Y^2=\\dfrac{3}{2}\\sigma_X^2$</span>). גלאי ריבועי: <span class=\"math-container\">$Z(t)=Y^2(t)$</span>.",
     "question_text": "מהי פונקציית ה-PDF של <span class=\"math-container\">$Y(t)$</span>?",
     "options": [
-      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_X}\\,e^{-y^2/(3\\sigma_X^2)}$</span>",
-      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_Y}\\,e^{-y^2/(3\\sigma_Y^2)}$</span>",
-      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3}\\,\\sigma_Y}\\,e^{-(y+1)^2/(3\\sigma_Y^2)}$</span>",
-      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_X}\\,e^{-y^2/(2\\sigma_X^2)}$</span>"
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_X}\\,e^{-y^2/(3\\sigma_X^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-y^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{3\\pi}\\,\\sigma_Y}\\,e^{-(y+1)^2/(3\\sigma_Y^2)}$</span>",
+      "<span class=\"math-container\">$f_Y(y)=\\dfrac{1}{\\sqrt{2\\pi}\\,\\sigma_Y}\\,e^{-y^2/(2\\sigma_Y^2)}$</span>"
     ],
     "correct_option_index": 3,
     "image_url": null
