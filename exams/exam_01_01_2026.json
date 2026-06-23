@@ -144,6 +144,45 @@
   },
   {
     "id": "q12",
+    "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> במובן הרחב הנדגם בזמנים <span class=\"math-container\">$t_i$</span> כך ש-<span class=\"math-container\">$X(t_i) = X_i$</span>.",
+    "question_text": "איזה מהמשפטים הבאים נכון?",
+    "options": [
+      "<span class=\"math-container\">$E[X_i] \\neq E[X_j]$</span>, <span class=\"math-container\">$\\sigma_i = \\sigma_j$</span> &nbsp; <span class=\"math-container\">$\\forall\\, i,j$</span>",
+      "<span class=\"math-container\">$E[X_i] \\neq E[X_j]$</span>, <span class=\"math-container\">$\\sigma_i \\neq \\sigma_j$</span> &nbsp; <span class=\"math-container\">$\\forall\\, i,j$</span>",
+      "<span class=\"math-container\">$E[X_i] = E[X_j]$</span>, <span class=\"math-container\">$\\sigma_i \\neq \\sigma_j$</span> &nbsp; <span class=\"math-container\">$\\forall\\, i,j$</span>",
+      "<span class=\"math-container\">$E[X_i] = E[X_j]$</span>, <span class=\"math-container\">$\\sigma_i = \\sigma_j$</span> &nbsp; <span class=\"math-container\">$\\forall\\, i,j$</span>"
+    ],
+    "correct_option_index": 3,
+    "image_url": null
+  },
+  {
+    "id": "q13",
+    "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> במובן הרחב הנדגם בזמנים <span class=\"math-container\">$t_i$</span> כך ש-<span class=\"math-container\">$X(t_i) = X_i$</span>.",
+    "question_text": "אם בזמן מסוים מתקיים <span class=\"math-container\">$E[X_i] = X$</span> ונתון <span class=\"math-container\">$X_a = \\dfrac{1}{n}\\sum_{i=1}^{n} X_i$</span>, לכמה יהיה שווה <span class=\"math-container\">$E[X_a]$</span>?",
+    "options": [
+      "<span class=\"math-container\">$E[X_a] = X$</span>",
+      "<span class=\"math-container\">$E[X_a] = X/n$</span>",
+      "<span class=\"math-container\">$E[X_a] = nX$</span>",
+      "<span class=\"math-container\">$E[X_a] = 0$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q14",
+    "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> במובן הרחב הנדגם בזמנים <span class=\"math-container\">$t_i$</span> כך ש-<span class=\"math-container\">$X(t_i) = X_i$</span>. מגדירים את ממוצע המדגם <span class=\"math-container\">$X_a = \\dfrac{1}{n}\\sum_{i=1}^{n} X_i$</span>.",
+    "question_text": "לכמה יהיה שווה <span class=\"math-container\">$\\sigma_{X_a}^2$</span> — השונות של המשתנה <span class=\"math-container\">$X_a$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\dfrac{1}{n^2}\\sum_{i,j} C_{X_i X_j}$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\dfrac{1}{n}\\sum_{i,j} C_{X_i X_j}$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\dfrac{1}{n^2}\\sum_{i} \\sigma_{X_i}^2$</span>",
+      "<span class=\"math-container\">$\\sigma_{X_a}^2 = \\sum_{i,j} C_{X_i X_j}$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q15",
     "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> עם שונות <span class=\"math-container\">$\\sigma_X^2$</span>. מגדירים את ממוצע המדגם:<br><span class=\"math-container\">$$X_a = \\frac{1}{n}\\sum_{i=1}^{n} X(t_i)$$</span>",
     "question_text": "הנח שהדגימות בנקודות <span class=\"math-container\">$t_i$</span> חסרות קורלציה. לכמה יהיה שווה <span class=\"math-container\">$\\sigma_{X_a}^2$</span>?",
     "options": [
@@ -156,7 +195,7 @@
     "image_url": null
   },
   {
-    "id": "q13",
+    "id": "q16",
     "preamble": "נתון תהליך אקראי סטציונרי <span class=\"math-container\">$X(t)$</span> עם שונות <span class=\"math-container\">$\\sigma_X^2$</span>. מגדירים את ממוצע המדגם:<br><span class=\"math-container\">$$X_a = \\frac{1}{n}\\sum_{i=1}^{n} X(t_i)$$</span>",
     "question_text": "מה יהיה <span class=\"math-container\">$\\lim_{t \\to \\infty} \\sigma_\\theta$</span>?",
     "options": [
@@ -169,20 +208,7 @@
     "image_url": null
   },
   {
-    "id": "q14",
-    "preamble": "בהינתן מצלמה דיגיטלית המסוגלת לדגום בקצב של עד אלף תמונות בשנייה ולממוצע אותן.",
-    "question_text": "כמה מספר התמונות הדרושות לדגום (בהנחה שהאות האקראי סטציונרי) כדי לקבל תמונה מייצגת?",
-    "options": [
-      "יש לדגום אלף פעמים.",
-      "יש לדגום פעם אחת.",
-      "מספר הדגימות לא משנה באותה איכות.",
-      "יש לדגום מאה פעמים."
-    ],
-    "correct_option_index": 0,
-    "image_url": null
-  },
-  {
-    "id": "q15",
+    "id": "q17",
     "preamble": "נתון כי מהירות הרוח מתפלגת לפי התפלגות Weibull:<br><span class=\"math-container\">$$f(v) = \\begin{cases} \\dfrac{k}{c}\\left(\\dfrac{v}{c}\\right)^{k-1}e^{-(v/c)^k} & v \\geq 0 \\\\ 0 & v < 0 \\end{cases}$$</span>פונקציית גמא מוגדרת על ידי: <span class=\"math-container\">$\\Gamma(x) = \\int_0^{\\infty} t^{x-1}e^{-t}\\,dt$</span>",
     "question_text": "חשב את המומנט בסדר <span class=\"math-container\">$n$</span> של ההתפלגות, <span class=\"math-container\">$E[v^n]$</span>.",
     "options": [
@@ -195,7 +221,7 @@
     "image_url": null
   },
   {
-    "id": "q16",
+    "id": "q18",
     "preamble": "נתון כי מהירות הרוח מתפלגת לפי התפלגות Weibull:<br><span class=\"math-container\">$$f(v) = \\begin{cases} \\dfrac{k}{c}\\left(\\dfrac{v}{c}\\right)^{k-1}e^{-(v/c)^k} & v \\geq 0 \\\\ 0 & v < 0 \\end{cases}$$</span>פונקציית גמא מוגדרת על ידי: <span class=\"math-container\">$\\Gamma(x) = \\int_0^{\\infty} t^{x-1}e^{-t}\\,dt$</span>",
     "question_text": "מה יהיה הממוצע <span class=\"math-container\">$E[v]$</span>?",
     "options": [
@@ -205,6 +231,71 @@
       "<span class=\"math-container\">$E[v] = c\\,\\Gamma\\!\\left(1-\\dfrac{1}{k}\\right)$</span>"
     ],
     "correct_option_index": 2,
+    "image_url": null
+  },
+  {
+    "id": "q19",
+    "preamble": "במערכת לייצור אנרגיה המבוססת על רוח, הן המחיר המתקבל ליחידת האנרגיה <span class=\"math-container\">$C$</span> והן כמות האנרגיה המופקת <span class=\"math-container\">$E_n$</span> הם משתנים אקראיים.",
+    "question_text": "אם סך התשלום המשולם לספק הוא <span class=\"math-container\">$R$</span>, אזי מה מתקיים?",
+    "options": [
+      "<span class=\"math-container\">$C = \\dfrac{dR}{dE_n}$</span>",
+      "<span class=\"math-container\">$C = \\dfrac{R}{E_n}$</span>",
+      "<span class=\"math-container\">$C = \\dfrac{dE_n}{dR}$</span>",
+      "<span class=\"math-container\">$C = R \\cdot E_n$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q20",
+    "preamble": "במערכת לייצור אנרגיה המבוססת על רוח, הן המחיר המתקבל ליחידת האנרגיה <span class=\"math-container\">$C$</span> והן כמות האנרגיה המופקת <span class=\"math-container\">$E_n$</span> הם משתנים אקראיים.",
+    "question_text": "מה יהיה התשלום ליחידת זמן <span class=\"math-container\">$G$</span>, כאשר <span class=\"math-container\">$P$</span> הוא הספק?",
+    "options": [
+      "<span class=\"math-container\">$G = C \\cdot P$</span>",
+      "<span class=\"math-container\">$G = C + P$</span>",
+      "<span class=\"math-container\">$G = C \\cdot E_n$</span>",
+      "<span class=\"math-container\">$G = C / P$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q21",
+    "preamble": "במערכת לייצור אנרגיה המבוססת על רוח, הן המחיר המתקבל ליחידת האנרגיה <span class=\"math-container\">$C$</span> והן כמות האנרגיה המופקת <span class=\"math-container\">$E_n$</span> הם משתנים אקראיים. התשלום ליחידת זמן הוא <span class=\"math-container\">$G = C \\cdot P$</span> כאשר <span class=\"math-container\">$P$</span> הוא הספק.",
+    "question_text": "חשב את ממוצע התשלום ליחידת זמן <span class=\"math-container\">$E[G]$</span>.",
+    "options": [
+      "<span class=\"math-container\">$E[G] = R_{CP}$</span>",
+      "<span class=\"math-container\">$E[G] = \\bar{C} \\cdot \\bar{P}$</span>",
+      "<span class=\"math-container\">$E[G] = R_{CC} + R_{PP}$</span>",
+      "<span class=\"math-container\">$E[G] = \\sigma_C \\cdot \\sigma_P$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q22",
+    "preamble": "במערכת לייצור אנרגיה המבוססת על רוח, הן המחיר המתקבל ליחידת האנרגיה <span class=\"math-container\">$C$</span> והן כמות האנרגיה המופקת <span class=\"math-container\">$E_n$</span> הם משתנים אקראיים. התשלום ליחידת זמן הוא <span class=\"math-container\">$G = C \\cdot P$</span> כאשר <span class=\"math-container\">$P$</span> הוא הספק.",
+    "question_text": "אם המחיר והספק הם משתנים אקראיים בלתי תלויים, מה תהיה שונות <span class=\"math-container\">$G$</span>?",
+    "options": [
+      "<span class=\"math-container\">$\\sigma_G^2 = \\sigma_C^2 \\cdot \\sigma_P^2 + \\sigma_C^2 \\cdot \\bar{P}^2 + \\sigma_P^2 \\cdot \\bar{C}^2$</span>",
+      "<span class=\"math-container\">$\\sigma_G^2 = \\sigma_C^2 + \\sigma_P^2$</span>",
+      "<span class=\"math-container\">$\\sigma_G^2 = \\sigma_C^2 \\cdot \\sigma_P^2$</span>",
+      "<span class=\"math-container\">$\\sigma_G^2 = \\sigma_C^2 \\cdot \\bar{P}^2 + \\sigma_P^2 \\cdot \\bar{C}^2$</span>"
+    ],
+    "correct_option_index": 0,
+    "image_url": null
+  },
+  {
+    "id": "q23",
+    "preamble": "בהינתן מצלמה דיגיטלית המסוגלת לדגום בקצב של עד אלף תמונות בשנייה ולממוצע אותן.",
+    "question_text": "כמה מספר התמונות הדרושות לדגום (בהנחה שהאות האקראי סטציונרי) כדי לקבל תמונה מייצגת?",
+    "options": [
+      "יש לדגום אלף פעמים.",
+      "יש לדגום פעם אחת.",
+      "מספר הדגימות לא משנה באותה איכות.",
+      "יש לדגום מאה פעמים."
+    ],
+    "correct_option_index": 0,
     "image_url": null
   }
 ]
